@@ -1,0 +1,1405 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en" >
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1">
+<!-- rel=dynamic-content indicates an element that is replaced with the contents produced by the specified href. 
+	 dyn-cs:* URIs are resolved using the WP DynamicContentSpotMappings resource environment provider. These values can
+	 also be set using theme metadata if a theme is specified in the URI (e.g. @tl:oid:theme_unique_name). -->
+<link rel="stylesheet" href="/wps/mycontenthandler/!ut/p/digest!KzcNaSD7R2QkSHzZN0YyQQ/sp/mashup:ra:collection?soffset=0&amp;eoffset=7&amp;themeID=ZJ_2Q9AGJ42JGFB70A8PBRL4Q0003&amp;locale=en&amp;protected=true&amp;mime-type=text%2Fcss&amp;entry=wp_social_rendering__0.0%3Ahead_css&amp;entry=wp_one_ui_30__0.0%3Ahead_css&amp;entry=wp_one_ui_dijit_30__0.0%3Ahead_css&amp;entry=wp_tagging_rating__0.0%3Ahead_css&amp;entry=wp_oob_sample_styles__0.0%3Ahead_css&amp;entry=wp_content_mapping_picker__0.0%3Ahead_css&amp;entry=wp_dialog_css__0.0%3Ahead_css&amp;entry=wp_contextmenu_css__0.0%3Ahead_css&amp;entry=wcm_inplaceEdit__0.0%3Ahead_css&amp;entry=wp_preview__0.0%3Ahead_css&amp;entry=wp_content_targeting_cam__0.0%3Ahead_css&amp;entry=wp_legacy_layouts__0.0%3Ahead_css&amp;entry=wp_theme_portal_80__0.0%3Ahead_css&amp;entry=wp_federated_documents_picker__0.0%3Ahead_css&amp;entry=mm_builder_dialogs__0.0%3Ahead_css&amp;entry=mm_page_sharing_base__0.0%3Ahead_css&amp;entry=wp_project_menu__0.0%3Ahead_css&amp;entry=wp_pagebuilder_dnd__0.0%3Ahead_css&amp;entry=mm_move_page__0.0%3Ahead_css&amp;entry=wp_analytics__0.0%3Ahead_css&amp;entry=wp_toolbar__0.0%3Ahead_css&amp;entry=wp_status_bar__0.0%3Ahead_css&amp;entry=mm_builder_wiring__0.0%3Ahead_css&amp;entry=wp_portlet_css__0.0%3Ahead_css" type="text/css"/><link rel="stylesheet" href="/wps/mycontenthandler/!ut/p/digest!KzcNaSD7R2QkSHzZN0YyQQ/sp/mashup:ra:collection?soffset=7&amp;eoffset=34&amp;themeID=ZJ_2Q9AGJ42JGFB70A8PBRL4Q0003&amp;locale=en&amp;protected=true&amp;mime-type=text%2Fcss&amp;entry=wp_social_rendering__0.0%3Ahead_css&amp;entry=wp_one_ui_30__0.0%3Ahead_css&amp;entry=wp_one_ui_dijit_30__0.0%3Ahead_css&amp;entry=wp_tagging_rating__0.0%3Ahead_css&amp;entry=wp_oob_sample_styles__0.0%3Ahead_css&amp;entry=wp_content_mapping_picker__0.0%3Ahead_css&amp;entry=wp_dialog_css__0.0%3Ahead_css&amp;entry=wp_contextmenu_css__0.0%3Ahead_css&amp;entry=wcm_inplaceEdit__0.0%3Ahead_css&amp;entry=wp_preview__0.0%3Ahead_css&amp;entry=wp_content_targeting_cam__0.0%3Ahead_css&amp;entry=wp_legacy_layouts__0.0%3Ahead_css&amp;entry=wp_theme_portal_80__0.0%3Ahead_css&amp;entry=wp_federated_documents_picker__0.0%3Ahead_css&amp;entry=mm_builder_dialogs__0.0%3Ahead_css&amp;entry=mm_page_sharing_base__0.0%3Ahead_css&amp;entry=wp_project_menu__0.0%3Ahead_css&amp;entry=wp_pagebuilder_dnd__0.0%3Ahead_css&amp;entry=mm_move_page__0.0%3Ahead_css&amp;entry=wp_analytics__0.0%3Ahead_css&amp;entry=wp_toolbar__0.0%3Ahead_css&amp;entry=wp_status_bar__0.0%3Ahead_css&amp;entry=mm_builder_wiring__0.0%3Ahead_css&amp;entry=wp_portlet_css__0.0%3Ahead_css" type="text/css"/><link rel="stylesheet" href="/wps/mycontenthandler/!ut/p/digest!KzcNaSD7R2QkSHzZN0YyQQ/sp/mashup:ra:collection?soffset=34&amp;eoffset=36&amp;themeID=ZJ_2Q9AGJ42JGFB70A8PBRL4Q0003&amp;locale=en&amp;protected=true&amp;mime-type=text%2Fcss&amp;entry=wp_social_rendering__0.0%3Ahead_css&amp;entry=wp_one_ui_30__0.0%3Ahead_css&amp;entry=wp_one_ui_dijit_30__0.0%3Ahead_css&amp;entry=wp_tagging_rating__0.0%3Ahead_css&amp;entry=wp_oob_sample_styles__0.0%3Ahead_css&amp;entry=wp_content_mapping_picker__0.0%3Ahead_css&amp;entry=wp_dialog_css__0.0%3Ahead_css&amp;entry=wp_contextmenu_css__0.0%3Ahead_css&amp;entry=wcm_inplaceEdit__0.0%3Ahead_css&amp;entry=wp_preview__0.0%3Ahead_css&amp;entry=wp_content_targeting_cam__0.0%3Ahead_css&amp;entry=wp_legacy_layouts__0.0%3Ahead_css&amp;entry=wp_theme_portal_80__0.0%3Ahead_css&amp;entry=wp_federated_documents_picker__0.0%3Ahead_css&amp;entry=mm_builder_dialogs__0.0%3Ahead_css&amp;entry=mm_page_sharing_base__0.0%3Ahead_css&amp;entry=wp_project_menu__0.0%3Ahead_css&amp;entry=wp_pagebuilder_dnd__0.0%3Ahead_css&amp;entry=mm_move_page__0.0%3Ahead_css&amp;entry=wp_analytics__0.0%3Ahead_css&amp;entry=wp_toolbar__0.0%3Ahead_css&amp;entry=wp_status_bar__0.0%3Ahead_css&amp;entry=mm_builder_wiring__0.0%3Ahead_css&amp;entry=wp_portlet_css__0.0%3Ahead_css" type="text/css"/><script type="text/javascript">var djConfig={"baseUrl":"/wps/portal_dojo/v1.7/dojo/","locale":"en","isDebug":false,"debugAtAllCosts":false,"parseOnLoad":false,"afterOnLoad":false,"modulePaths":{"com":"/wps/themeModules/js/com","ibm":"/wps/themeModules/js/ibm"}};djConfig.locale=djConfig.locale.replace(/_/g, "-").replace(/iw/, "he").toLowerCase();</script><script type="text/javascript" src="/wps/mycontenthandler/!ut/p/digest!jSQsLXnPCd3_Lukg57Xd8A/mashup/ra:collection?themeID=ZJ_2Q9AGJ42JGFB70A8PBRL4Q0003&amp;locale=en&amp;mime-type=text%2Fplain&amp;entry=dojo_17__0.0%3Ahead_js&amp;entry=dojo_fx_17__0.0%3Ahead_js&amp;entry=dojo_fmt_17__0.0%3Ahead_js&amp;entry=dojo_dom_17__0.0%3Ahead_js&amp;entry=dojo_app_17__0.0%3Ahead_js&amp;entry=dijit_17__0.0%3Ahead_js&amp;entry=dojo_dnd_basic_17__0.0%3Ahead_js&amp;entry=dojo_dnd_ext_17__0.0%3Ahead_js&amp;entry=dijit_layout_basic_17__0.0%3Ahead_js&amp;entry=dijit_menu_17__0.0%3Ahead_js&amp;entry=dojo_data_17__0.0%3Ahead_js&amp;entry=dijit_form_17__0.0%3Ahead_js&amp;entry=dijit_layout_ext_17__0.0%3Ahead_js&amp;entry=dojox_xml_17__0.0%3Ahead_js&amp;entry=dojox_io_17__0.0%3Ahead_js&amp;entry=wp_client_main__0.0%3Ahead_js&amp;entry=wp_client_ext__0.0%3Ahead_js&amp;entry=wp_client_selector__0.0%3Ahead_js&amp;entry=wp_dialog_util__0.0%3Ahead_js&amp;entry=wp_dialog_main__0.0%3Ahead_js&amp;entry=wp_contextmenu_js__0.0%3Ahead_js&amp;entry=wcm_inplaceEdit__0.0%3Ahead_js&amp;entry=dojox_fx_17__0.0%3Ahead_js&amp;entry=dojox_gfx_17__0.0%3Ahead_js&amp;entry=dojox_charting_17__0.0%3Ahead_js&amp;entry=dojox_layout_basic_17__0.0%3Ahead_js&amp;entry=dojox_collections_17__0.0%3Ahead_js&amp;entry=dojox_uuid_17__0.0%3Ahead_js&amp;entry=dojox_data_basic_17__0.0%3Ahead_js&amp;entry=dojox_aspect_17__0.0%3Ahead_js&amp;entry=wp_theme_portal_80__0.0%3Ahead_js&amp;entry=celeriti_theme_portal_8001__0.0%3Ahead_js&amp;entry=wp_analytics_aggregator__0.0%3Ahead_js&amp;entry=wp_portal_client_utils__0.0%3Ahead_js&amp;entry=dijit_tree_17__0.0%3Ahead_js&amp;entry=wp_portlet_client_model__0.0%3Ahead_js&amp;entry=mm_open_ajax_hub__0.0%3Ahead_js"></script><!--[if IE 7]>
+<script type="text/javascript">document.getElementsByTagName("html")[0].className+=" lotusui_ie lotusui_ie7";</script>
+<![endif]--> 
+<!--[if IE 8]>
+<script type="text/javascript">document.getElementsByTagName("html")[0].className+=" lotusui_ie8";</script>
+<![endif]-->
+<!--[if IE 9]>
+<script type="text/javascript">document.getElementsByTagName("html")[0].className+=" lotusui_ie9";</script>
+<![endif]-->
+<style id="layout-wstate-styles"></style>
+
+<link rel="schema.PORTAL_CP" href="http://www.ibm.com/xmlns/prod/websphere/portal/v7.0/portal-contextual-portal"/>
+
+
+<link rel="search" title="WebSphere Portal Tagging Search Service" href='/wps/contenthandler/!ut/p/digest!uVGiZ35J3Xjef6bF9lCU5A/tos/search?osic16=%2Fwps%2Fmycontenthandler%2F!ut%2Fp%2Fdigest!jSQsLXnPCd3_Lukg57Xd8A%2Fwar%2FCeleritiTheme8001%2Fthemes%2FCeleritiTheme8001%2Fimages%2Ffavicon.ico&amp;osbu=com.ibm.wps.cp.tagging.xml.opensearch.resources.TaggingSearch&amp;osde=description&amp;ossn=short-name
+' type="application/opensearchdescription+xml"/>
+<title>Callout</title>
+
+<link id="com.ibm.lotus.NavStateUrl" rel="alternate" href="/wps/myportal/!ut/p/a1/pZBdC4IwFIZ_UezV5qaXc6u5zFI0Km_EqxD6uoh-fzOEqGgFnbsDz8N7zktqsiH1sb12u_bSnY7tvt9r1oz9zGhN_VmY6wkETdNVVWIMySywtQA-jMDdl1oklM-BUCkJo-KILVgATDD4DsCVn9LBdwA_3f8AlkkPaFNNM3go__Rl8M1fk_q5ItDQ7xtIFI8ywLABcFX8EvL-gxOwR27tF7zxi0jomQUQFRaQXMVcLD3kATkfVnY26MyouAFdJ3gn/dl5/d5/L2dJQSEvUUt3QS80SmlFL1o2XzMyTUlHRzQySjhQR0UwQTRLS1VUUzAzMEM2/" />
+
+<link rel="bookmark" title='Callout' href='/wps/myportal/!ut/p/a1/pZBdC4IwFIZ_UezV5qaXc6u5zFI0Km_EqxD6uoh-fzOEqGgFnbsDz8N7zktqsiH1sb12u_bSnY7tvt9r1oz9zGhN_VmY6wkETdNVVWIMySywtQA-jMDdl1oklM-BUCkJo-KILVgATDD4DsCVn9LBdwA_3f8AlkkPaFNNM3go__Rl8M1fk_q5ItDQ7xtIFI8ywLABcFX8EvL-gxOwR27tF7zxi0jomQUQFRaQXMVcLD3kATkfVnY26MyouAFdJ3gn/dl5/d5/L2dJQSEvUUt3QS80SmlFL1o2XzMyTUlHRzQySjhQR0UwQTRLS1VUUzAzMEM2/' hreflang="en"/>
+
+<script src="js/modernizr.js"></script>
+<link rel="stylesheet" href="css/glyphicons.css">
+<link rel="stylesheet" href="css/halflings.css">
+<link rel="stylesheet" href="css/social.css">
+<link rel="stylesheet" href="css/filetypes.css">
+
+
+<link href="/CeleritiTheme8001/themes/CeleritiTheme8001/images/cscicon.ico" rel="shortcut icon" type="image/x-icon" />
+
+<!-- rendering is delegated to the specified href for each locale -->
+</head>
+<body class="lotusui30dojo tundra locale_en">	
+	
+	<div class="wpthemeFrame">
+		
+		<header role="banner">
+
+			<div class="wpthemeHeader">
+				<!-- inserts the managed pages preview mode contributions -->
+				<div class="wpthemeInner">
+					<div class="celeritiThemeLogo">
+						<span class="celeritiThemeLogoText wpthemeLeft">celeriti</span>
+					</div>
+					
+					<!-- renders the top navigation -->									
+					
+			<div class="wpthemeNavContainer1">
+				<nav class="wpthemeHeaderNav">
+					<ul class="wpthemeNavList">
+			
+					<li class="wpthemeNavListItem wpthemeLeft">
+						<a href="?uri=nm:oid:Z6_CGAH47L0004820IDBHD79M00I6" class="wpthemeLeft wpthemeFirst" ><span lang="en" dir="ltr">Celeriti</span></a>
+						
+					</li>
+				
+					<li class="wpthemeNavListItem wpthemeLeft wpthemeSelected">
+						<a href="?uri=nm:oid:Z6_32MIGG42J8OHE0A4GITFM010C5" class="wpthemeLeft" ><span lang="en" dir="ltr">Transaction Management</span></a>
+						
+					</li>
+				
+					<li class="wpthemeNavListItem wpthemeLeft">
+						<a href="?uri=nm:oid:Z6_2Q9AGJ42JONID0AK429EKV00G3" class="wpthemeLeft" ><span lang="en" dir="ltr">Cards</span></a>
+						
+					</li>
+				
+					<li class="wpthemeNavListItem wpthemeLeft">
+						<a href="?uri=nm:oid:Z6_2Q9AGJ42J89JC0A83J55H40GC4" class="wpthemeLeft" ><span lang="en" dir="ltr">Customer</span></a>
+						
+					</li>
+				
+					<li class="wpthemeNavListItem wpthemeLeft">
+						<a href="?uri=nm:oid:Z6_KK1SBB1A08G710IBGULFJO30I3" class="wpthemeLeft" ><span lang="en" dir="ltr">Deposits</span></a>
+						
+					</li>
+				
+					<li class="wpthemeNavListItem wpthemeLeft">
+						<a href="?uri=nm:oid:Z6_CGAH47L00GP790IDB90MNI0GO4" class="wpthemeLeft" ><span lang="en" dir="ltr">Administration</span></a>
+						
+					</li>
+				
+					<li class="wpthemeNavListItem wpthemeLeft">
+						<a href="?uri=nm:oid:Z6_NK1SBB1A086MB0IBSJDS6M0G10" class="wpthemeLeft" ><span lang="en" dir="ltr">Cache</span></a>
+						
+					</li>
+				
+					</ul>	
+				</nav>
+				<div class="wpthemeClear"></div>
+			</div>
+		<!-- displays the state of the current page -->
+					<div class="wpthemeRight">
+						
+				<div class="utb-project-quicklink">
+					
+							<a id="utb-edit-mode-quicklink" href="?uri=utb%3Aopen" title="Go into edit mode">Edit Mode</a>
+						
+				</div>
+			
+			<div class="utb-project-info lotusui lotusui30 utb-hover-link" id="utb-project-info">
+				
+						<div class="utb-name">
+							<div class="utb-ellipsis utb-project-name utb-published-site">Published Site</div>
+							
+								<a tabindex="0" role="button" id="utb-project-btn" class="utb-select" title="Launch the project menu">
+									<img src="/wps/themeModules/themes/html/dynamicSpots/icons/blank.gif" alt=""/>
+									<span class="lotusAltText">&#9660;</span>
+									<span class="lotusOffScreen">You are viewing the published site</span>
+								</a>
+							
+						</div>
+						
+						<div class="utb-project-menu-container" id="utb-project-menu-container"></div>
+						
+								<div class="utb-ellipsis utb-desc utb-edit">Directly editing published content</div>
+							
+						<div class="utb-ellipsis utb-desc utb-view">Viewing published content</div>
+					
+			</div>
+		</div>
+				</div>
+			</div><!-- end header -->
+
+			<!-- inserts the universal toolbar -->
+			<div class="wpthemeBanner">
+				<div class="celeritiThemeBanner">				
+						<div class="wpthemeInner">							
+							
+<div class="wpthemeSearch wpthemeRight" role="search" aria-label="Click to perform a search.">
+	<form name="searchQueryForm" method="get" action="/wps/myportal/!ut/p/a1/pZBdC4IwFIZ_UezV5qaXc6u5zFI0Km_EqxD6uoh-fzOEqGgFnbsDz8N7zktqsiH1sb12u_bSnY7tvt9r1oz9zGhN_VmY6wkETdNVVWIMySywtQA-jMDdl1oklM-BUCkJo-KILVgATDD4DsCVn9LBdwA_3f8AlkkPaFNNM3go__Rl8M1fk_q5ItDQ7xtIFI8ywLABcFX8EvL-gxOwR27tF7zxi0jomQUQFRaQXMVcLD3kATkfVnY26MyouAFdJ3gn/dl5/d5/L0lJSklKSUpKZ2tLQ2xFQSEvb013d0FBQVlRQUFFSXBBQUNFSXhoQ2NGSVV1Qy80SmlHUW93OWgyR2NCVUVVbVFwUnFNUSEvWjZfQ0dBSDQ3TDAwR1A3OTBJREI5ME1OSTBPSTMvWjdfQ0dBSDQ3TDAwR1A3OTBJREI5ME1OSTBPQTYvWFdXbWFtdEcyZ3cvamF2YXgucG9ydGxldC5hY3Rpb24vbmV3UXVlcnk!/#Z7_CGAH47L00GP790IDB90MNI0OA6">
+		<input type="hidden" value="Z6_32MIGG42J8PGE0A4KKUTS030C6" name="sourceContentNode">
+		<label for="wpthemeSearchBoxInput" class="wpthemeDisplayNone">Search</label>
+		<input class="wpthemeSearchText" type="text" id="wpthemeSearchBoxInput" name="query" >
+		<input class="wpthemeSearchButton" type="image" src="/wps/themeModules/themes/html/dynamicSpots/icons/blank.gif" title="Click to perform a search." alt="Search">
+		<span class="wpthemeAltText">Click to perform a search.</span>
+	</form>		
+</div>
+
+<ul class="wpthemeCommonActions wpthemeLeft">
+	
+	<li>
+		<span class="wpthemeBranding">
+		    
+		    <a class="wpthemeBrandingLink" href="?uri=nm:oid:Z6_32MIGG42J8OHE0A4GITFM010C5" alt="Transaction Management">
+			<img src="/wps/themeModules/themes/html/dynamicSpots/icons/blank.gif" alt="Celeriti Logo"/>
+			</a>
+			<span class="celeritiThemeLogoText">celeriti</span>
+		</span>
+	</li>
+</ul>
+<ul class="wpthemeCommonActions wpthemeRight">
+	
+	<li class="wpthemeFirst" id="wpthemeUserName">	
+	
+		<a href="/wps/myportal/!ut/p/a1/pZBdC4IwFIZ_UezV5qaXc6u5zFI0Km_EqxD6uoh-fzOEqGgFnbsDz8N7zktqsiH1sb12u_bSnY7tvt9r1oz9zGhN_VmY6wkETdNVVWIMySywtQA-jMDdl1oklM-BUCkJo-KILVgATDD4DsCVn9LBdwA_3f8AlkkPaFNNM3go__Rl8M1fk_q5ItDQ7xtIFI8ywLABcFX8EvL-gxOwR27tF7zxi0jomQUQFRaQXMVcLD3kATkfVnY26MyouAFdJ3gn/dl5/d5/L0lJSkpKSUtVSklKQ2dwUkNncFJBL29Od3dBQUFZUUFBRUl3UWxDVTVBQUdNSUtTcEtGTFJ0R0ZvIS80SmlGMEFrS01JUWoySFlVbVFwUnFNY2hUalVFZ0EhIS9aNl9DR0FINDdMMDAwNDgyMElEQkhENzlNMDBFMS9aN19DR0FINDdMMDAwNDgyMElEQkhENzlNMDBVMi9ub3JtYWwvYW8vdGhtL09DTi9aNl8zMk1JR0c0Mko4UEdFMEE0S0tVVFMwMzBDNg!!/#Z7_CGAH47L0004820IDBHD79M00U2">wpsadmin</a>
+    
+	</li>
+	
+	<li id="wpthemeActionsMenu">
+	
+	  <span tabindex="0" aria-labelledby="wpContextMenu" role="button" aria-haspopup="true" class="wpthemeMenuAnchor wpthemeMenuFocus wpthemeActionDisabled"
+          onclick="javascript:if (typeof wptheme != 'undefined') wptheme.contextMenu.init(this, 'pageAction', {'navID':ibmCfg.portalConfig.currentPageOID});"
+          onmousemove="javascript:if (typeof i$ != 'undefined' && typeof wptheme != 'undefined') { i$.removeClass(this,'wpthemeActionDisabled'); this.onmousemove = null; }"
+          onkeydown="javascript:if (typeof i$ != 'undefined' && typeof wptheme != 'undefined') {if (event.keyCode ==13) {wptheme.contextMenu.init(this, 'pageAction', {'navID':ibmCfg.portalConfig.currentPageOID});}}">
+          <span class="wpthemeUnderlineText" id="wpContextMenu">Actions</span>
+          <span class="wpthemeMenuRight">
+              <div class="wpthemeMenuBorder">
+                  <div class="wpthemeMenuNotchBorder"></div>
+                  <!-- define the menu item template inside the "ul" element.  only "css-class", "description", and "title" are handled by the theme's sample javascript. -->
+                  <ul class="wpthemeMenuDropDown wpthemeTemplateMenu" role="menu">
+                      <li class="&#36;{css-class}" role="menuitem" tabindex="-1"  ><span class="wpthemeMenuText" >&#36;{title}</span></li>
+                  </ul>
+              </div>
+              <!-- Template for loading -->
+              <div class="wpthemeMenuLoading wpthemeTemplateLoading">Loading...</div>
+              <!-- Template for submenu -->
+              <div class="wpthemeAnchorSubmenu wpthemeTemplateSubmenu">
+                  <div class="wpthemeMenuBorder wpthemeMenuSubmenu">
+                      <ul id="&#36;{submenu-id}" class="wpthemeMenuDropDown" role="menu"><li role="menuitem" tabindex="-1"></li></ul>
+                  </div>
+              </div>
+          </span>
+      </span>  
+        
+	</li>
+	
+	<li id="wpthemeLogout">
+		<a id="logoutlink" href="/wps/myportal/!ut/p/a1/04_SD9OPSg0Pz03MLXE3ynDUj9SPMjIwMNOPzMnXL8hxVAQA_RQXgA!!/">Log Out</a>
+	</li>
+	
+	<li id="wpthemeHelp">
+			<a id="wpthemeHelpAnchor" class="wpthemeHelp" href="javascript:void(0);" onclick="javascript:window.open('/wps/iehs/topic/com.ibm.wp.admin.help/admin/h_wp_admin_welcome.html','wpthemeHelp','width=800,height=600')" aria-label="Help" aria-haspopup="true" role="button">
+			<img src="/wps/themeModules/themes/html/dynamicSpots/icons/blank.gif" alt="">
+            <span class="wpthemeAltText">Help</span>
+		</a>
+	</li>
+	
+</ul>
+<div class="wpthemeClear"></div>
+						</div>				
+				</div>
+			</div><!--end main banner-->
+			
+			<div class="wpthemeBanner wpthemeBannerPrimaryNavigation">
+				<div class="celeritiThemeBanner">				
+						<div class="wpthemeInner">
+							
+<div class="wpthemeNavContainer1">
+	<nav id="categoryPrimaryNav" class="celeritiThemePrimaryNav">
+		<ul class="celeritiThemeNavList">							
+				<li class="">
+					<a href="?uri=nm:oid:Z6_2Q9AGJ42JGFB70A8PBRL4Q0007"><span lang="en" dir="ltr">By Category</span>						
+					</a>
+					      					
+				</li>			
+		</ul>	
+	</nav>
+	
+	<div class="wpthemeClear"></div>
+		</div>
+ 
+		<div class="wpthemeNavContainer1">
+			<nav id="primaryNavLevel1" class="celeritiThemePrimaryNav">
+				<ul class="celeritiThemeNavList">
+		<!-- c:forEach var="node" items="[Start, System Administration, Manage Logging]" varStatus="primaryNavItem"-->			
+					<li class="wpthemeLeft wpthemeSelected">
+						<a href="?uri=nm:oid:Z6_32MIGG42J8OHE0A4GITFM010S4" class=" wpthemeFirst" ><span lang="en" dir="ltr">Start</span></a>
+						<!--Begin SecondaryNav -->						
+						<div id="primaryNavLevel2Z6_32MIGG42J8OHE0A4GITFM010S4" class="dropdown_1columns">  
+								      								   			
+								            <div class="col_1"> 
+								            	       								                								                	
+								                	<a class="" href="?uri=nm:oid:Z6_32MIGG42J8PGE0A4KKUTS030K4">								                		
+								                		<span lang="en" dir="ltr">Process Profile</span>
+									                		
+							                		</a>							                	
+								                						                 
+								            </div><!-- End col_1 -->      								   			
+								            <div class="col_1"> 
+								            	       								                								                	
+								                	<a class="" href="?uri=nm:oid:Z6_32MIGG42J8PGE0A4KKUTS030C6">								                		
+								                		<strong><span lang="en" dir="ltr">Callout<span class="wpthemeAccess"> currently selected</span></span></strong>
+									                		
+							                		</a>							                	
+								                						                 
+								            </div><!-- End col_1 -->      								   			
+								            <div class="col_1"> 
+								            	       								                								                	
+								                	<a class="" href="?uri=nm:oid:Z6_32MIGG42J8PGE0A4KKUTS030S6">								                		
+								                		<span lang="en" dir="ltr">Namespace</span>
+									                		
+							                		</a>							                	
+								                						                 
+								            </div><!-- End col_1 -->      								   			
+								            <div class="col_1"> 
+								            	       								                								                	
+								                	<a class="" href="?uri=nm:oid:Z6_32MIGG42J8PGE0A4KKUTS03021">								                		
+								                		<span lang="en" dir="ltr">Integration Process</span>
+									                		
+							                		</a>							                	
+								                						                 
+								            </div><!-- End col_1 -->
+       					</div>
+       					<!-- end SecondaryNav -->       					
+					</li>
+					<!-- c:forEach var="node" items="[Start, System Administration, Manage Logging]" varStatus="primaryNavItem"-->			
+					<li class="wpthemeLeft">
+						<a href="?uri=nm:oid:Z6_32MIGG42J8PGE0A4KKUTS030G2" class="" ><span lang="en" dir="ltr">System Administration</span></a>
+						<!--Begin SecondaryNav -->						
+						<div id="primaryNavLevel2Z6_32MIGG42J8PGE0A4KKUTS030G2" class="dropdown_1columns">  
+								      								   			
+								            <div class="col_1"> 
+								            	       								                								                	
+								                	<a class="" href="?uri=nm:oid:Z6_32MIGG42J0ML30A4KFCB2M10G4">								                		
+								                		<span lang="en" dir="ltr">Notifications</span>
+									                		
+							                		</a>							                	
+								                						                 
+								            </div><!-- End col_1 -->      								   			
+								            <div class="col_1"> 
+								            	       								                								                	
+								                	<a class="" href="?uri=nm:oid:Z6_32MIGG42JOMU20AKI7G5CL1006">								                		
+								                		<span lang="en" dir="ltr">Exception Contacts</span>
+									                		
+							                		</a>							                	
+								                						                 
+								            </div><!-- End col_1 -->      								   			
+								            <div class="col_1"> 
+								            	       								                								                	
+								                	<a class="" href="?uri=nm:oid:Z6_32MIGG42JOO3D0AKQBKBLL1081">								                		
+								                		<span lang="en" dir="ltr">Failed Process</span>
+									                		
+							                		</a>							                	
+								                						                 
+								            </div><!-- End col_1 -->      								   			
+								            <div class="col_1"> 
+								            	       								                								                	
+								                	<a class="" href="?uri=nm:oid:Z6_32MIGG42JOO3D0AKQBKBLL10O6">								                		
+								                		<span lang="en" dir="ltr">Process Instance</span>
+									                		
+							                		</a>							                	
+								                						                 
+								            </div><!-- End col_1 -->
+       					</div>
+       					<!-- end SecondaryNav -->       					
+					</li>
+					<!-- c:forEach var="node" items="[Start, System Administration, Manage Logging]" varStatus="primaryNavItem"-->			
+					<li class="wpthemeLeft">
+						<a href="?uri=nm:oid:Z6_2Q9AGJ42J0C790AA815R0F2003" class="" ><span lang="en" dir="ltr">Manage Logging</span></a>
+						<!--Begin SecondaryNav -->						
+						<div id="primaryNavLevel2Z6_2Q9AGJ42J0C790AA815R0F2003" class="dropdown_1columns">  
+								      								   			
+								            <div class="col_1"> 
+								            	       								                								                	
+								                	<a class="" href="?uri=nm:oid:Z6_32MIGG42J0ML30A4KFCB2M10O3">								                		
+								                		<span lang="en" dir="ltr">Logging</span>
+									                		
+							                		</a>							                	
+								                						                 
+								            </div><!-- End col_1 -->
+       					</div>
+       					<!-- end SecondaryNav -->       					
+					</li>
+					
+			</ul>	
+		</nav>
+		<div class="wpthemeClear"></div>
+		</div>
+			
+<div class="wpthemeNavContainer1">
+		<nav id="quicklinksPrimaryNav" class="celeritiThemePrimaryNav">
+			<ul class="celeritiThemeNavList">
+				<li class="wpthemeLeft">											
+					<a href="?uri=nm:oid:Z6_CGAH47L0004820IDBHD79M00A2">
+						<span lang="en" dir="ltr">Quick Links</span>
+													
+					</a>
+										
+						<div id="quickLinksSecondaryNav" class="dropdown_1columns"> 
+						 					 																										        								   			
+					            <div class="col_1"> 
+					            
+					            		<a href="?uri=nm:oid:Z6_CGAH47L0004820IDBHD79M00A5">				                	   		
+				                	   		<span lang="en" dir="ltr">Home</span>
+		                	   			</a>	
+					            	
+					            </div> 	 		              
+			               	 					 																										        								   			
+					            <div class="col_1"> 
+					            
+					            		<a href="?uri=nm:oid:Z6_CGAH47L00GP790IDB90MNI0GF6">				                	   		
+				                	   		<span lang="en" dir="ltr">Administration</span>
+		                	   			</a>	
+					            	
+					            </div> 	 		              
+			               					
+	   					</div>       
+   										    					
+				</li>		
+			</ul>	
+		</nav>
+		<div class="wpthemeClear"></div>
+		</div>
+ <div class="wpthemeClear"></div>
+						</div>				
+				</div>
+			</div><!--end main banner-->
+
+		</header>
+
+		<div class="wpthemeMainContent" role="main" >
+			<div class="wpthemeInner">	
+				<!-- asa markup contributions for pages -->	
+				
+
+<div class="asa.page" id="asa.page" style="display:none;">
+	<span class="asa.page.id">Z6_32MIGG42J8PGE0A4KKUTS030C6</span>
+
+	
+
+</div>
+
+
+<div class="wpthemeCrumbTrail wpthemeLeft">
+	
+					<span lang="en" dir="ltr">Start</span>
+				
+				<span class="wpthemeCrumbTrailSeparator">&gt;</span>
+			
+					<strong><span class="wpthemeSelected" lang="en" dir="ltr">Callout</span></strong>
+				
+</div>
+<div class="wpthemeClear"></div>
+				
+<div class="wpthemeInner">
+	<div id="wpthemeStatusBarContainer" class="lotusui30">
+		
+		<noscript>
+			<div class="lotusMessage2" role="alert" wairole="alert">
+				<img class="lotusIcon lotusIconMsgError" src="icons/blank.gif" alt="Error" />
+				<span class="lotusAltText">Error:</span>
+				<div class="lotusMessageBody">Javascript is disabled in this browser. This page requires Javascript. Modify your browser's settings to allow Javascript to execute. See your browser's documentation for specific instructions.</div>
+			</div>
+		</noscript>
+	</div>
+</div></div>		
+
+			<!-- required - do not remove -->
+			<div style="display:none" id="portletState">{"Z7_2Q9AGJ42J09QE0AC7DB7AO10P5":{"windowState":"normal","portletMode":"view"}}</div><div id="layoutContainers" class="wpthemeLayoutContainers wpthemeLayoutContainersHidden" >	
+				<div class="wpthemeInner">					
+					
+
+
+
+
+
+
+<table class="layoutRow" cellpadding="0" cellspacing="0" role="presentation">
+	<tr>
+
+        
+            
+
+		<td valign="top" >
+            
+
+
+
+
+
+
+<table class="layoutColumn" cellpadding="0" cellspacing="0" role="presentation">
+	
+	<tr>
+		<td style="width:100%;" valign="top">
+			<div class='component-control selected asa.portlet.selected id-Z7_2Q9AGJ42J09QE0AC7DB7AO10P5' ><span id="Z7_2Q9AGJ42J09QE0AC7DB7AO10P5"></span><section class="ibmPortalControl wpthemeControl wpthemeStandard a11yRegionTarget" role="region" >
+	
+	
+	
+
+	<div class="asa.portlet" id="asa.portlet.Z7_2Q9AGJ42J09QE0AC7DB7AO10P5" style="display:none;">
+		<span class="asa.portlet.id">Z7_2Q9AGJ42J09QE0AC7DB7AO10P5</span>
+
+		
+
+	</div>
+	
+<!-- start header markup -->
+	<header class="wpthemeControlHeader dojoDndHandle">
+		<div class="wpthemeInner">
+			<h2>
+				<!-- lm-dynamic-title node marks location for dynamic title support -->
+				<span class="lm-dynamic-title asa.portlet.title a11yRegionLabel"><span lang="en" dir="ltr">Callout</span></span>
+			</h2>
+			
+			<!-- Dynamic content spot to control Portlet Menu visibility in Standard Skin.(portletMenu.jsp) -->
+			
+			<a aria-haspopup="true" aria-label="Display menu" href="javascript:;" class="wpthemeIcon wpthemeActionDisabled wpthemeMenuFocus" tabindex="0"
+				onclick="javascript:if (typeof wptheme != 'undefined') wptheme.contextMenu.init(this, 'skinAction', {'navID':ibmCfg.portalConfig.currentPageOID,'windowID':wptheme.getWindowIDFromSkin(this)});"
+				onmousemove="javascript:if (typeof i$ != 'undefined' && typeof wptheme != 'undefined') { i$.removeClass(this,'wpthemeActionDisabled'); this.onmousemove = null; }">
+				<span title="Display menu"><img aria-label="Display menu" alt="" src="/CeleritiTheme8001/themes/html/dynamicSpots/icons/blank.gif"></span>
+				<span class="wpthemeAltText">Actions</span>
+				<span class="wpthemeMenuRight">
+					<div class="wpthemeMenuBorder">
+						<div class="wpthemeMenuNotchBorder"></div>
+	<!-- 					define the menu item template inside the "ul" element.  only "css-class", "description", and "title" are handled by the theme's sample javascript. -->
+						<ul class="wpthemeMenuDropDown wpthemeTemplateMenu" role="menu">
+							<li class="&#36;{css-class}" role="menuitem" tabindex="-1"><span class="wpthemeMenuText">&#36;{title}</span></li>
+						</ul>
+					</div>
+	<!-- 				Template for loading -->
+					<div class="wpthemeMenuLoading wpthemeTemplateLoading">Loading...</div>
+	<!-- 				Template for submenu -->
+					<div class="wpthemeAnchorSubmenu wpthemeTemplateSubmenu">
+						<div class="wpthemeMenuBorder wpthemeMenuSubmenu">
+							<ul id="&#36;{submenu-id}" class="wpthemeMenuDropDown" role="menu"><li role="menuitem" tabindex="-1"></li></ul>
+						</div>
+					</div>
+				</span>
+			</a>
+ 		</div>
+	</header>
+	
+	<div class="wpthemeControlBody wpthemeOverflowAuto wpthemeClear"> <!-- lm:control dynamic spot injects markup of layout control -->
+	<!-- asa.overlay marks the node that the AsaOverlayWidget will be placed in -->
+		<div style="position:relative; z-index: 1;">
+			<div class="analytics.overlay"></div>
+		</div>
+		<div id="ns_Z7_2Q9AGJ42J09QE0AC7DB7AO10P5_view_PF_SmartRefreshID"><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+
+<script type="text/javascript" src='/wps/PA_CTMConfigAppWeb/factory/clientjavascript/ajax/eventbus.js?.v=8004201407150325'></script>
+
+<script type="text/javascript" src='/wps/PA_CTMConfigAppWeb/factory/clientjavascript/ajax/wef8004201407150325.js'></script>
+
+<script type="text/javascript" src='/wps/PA_CTMConfigAppWeb/factory/clientjavascript/dojo/dojo_utils8004201407150325.js'></script>
+
+<script type="text/javascript" src='/wps/PA_CTMConfigAppWeb/factory/clientjavascript/styles/loadCSS.jsp?css=/hogan/common/Portal/resources/css/CeleritiEnterprise.css&rule=.lotus&xcss=/hogan/common/Portal/resources/css/CeleritiMaster.css&as=.js'></script>
+
+<script type="text/javascript" src='/wps/PA_CTMConfigAppWeb/factory/clientjavascript/styles/loadCSS.jsp?css=/factory/pages/split_pager_default.css&rule=.lotus&xcss=/factory/pages/split_pager_oneui.css&as=.js'></script>
+
+<script type="text/javascript">wpf_dojo_utils8004201407150325.loadIfNeeded('/wps/PA_CTMConfigAppWeb/factory/dojo/dojo/dojo.js','en-us',true,false)
+</script>
+
+<script type="text/javascript">if(!wpf_dojo_utils8004201407150325.isDojoStylesLoaded()){
+ document.write('<'+'link rel="stylesheet" href="'+dojo.moduleUrl('dijit.themes','tundra/tundra.css')+'">');
+}
+</script>
+
+<script type="text/javascript">
+dojo.registerModulePath('wpf','/wps/PA_CTMConfigAppWeb/factory/dojo/wpf');
+dojo.addOnLoad(function(){if(!document.body.className)document.body.className='tundra'});
+dojo.require("dijit.dijit", true);
+dojo.require("dojo.parser", true);
+</script>
+<script type="text/javascript">
+dojo.require("dijit/form/Button", true);dojo.require("dijit.form.ValidationTextBox", true);dojo.require("dijit.form.FilteringSelect", true);dojo.require("dijit.form.RadioButton", true);dojo.require("dijit.form.SimpleTextarea", true);dojo.require("dijit.form.CheckBox", true);dojo.require("dijit.form.TextBox", true);dojo.require("dijit.form.NumberTextBox", true);dojo.require("dijit.form.DropDownButton", true);dojo.require("dijit.Menu", true);dojo.require("dijit.MenuItem", true);
+
+dojo.require("dijit.layout.ContentPane", true);
+dojo.require("wpf.widget.RefreshContainer", true);
+dojo.addOnLoad(function(){wpf_dojo_utils8004201407150325.parseIfNeeded(dojo.parser,'mainPageDojoWrapper_0comcscfssbankingsoaportalmodelstmportletCalloutPortlet_Default14a4dc900c6f3_1');});
+dojo.addOnLoad(function(){wpf_dojo_utils8004201407150325.updateFormInputs('mainPageDojoWrapper_0comcscfssbankingsoaportalmodelstmportletCalloutPortlet_Default14a4dc900c6f3_1');});
+</script><span id="mainPageDojoWrapper_0comcscfssbankingsoaportalmodelstmportletCalloutPortlet_Default14a4dc900c6f3_1" data-wef-dojo-wrapper="true" ><span name="DojoProgressIndicator"></span><input type="hidden" id='wpf_client_event_handler_3comcscfssbankingsoaportalmodelstmportletCalloutPortlet_Default14a4dc900c6f3_1' onchange="wpf_dojo_progress_indicator.hide({ppr:'wpf_ppr8004201407150325',ids:this.ids,source:'comcscfssbankingsoaportalmodelstmportletCalloutPortlet_Default14a4dc900c6f3getDefaultProgressIndicatorProgressIndicatorPageID_0'})"><script type="text/javascript">wpf_event_bus.addListener("comcscfssbankingsoaportalmodelstmportletCalloutPortlet_Default14a4dc900c6f3AjaxPreUpdate", { handle: function() { wpf_dojo_progress_indicator.hide({ppr:'wpf_ppr8004201407150325',ids:this.ids,source:'comcscfssbankingsoaportalmodelstmportletCalloutPortlet_Default14a4dc900c6f3getDefaultProgressIndicatorProgressIndicatorPageID_0'})}, _handlerID: "wpf_client_event_handler_3comcscfssbankingsoaportalmodelstmportletCalloutPortlet_Default14a4dc900c6f3_1" });</script><span name="DojoProgressIndicator"></span><input type="hidden" id='wpf_client_event_handler_0comcscfssbankingsoaportalmodelstmportletCalloutPortlet_Default14a4dc900c6f3_1' onchange="wpf_dojo_progress_indicator.show({ppr:'wpf_ppr8004201407150325',ids:this.ids,source:'comcscfssbankingsoaportalmodelstmportletCalloutPortlet_Default14a4dc900c6f3getDefaultProgressIndicatorProgressIndicatorPageID_0'})"><script type="text/javascript">wpf_event_bus.addListener("comcscfssbankingsoaportalmodelstmportletCalloutPortlet_Default14a4dc900c6f3AjaxPreLoad", { handle: function() { wpf_dojo_progress_indicator.show({ppr:'wpf_ppr8004201407150325',ids:this.ids,source:'comcscfssbankingsoaportalmodelstmportletCalloutPortlet_Default14a4dc900c6f3getDefaultProgressIndicatorProgressIndicatorPageID_0'})}, _handlerID: "wpf_client_event_handler_0comcscfssbankingsoaportalmodelstmportletCalloutPortlet_Default14a4dc900c6f3_1" });</script><span name="DojoProgressIndicatorPage_0" style="display:none" id='comcscfssbankingsoaportalmodelstmportletCalloutPortlet_Default14a4dc900c6f3getDefaultProgressIndicatorProgressIndicatorPageID_0'><script type="text/javascript">
+
+
+dojo.require("dijit.layout.ContentPane", true);
+dojo.require("wpf.widget.RefreshContainer", true);
+dojo.addOnLoad(function(){wpf_dojo_utils8004201407150325.parseIfNeeded(dojo.parser,'DefaultProgressIndicatorIndicatorHTMLDojoWrapper_0comcscfssbankingsoaportalmodelstmportletCalloutPortlet_Default14a4dc900c6f3_1');});
+dojo.addOnLoad(function(){wpf_dojo_utils8004201407150325.updateFormInputs('DefaultProgressIndicatorIndicatorHTMLDojoWrapper_0comcscfssbankingsoaportalmodelstmportletCalloutPortlet_Default14a4dc900c6f3_1');});
+</script><span id="DefaultProgressIndicatorIndicatorHTMLDojoWrapper_0comcscfssbankingsoaportalmodelstmportletCalloutPortlet_Default14a4dc900c6f3_1" data-wef-dojo-wrapper="true" > 
+<div> 
+ <style type="text/css" name="styles"> 
+ .wpf_progress_indicator_box { 
+  width: auto; 
+  box-shadow: 5px 5px 5px #ccc; 
+  -moz-box-shadow: 5px 5px 5px #ccc; 
+  -webkit-box-shadow: 5px 5px 5px #ccc; 
+  border-radius:8px; 
+  -moz-border-radius:8px; 
+  -webkit-border-radius:8px; 
+  background-color:#fff; 
+ } 
+ </style> 
+ <img alt="" name="image" src='/wps/PA_CTMConfigAppWeb/factory/images/progressindicator/spinning_spokes.gif'>&nbsp;<i name="message">Loading...</i> 
+</div> 
+</span></span>
+
+<script name="DojoProgressIndicatorScript" type="text/javascript" src='/wps/PA_CTMConfigAppWeb/factory/clientjavascript/dojo/progressindicator.js'></script>
+<div id="CalloutPortletEncDiv"> 
+			 
+			<div id="CalloutPortletmainPageEncDiv" class="ONEUI lotusui lotusui30  celeritiui"> 
+			 
+			<div id="CalloutPortletmainPageInclude"><script type="text/javascript">
+
+
+dojo.require("dijit.layout.ContentPane", true);
+dojo.require("wpf.widget.RefreshContainer", true);
+dojo.addOnLoad(function(){wpf_dojo_utils8004201407150325.parseIfNeeded(dojo.parser,'TMIncludeDojoWrapper_0comcscfssbankingsoaportalmodelstmportletCalloutPortlet_Default14a4dc900c6f3_1');});
+dojo.addOnLoad(function(){wpf_dojo_utils8004201407150325.updateFormInputs('TMIncludeDojoWrapper_0comcscfssbankingsoaportalmodelstmportletCalloutPortlet_Default14a4dc900c6f3_1');});
+</script><span id="TMIncludeDojoWrapper_0comcscfssbankingsoaportalmodelstmportletCalloutPortlet_Default14a4dc900c6f3_1" data-wef-dojo-wrapper="true" >
+<script language="JavaScript" src='/wps/PA_CTMConfigAppWeb/hogan/common/Portal/resources/js/en_US/CommonMessages.js'></script> 
+
+
+<script language="JavaScript" src='/wps/PA_CTMConfigAppWeb/celeriti/tm/fss/resources/js/en_US/TMMessages.js'></script> 
+
+</span></div> 
+			 
+			<div name="CalloutPortletmainPageStatusMsg">
+<script language="JavaScript" src='/wps/PA_CTMConfigAppWeb/hogan/common/Portal/resources/js/CommonUtils.js'></script> 
+   
+ 
+     
+    <div id="inlineMessageBlock" style="display:block" class="celeritistatusSuccess">  
+       
+           0, Request Processed Successfully. 
+           
+           
+            <a href="" onclick="hideStatusMsg(this);return false;">  
+                close 
+            </a> 
+           
+    </div> 
+  </div>				 
+			
+<form id="CalloutPortletmainPageForm" name="CalloutPortletmainPageFormName" method="post" class="lotusForm celeritiForm" dojotype="dijit.form.Form" onsubmit="celeritiOnSubmit()" noValidate="true" role="form"> 
+				
+<input type="hidden" name="CalloutPortletLJO.removeStatusCodeRow_Arg1" value=""><input type="hidden" name="CalloutPortletLJO.getCalloutInfo_Arg1" value=""><input type="hidden" name="_bowStEvent" value='com/csc/fss/banking/soa/portal/models/tm/portlet/CalloutPortlet!fireEvent:Form:mainPage_SaveDataSubmitEvent'><span id="CalloutPortletmainPageReturnEventTarget"></span> 
+				<span name="celeritiErrorSpan"></span> 
+				<div class="celeritiTableContainer" id="CalloutPortletmainPageCalloutDP" role="application"> 
+					<div class="celeritiTableRow" id="CalloutPortletmainPageTopButtonSection"> 
+					 <span class="celeritiLayoutCell" style="float: right;"> 
+					    <span class="celeritiTableCell" id="CalloutPortletmainPageShowSearchLinkSection"><a id="CalloutPortletmainPageShowSearchLink" onclick=" showSearchSection();" href="javascript:void 0">Show Search</a></span> 
+						<span class="celeritiTableCell celeritiHide" id="CalloutPortletmainPageHideSearchLinkSection"><a id="CalloutPortletmainPageHideSearchLink" onclick=" hideSearchSection();" href="javascript:void 0">Hide Search</a></span> 
+						<span class="celeritiTableCell" id="CalloutPortletmainPageNewDeleteCopyButtonSection"> 
+						  <div class="celeritiTableContainer"> 
+							<div class="celeritiTableRow"> 
+					 	      <span class="celeritiTableCell" id="CalloutPortletmainPageNewCalloutButton_Span">  
+						         <a id='wpf_action_ref_8comcscfssbankingsoaportalmodelstmportletCalloutPortlet_Default14a4dc900c6f3_1' href='/wps/myportal/!ut/p/a1/pZBdC4IwFIZ_UezV5qaXc6u5zFI0Km_EqxD6uoh-fzOEqGgFnbsDz8N7zktqsiH1sb12u_bSnY7tvt9r1oz9zGhN_VmY6wkETdNVVWIMySywtQA-jMDdl1oklM-BUCkJo-KILVgATDD4DsCVn9LBdwA_3f8AlkkPaFNNM3go__Rl8M1fk_q5ItDQ7xtIFI8ywLABcFX8EvL-gxOwR27tF7zxi0jomQUQFRaQXMVcLD3kATkfVnY26MyouAFdJ3gn/dl5/d5/L2dBISEvZ0FBIS9nQSEh/pw/Z7_2Q9AGJ42J09QE0AC7DB7AO10P5/res/c=cacheLevelPage/p=bf_model=2914db2d_comQCPcscQCPfssQCPbankingQCPsoaQCPportalQCPmodelsQCPtmQCPportletQCPCalloutPortlet/p=bf_action=CalloutPortletLJO.newCallout/p=bf_keep=true/=/' style="display:none"></a><input id="CalloutPortletmainPageNewCalloutButton" value='New' onclick="var _f=this.form;_f.action = document.getElementById(&quot;wpf_action_ref_8comcscfssbankingsoaportalmodelstmportletCalloutPortlet_Default14a4dc900c6f3_1&quot;).href;if(_f.nodeName != undefined){var _refID = _f.getAttribute(&quot;data-wef-link-id&quot;);if(_refID != null && _refID.length > 0) document.getElementById(_refID).href = _f.action;}_f.target = &quot;_self&quot;;if (!_f.onsubmit || !(_f.onsubmit() === false)) wpf_ppr8004201407150325.submit(_f, [&quot;CalloutPortletmainPageEncDiv&quot;], wpf_ppr8004201407150325.smartRefreshHandler, {execScripts:false, eventPfx: &quot;comcscfssbankingsoaportalmodelstmportletCalloutPortlet_Default14a4dc900c6f3Ajax&quot;});return false" type="button" class="lotusBtn lotusBtnAction" iconClass="dijitIconNewTask" label='New' dojoType="dijit/form/Button"> 
+						      </span>   
+						      <span class="celeritiTableCell" id="CalloutPortletmainPageDeleteCalloutButton_Span">	 
+						        <a id='wpf_action_ref_7comcscfssbankingsoaportalmodelstmportletCalloutPortlet_Default14a4dc900c6f3_1' href='/wps/myportal/!ut/p/a1/pZBdC4IwFIZ_UezV5qaXc6u5zFI0Km_EqxD6uoh-fzOEqGgFnbsDz8N7zktqsiH1sb12u_bSnY7tvt9r1oz9zGhN_VmY6wkETdNVVWIMySywtQA-jMDdl1oklM-BUCkJo-KILVgATDD4DsCVn9LBdwA_3f8AlkkPaFNNM3go__Rl8M1fk_q5ItDQ7xtIFI8ywLABcFX8EvL-gxOwR27tF7zxi0jomQUQFRaQXMVcLD3kATkfVnY26MyouAFdJ3gn/dl5/d5/L2dBISEvZ0FBIS9nQSEh/pw/Z7_2Q9AGJ42J09QE0AC7DB7AO10P5/res/c=cacheLevelPage/p=bf_model=2914db2d_comQCPcscQCPfssQCPbankingQCPsoaQCPportalQCPmodelsQCPtmQCPportletQCPCalloutPortlet/p=bf_action=CalloutPortletLJO.deleteCallout/p=bf_keep=true/=/' style="display:none"></a><input id="CalloutPortletmainPageDeleteCalloutButton" value='Delete' onclick="if(!confirm(celeriti_confirm_deleteMsg)){ 
+	return; 
+};var _f=this.form;_f.action = document.getElementById(&quot;wpf_action_ref_7comcscfssbankingsoaportalmodelstmportletCalloutPortlet_Default14a4dc900c6f3_1&quot;).href;if(_f.nodeName != undefined){var _refID = _f.getAttribute(&quot;data-wef-link-id&quot;);if(_refID != null && _refID.length > 0) document.getElementById(_refID).href = _f.action;}_f.target = &quot;_self&quot;;if (!_f.onsubmit || !(_f.onsubmit() === false)) wpf_ppr8004201407150325.submit(_f, [&quot;CalloutPortletmainPageEncDiv&quot;], wpf_ppr8004201407150325.smartRefreshHandler, {execScripts:false, eventPfx: &quot;comcscfssbankingsoaportalmodelstmportletCalloutPortlet_Default14a4dc900c6f3Ajax&quot;});return false" type="button" class="lotusBtn lotusBtnAction" iconClass="dijitIconDelete" label='Delete' dojoType="dijit/form/Button"> 
+						      </span> 
+						      <span class="celeritiTableCell" id="CalloutPortletmainPageCopyCalloutButton_Span">										 
+	                           <a id='wpf_action_ref_6comcscfssbankingsoaportalmodelstmportletCalloutPortlet_Default14a4dc900c6f3_1' href='/wps/myportal/!ut/p/a1/pZBdC4IwFIZ_UezV5qaXc6u5zFI0Km_EqxD6uoh-fzOEqGgFnbsDz8N7zktqsiH1sb12u_bSnY7tvt9r1oz9zGhN_VmY6wkETdNVVWIMySywtQA-jMDdl1oklM-BUCkJo-KILVgATDD4DsCVn9LBdwA_3f8AlkkPaFNNM3go__Rl8M1fk_q5ItDQ7xtIFI8ywLABcFX8EvL-gxOwR27tF7zxi0jomQUQFRaQXMVcLD3kATkfVnY26MyouAFdJ3gn/dl5/d5/L2dBISEvZ0FBIS9nQSEh/pw/Z7_2Q9AGJ42J09QE0AC7DB7AO10P5/res/c=cacheLevelPage/p=bf_model=2914db2d_comQCPcscQCPfssQCPbankingQCPsoaQCPportalQCPmodelsQCPtmQCPportletQCPCalloutPortlet/p=bf_action=CalloutPortletLJO.copyCallout/p=bf_keep=true/=/' style="display:none"></a><input id="CalloutPortletmainPageCopyCalloutButton" value='Copy' onclick="wpf_ppr8004201407150325.load(document.getElementById(&quot;wpf_action_ref_6comcscfssbankingsoaportalmodelstmportletCalloutPortlet_Default14a4dc900c6f3_1&quot;).href, [&quot;CalloutPortletmainPageEncDiv&quot;], wpf_ppr8004201407150325.smartRefreshHandler, {execScripts:false, eventPfx: &quot;comcscfssbankingsoaportalmodelstmportletCalloutPortlet_Default14a4dc900c6f3Ajax&quot;})" type="button" class="lotusBtn lotusBtnAction" iconClass="dijitIconCopy" label='Copy' dojoType="dijit/form/Button"> 
+						     </span> 
+						    </div> 
+						  </div> 
+					   </span>  
+					  </span> 		 
+					</div> 
+					<div class="celeritiTableRow" id="CalloutPortletmainPageSearchDP"> 
+						<span class="celeritiLayoutCell celeritiHide" id="CalloutPortletmainPageSearchSection"> 
+							<div class="celeritiTableContainer" style="width: 100%;"> 
+								<div class="celeritiTableRow" id="CalloutPortletmainPageSearchTopSection"> 
+									<span class="celeritiLayoutCell rulesSearchField"> 
+										<div class="celeritiTableContainer" style="width: 100%;"> 
+											<div class="celeritiTableRow"> 
+												<span class="celeritiLabelCell" style="text-align: left; padding-right: 3em;"> 
+													<label for="CalloutPortletmainPageSearchCalloutName_field"> 
+														<span name="SearchCalloutNamelabel">Callout Name</span> 
+													</label> 
+												</span>									 
+											</div> 
+											<div class="celeritiTableRow"> 
+												<span class="celeritiTableCell"> 
+													<div name="SearchCalloutName" id="CalloutPortletmainPageSearchCalloutName_field" style="width:22em;" maxLength="30" trim="true" type="text" dojoType="dijit.form.ValidationTextBox" value='' aria-invalid='false'></div> 
+												</span> 
+											</div> 
+											<div class="celeritiTableRow"> 
+												<span class="celeritiLabelCell" style="padding-top:2em;">									 
+													<a id='wpf_action_ref_4comcscfssbankingsoaportalmodelstmportletCalloutPortlet_Default14a4dc900c6f3_1' href='/wps/myportal/!ut/p/a1/pZBdC4IwFIZ_UezV5qaXc6u5zFI0Km_EqxD6uoh-fzOEqGgFnbsDz8N7zktqsiH1sb12u_bSnY7tvt9r1oz9zGhN_VmY6wkETdNVVWIMySywtQA-jMDdl1oklM-BUCkJo-KILVgATDD4DsCVn9LBdwA_3f8AlkkPaFNNM3go__Rl8M1fk_q5ItDQ7xtIFI8ywLABcFX8EvL-gxOwR27tF7zxi0jomQUQFRaQXMVcLD3kATkfVnY26MyouAFdJ3gn/dl5/d5/L2dBISEvZ0FBIS9nQSEh/pw/Z7_2Q9AGJ42J09QE0AC7DB7AO10P5/res/c=cacheLevelPage/p=bf_model=2914db2d_comQCPcscQCPfssQCPbankingQCPsoaQCPportalQCPmodelsQCPtmQCPportletQCPCalloutPortlet/p=bf_action=CalloutPortletLJO.searchCallout/p=bf_keep=true/=/' style="display:none"></a><input id="CalloutPortletmainPageSearchButton" value='Search' onclick="  if(!validateSearchInputs())return false;;var _f=document.forms[&quot;CalloutPortletmainPageForm&quot;];_f.action = document.getElementById(&quot;wpf_action_ref_4comcscfssbankingsoaportalmodelstmportletCalloutPortlet_Default14a4dc900c6f3_1&quot;).href;if(_f.nodeName != undefined){var _refID = _f.getAttribute(&quot;data-wef-link-id&quot;);if(_refID != null && _refID.length > 0) document.getElementById(_refID).href = _f.action;}_f.target = &quot;_self&quot;;if (!_f.onsubmit || !(_f.onsubmit() === false)) wpf_ppr8004201407150325.submit(_f, [&quot;CalloutPortletmainPageEncDiv&quot;], wpf_ppr8004201407150325.smartRefreshHandler, {execScripts:false, eventPfx: &quot;comcscfssbankingsoaportalmodelstmportletCalloutPortlet_Default14a4dc900c6f3Ajax&quot;});return false" type="button" class="lotusBtn lotusBtnAction" iconClass="dijitIconSearch" label='Search' dojoType="dijit/form/Button">										 
+												</span> 
+											</div> 
+										</div> 
+									</span>									 
+								</div> 
+								</div> 
+								<div class="celeritiTableContainer"> 
+								<div class="celeritiTableRow celeritiHide" id="CalloutPortletmainPageCalloutListSection"> 
+									<span class="celeritiLayoutCell" id='wpf_reload_region_0comcscfssbankingsoaportalmodelstmportletCalloutPortlet_Default14a4dc900c6f3_1'> 
+										<div class="celeritiTableContainer"> 
+											<div class="celeritiTableRow"> 
+												<span class="celeritiTableCell"><h3><span name="CalloutPortletmainPageListOfCalloutText"></span></h3></span>										 
+											</div> 
+											</div> 
+											<div class="celeritiTableContainer" id="CalloutResultsSecSection"> 
+											<div class="celeritiTableRow"> 
+												<span name="CalloutListSplitPagerTopPager"><script type="text/javascript">
+
+
+dojo.require("dijit.layout.ContentPane", true);
+dojo.require("wpf.widget.RefreshContainer", true);
+dojo.addOnLoad(function(){wpf_dojo_utils8004201407150325.parseIfNeeded(dojo.parser,'CalloutListSplitPagerTopPageDojoWrapper_0comcscfssbankingsoaportalmodelstmportletCalloutPortlet_Default14a4dc900c6f3_1');});
+dojo.addOnLoad(function(){wpf_dojo_utils8004201407150325.updateFormInputs('CalloutListSplitPagerTopPageDojoWrapper_0comcscfssbankingsoaportalmodelstmportletCalloutPortlet_Default14a4dc900c6f3_1');});
+</script><span id="CalloutListSplitPagerTopPageDojoWrapper_0comcscfssbankingsoaportalmodelstmportletCalloutPortlet_Default14a4dc900c6f3_1" data-wef-dojo-wrapper="true" >
+<div class="lotusui lotusPaging celeritiHide" name="wrapper" style="height:auto;background-color:#e7ebee;line-height:2em;margin-bottom:.7em"> 
+  <div class="lotusLeft"><span name="range">1 - 1 of 1</span></div> 
+  <ul class="lotusRight lotusInlinelist"> 
+    <li class="lotusFirst"><span name="previousLinkText">Previous</span></li> 
+    <li><span name="nextLinkText">Next</span></li></ul> 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+</div></span></span><div id="CalloutPortletmainPagePaginationSection"></div> 
+												<span name="CalloutResultsSec">
+<div name="CalloutListSearchDP_DataEntryPageWrapper" class="celeritiTableContainer" style="width: 100%; border-spacing: 0px;"> 
+		
+ 
+				 
+					
+ 
+							 
+							
+<table name="CalloutInfoRow_TableWrapper" class="celeritiWrap celeritiTable" style="width:600px;"> 
+			 
+	 
+			<tr> 
+				<td colspan="3" class="tableContainerCell"> 
+					<div name="CalloutInfoRowGroupContainer" class="tableContainerDiv">
+<table name="CalloutInfoRow_Table" id="CalloutPortletmainPageCalloutInfoRow_table" class="lotusTable lotusClear" border="0" cellspacing="0" cellpadding="3" style="width:52em;"> 
+				 
+							<tr name="TableHeaderContainer" class="lotusTags lotusFirst celeritiColHeaderRow">
+<th name="CalloutInfoRow_CalloutName_ColumnHeader" class="celeritiColHeader"> 
+									<span name="CalloutInfoRow_CalloutNameHeader">Name</span> 
+								</th>
+
+<th name="CalloutInfoRow_CreateTimestamp_ColumnHeader" class="celeritiColHeader"> 
+									<span name="CalloutInfoRow_CreateTimestampHeader">Create Date/Time</span> 
+								</th>
+
+<th name="CalloutInfoRow_UpdateTimestamp_ColumnHeader" class="celeritiColHeader"> 
+									<span name="CalloutInfoRow_UpdateTimestampHeader">Update Date/Time</span> 
+								</th>
+</tr> 
+				 
+							 
+							<tr> 
+								<td colspan="100" class="SpacerRowAfterTableHeader" height="0"></td> 
+							</tr> 
+				 
+							</table>
+</div> 
+					<span name="CalloutInfoRow_buttonSpace"></span>  
+					 
+				</td> 
+			</tr> 
+		</table>
+ 
+							 
+						
+  
+		
+</div>
+</span> 
+											</div> 
+											</div> 
+											<div class="celeritiTableContainer" id="CalloutPortletmainPagePagingSection" style="width: 100%;"> 
+											<div class="celeritiTableRow"> 
+												<div id="CalloutPortletmainPagePaginationSection"></div> 
+												<div class="paging"><span name="CalloutPortletmainPagePagingButtons"><script type="text/javascript">
+
+
+dojo.require("dijit.layout.ContentPane", true);
+dojo.require("wpf.widget.RefreshContainer", true);
+dojo.addOnLoad(function(){wpf_dojo_utils8004201407150325.parseIfNeeded(dojo.parser,'CalloutListSplitPagerBottomPageDojoWrapper_0comcscfssbankingsoaportalmodelstmportletCalloutPortlet_Default14a4dc900c6f3_1');});
+dojo.addOnLoad(function(){wpf_dojo_utils8004201407150325.updateFormInputs('CalloutListSplitPagerBottomPageDojoWrapper_0comcscfssbankingsoaportalmodelstmportletCalloutPortlet_Default14a4dc900c6f3_1');});
+</script><span id="CalloutListSplitPagerBottomPageDojoWrapper_0comcscfssbankingsoaportalmodelstmportletCalloutPortlet_Default14a4dc900c6f3_1" data-wef-dojo-wrapper="true" >
+<div class="lotusui lotusPaging" role="navigation" name="wrapper" style="height:auto;background-color:#e7ebee;line-height:2em;"> 
+   <div class="lotusLeft" > 
+ 	 <div dojotype="dijit.form.DropDownButton" name="splitPagerBottomMenu"> 
+        <span name="menuShowCurrentLabel">Show 10 items</span> 
+        <div dojotype="dijit.Menu"> 
+          <a id='wpf_action_ref_10comcscfssbankingsoaportalmodelstmportletCalloutPortlet_Default14a4dc900c6f3_1' href='/wps/myportal/!ut/p/a1/pZBdC4IwFIZ_UezV5qaXc6u5zFI0Km_EqxD6uoh-fzOEqGgFnbsDz8N7zktqsiH1sb12u_bSnY7tvt9r1oz9zGhN_VmY6wkETdNVVWIMySywtQA-jMDdl1oklM-BUCkJo-KILVgATDD4DsCVn9LBdwA_3f8AlkkPaFNNM3go__Rl8M1fk_q5ItDQ7xtIFI8ywLABcFX8EvL-gxOwR27tF7zxi0jomQUQFRaQXMVcLD3kATkfVnY26MyouAFdJ3gn/dl5/d5/L2dBISEvZ0FBIS9nQSEh/pw/Z7_2Q9AGJ42J09QE0AC7DB7AO10P5/res/c=cacheLevelPage/p=bf_model=2914db2d_comQCPcscQCPfssQCPbankingQCPsoaQCPportalQCPmodelsQCPtmQCPportletQCPCalloutPortlet/p=bf_OuterAction=mainPage/p=bf_OuterModel=com*csc*fss*banking*soa*portal*models*tm*portlet*CalloutPortlet/p=bf_action=_pageDispatcher/p=bf_InnerModel=com*csc*fss*banking*soa*portal*models*tm*portlet*CalloutPortlet/p=Arg1=5/p=bf_InnerAction=CalloutListSplitPagerSetRowsPerPage/p=bf_keep=false/=/' style="display:none"></a><div dojotype="dijit.MenuItem" name="menuShow5" onclick="wpf_ppr8004201407150325.load(document.getElementById(&quot;wpf_action_ref_10comcscfssbankingsoaportalmodelstmportletCalloutPortlet_Default14a4dc900c6f3_1&quot;).href, [&quot;wpf_reload_region_0comcscfssbankingsoaportalmodelstmportletCalloutPortlet_Default14a4dc900c6f3_1&quot;], wpf_ppr8004201407150325.smartRefreshHandler, {execScripts:false, eventPfx: &quot;comcscfssbankingsoaportalmodelstmportletCalloutPortlet_Default14a4dc900c6f3Ajax&quot;})">Show 5 items</div> 
+          <a id='wpf_action_ref_11comcscfssbankingsoaportalmodelstmportletCalloutPortlet_Default14a4dc900c6f3_1' href='/wps/myportal/!ut/p/a1/pZBdC4IwFIZ_UezV5qaXc6u5zFI0Km_EqxD6uoh-fzOEqGgFnbsDz8N7zktqsiH1sb12u_bSnY7tvt9r1oz9zGhN_VmY6wkETdNVVWIMySywtQA-jMDdl1oklM-BUCkJo-KILVgATDD4DsCVn9LBdwA_3f8AlkkPaFNNM3go__Rl8M1fk_q5ItDQ7xtIFI8ywLABcFX8EvL-gxOwR27tF7zxi0jomQUQFRaQXMVcLD3kATkfVnY26MyouAFdJ3gn/dl5/d5/L2dBISEvZ0FBIS9nQSEh/pw/Z7_2Q9AGJ42J09QE0AC7DB7AO10P5/res/c=cacheLevelPage/p=bf_model=2914db2d_comQCPcscQCPfssQCPbankingQCPsoaQCPportalQCPmodelsQCPtmQCPportletQCPCalloutPortlet/p=bf_OuterAction=mainPage/p=bf_OuterModel=com*csc*fss*banking*soa*portal*models*tm*portlet*CalloutPortlet/p=bf_action=_pageDispatcher/p=bf_InnerModel=com*csc*fss*banking*soa*portal*models*tm*portlet*CalloutPortlet/p=Arg1=10/p=bf_InnerAction=CalloutListSplitPagerSetRowsPerPage/p=bf_keep=false/=/' style="display:none"></a><div dojotype="dijit.MenuItem" name="menuShow10" onclick="wpf_ppr8004201407150325.load(document.getElementById(&quot;wpf_action_ref_11comcscfssbankingsoaportalmodelstmportletCalloutPortlet_Default14a4dc900c6f3_1&quot;).href, [&quot;wpf_reload_region_0comcscfssbankingsoaportalmodelstmportletCalloutPortlet_Default14a4dc900c6f3_1&quot;], wpf_ppr8004201407150325.smartRefreshHandler, {execScripts:false, eventPfx: &quot;comcscfssbankingsoaportalmodelstmportletCalloutPortlet_Default14a4dc900c6f3Ajax&quot;})">Show 10 items</div> 
+          <a id='wpf_action_ref_12comcscfssbankingsoaportalmodelstmportletCalloutPortlet_Default14a4dc900c6f3_1' href='/wps/myportal/!ut/p/a1/pZBdC4IwFIZ_UezV5qaXc6u5zFI0Km_EqxD6uoh-fzOEqGgFnbsDz8N7zktqsiH1sb12u_bSnY7tvt9r1oz9zGhN_VmY6wkETdNVVWIMySywtQA-jMDdl1oklM-BUCkJo-KILVgATDD4DsCVn9LBdwA_3f8AlkkPaFNNM3go__Rl8M1fk_q5ItDQ7xtIFI8ywLABcFX8EvL-gxOwR27tF7zxi0jomQUQFRaQXMVcLD3kATkfVnY26MyouAFdJ3gn/dl5/d5/L2dBISEvZ0FBIS9nQSEh/pw/Z7_2Q9AGJ42J09QE0AC7DB7AO10P5/res/c=cacheLevelPage/p=bf_model=2914db2d_comQCPcscQCPfssQCPbankingQCPsoaQCPportalQCPmodelsQCPtmQCPportletQCPCalloutPortlet/p=bf_OuterAction=mainPage/p=bf_OuterModel=com*csc*fss*banking*soa*portal*models*tm*portlet*CalloutPortlet/p=bf_action=_pageDispatcher/p=bf_InnerModel=com*csc*fss*banking*soa*portal*models*tm*portlet*CalloutPortlet/p=Arg1=20/p=bf_InnerAction=CalloutListSplitPagerSetRowsPerPage/p=bf_keep=false/=/' style="display:none"></a><div dojotype="dijit.MenuItem" name="menuShow20" onclick="wpf_ppr8004201407150325.load(document.getElementById(&quot;wpf_action_ref_12comcscfssbankingsoaportalmodelstmportletCalloutPortlet_Default14a4dc900c6f3_1&quot;).href, [&quot;wpf_reload_region_0comcscfssbankingsoaportalmodelstmportletCalloutPortlet_Default14a4dc900c6f3_1&quot;], wpf_ppr8004201407150325.smartRefreshHandler, {execScripts:false, eventPfx: &quot;comcscfssbankingsoaportalmodelstmportletCalloutPortlet_Default14a4dc900c6f3Ajax&quot;})">Show 20 items</div> 
+        </div> 
+        
+      </div>  
+       
+    </div> 
+     
+   <ul class="lotusRight lotusInlinelist">   
+      <li style="display: inline;" class="lotusFirst"><span name="range" style="color: black; font-weight: bold;">1 - 1 of 1</span>&nbsp;&nbsp;&nbsp;&nbsp;</li> 
+      <li style="display: inline;"><span name="previousLinkText">Previous</span></li> 
+      <li style="display: inline;"><span name="nextLinkText">Next</span></li> 
+  </ul> 
+   
+     
+  <ul class="lotusInlinelist"> 
+    <li class="lotusFirst"><span name="pageListLabel">Page</span> 1</li> 
+    </ul>     
+   
+  <div class="celeritiHide"><label name="jumpToPageControl" for='splitPagerBottomPage_CalloutRowPAcomcscfssbankingsoaportalmodelstmportletCalloutPortlet_Default14a4dc900c6f3_1'><span name="jump_to_page">Jump to page</span> <a id='wpf_action_ref_9comcscfssbankingsoaportalmodelstmportletCalloutPortlet_Default14a4dc900c6f3_1' href='/wps/myportal/!ut/p/a1/pZBdC4IwFIZ_UezV5qaXc6u5zFI0Km_EqxD6uoh-fzOEqGgFnbsDz8N7zktqsiH1sb12u_bSnY7tvt9r1oz9zGhN_VmY6wkETdNVVWIMySywtQA-jMDdl1oklM-BUCkJo-KILVgATDD4DsCVn9LBdwA_3f8AlkkPaFNNM3go__Rl8M1fk_q5ItDQ7xtIFI8ywLABcFX8EvL-gxOwR27tF7zxi0jomQUQFRaQXMVcLD3kATkfVnY26MyouAFdJ3gn/dl5/d5/L2dBISEvZ0FBIS9nQSEh/pw/Z7_2Q9AGJ42J09QE0AC7DB7AO10P5/res/c=cacheLevelPage/p=bf_model=2914db2d_comQCPcscQCPfssQCPbankingQCPsoaQCPportalQCPmodelsQCPtmQCPportletQCPCalloutPortlet/p=bf_OuterAction=mainPage/p=bf_OuterModel=com*csc*fss*banking*soa*portal*models*tm*portlet*CalloutPortlet/p=bf_action=_pageDispatcher/p=bf_InnerModel=com*csc*fss*banking*soa*portal*models*tm*portlet*CalloutPortlet/p=bf_InnerAction=CalloutListSplitPagerGoToPage/p=bf_keep=false/=/' style="display:none"></a><input id='splitPagerBottomPage_CalloutRowPAcomcscfssbankingsoaportalmodelstmportletCalloutPortlet_Default14a4dc900c6f3_1' type="text" value='1' name="splitPagerExplicitPage" autocomplete="off" onchange="var _f=((function _ff(el){ return el.form || (el.tagName == &quot;FORM&quot; && el) || (el.focusNode && _ff(el.focusNode)) || (el.parentNode && _ff(el.parentNode)) || (el.valueNode && _ff(el.valueNode)) || { submit: function() { location.href = this.action; } };} )(this));_f.action = document.getElementById(&quot;wpf_action_ref_9comcscfssbankingsoaportalmodelstmportletCalloutPortlet_Default14a4dc900c6f3_1&quot;).href;if(_f.nodeName != undefined){var _refID = _f.getAttribute(&quot;data-wef-link-id&quot;);if(_refID != null && _refID.length > 0) document.getElementById(_refID).href = _f.action;}_f.target = &quot;_self&quot;;if (!_f.onsubmit || !(_f.onsubmit() === false)) wpf_ppr8004201407150325.submit(_f, [&quot;wpf_reload_region_0comcscfssbankingsoaportalmodelstmportletCalloutPortlet_Default14a4dc900c6f3_1&quot;], wpf_ppr8004201407150325.smartRefreshHandler, {execScripts:false, eventPfx: &quot;comcscfssbankingsoaportalmodelstmportletCalloutPortlet_Default14a4dc900c6f3Ajax&quot;});return false" onkeypress="return (function(t, e) { var cc = e.which || e.keyCode; if (cc == 13) { t.onchange(); return false }; return cc < 32 || (cc > 47 && cc < 58); })(this, event || window.event);"> <span name="jump_to_page_of">of</span> <span name="pageCount">1</span></label>  
+   </div> 
+  </div> 
+</span></span></div> 
+											</div> 
+										</div> 
+									</span> 
+								</div> 
+							</div> 
+						</span> 
+					</div> 
+					<div class="celeritiTableRow" id="CalloutPortletmainPageCalloutSection"> 
+						<span class="celeritiLayoutCell"> 
+							<div class="celeritiTableContainer">								 
+								<div class="celeritiTableRow"> 
+									<span class="celeritiLabelCell" style="text-align: left; padding-right: 3em;"><span name="CalloutName_RequiredPrompt" class="lotusFormRequired celeritiFormRequired">*</span><label for="CalloutPortletmainCalloutName_field"><span name="CalloutNamelabel">Name</span></label></span> 
+									<span class="celeritiTableCell"><div name="CalloutName" id="CalloutPortletmainPageCalloutName_field" style="width:18em;" required="true" maxLength="30" trim="true" type="text" dojoType="dijit.form.ValidationTextBox" value='aaa' aria-invalid='false'></div></span>									 
+									<span class="celeritiHide">										 
+										<span><input name="Mode" id="CalloutPortletmainPageMode_field" dojoType="dijit.form.TextBox" value='Edit'></span> 
+									</span> 
+								</div> 
+								<div class="celeritiTableRow"> 
+									<span class="celeritiLabelCell" style="text-align: left;"><span name="CalloutType_RequiredPrompt" class="lotusFormRequired celeritiFormRequired">*</span><label for="CalloutPortletmainCalloutType_field"><span name="CalloutTypelabel">Type</span></label></span> 
+									<span class="celeritiTableCell"><select name="CalloutType" id="CalloutPortletmainPageCalloutType_field" style="width:18em;" pageSize="10" required="true" dojoType="dijit.form.FilteringSelect" value='SOAP' aria-invalid='false' onchange="setSectionVisibility();"><option selected value="SOAP">SOAP</option><option  value="MQ">MQ</option><option  value="BP">BP</option></select></span> 
+								</div>								 
+							</div> 
+						</span> 
+					</div> 
+					<div class="celeritiTableRow" id="CalloutPortletmainPageSOAPSection"> 
+						<span class="celeritiLayoutCell"> 
+							<div class="celeritiTableContainer">							 
+								<div class="celeritiTableRow"> 
+									<span class="celeritiTableCell" style="padding-left: 6.8em;"><table name="EndpointType_Table" id="CalloutPortletmainPageEndpointType_field" required="true" aria-invalid='false' onclick="setEndpointVisibility();"><tr name="EndpointType_Row"><td name="EndpointType_Column"><input id='radioButtonGroup_0comcscfssbankingsoaportalmodelstmportletCalloutPortlet_Default14a4dc900c6f3_1' type="radio" name="EndpointType" value='ENDPOINT' _bst_unchecked='false' dojoType="dijit.form.RadioButton"><label name="EndpointType_Label" for='radioButtonGroup_0comcscfssbankingsoaportalmodelstmportletCalloutPortlet_Default14a4dc900c6f3_1'>End Point</label></td></tr><tr name="EndpointType_Row"><td name="EndpointType_Column"><input id='radioButtonGroup_0comcscfssbankingsoaportalmodelstmportletCalloutPortlet_Default14a4dc900c6f3_2' type="radio" name="EndpointType" value='REGISTRY' checked='true' dojoType="dijit.form.RadioButton"><label name="EndpointType_Label" for='radioButtonGroup_0comcscfssbankingsoaportalmodelstmportletCalloutPortlet_Default14a4dc900c6f3_2'>Registry Lookup</label></td></tr></table></span> 
+									<span class="celeritiTableCell"></span> 
+								</div> 
+								</div> 
+								<div class="celeritiTableContainer" style="width: 10em;"> 
+								<div class="celeritiTableRow" id="CalloutPortletmainPageEndpointSection"> 
+									<span class="celeritiLabelCell" style="text-align: left; padding-right: 3.9em; vertical-align: top;"><span name="Endpoint_RequiredPrompt" class="lotusFormRequired celeritiFormRequired">*</span><label for="CalloutPortletmainPageEndpoint_field"><span name="Endpointlabel">URL</span></label></span> 
+									<span class="celeritiTableCell" style="padding-left: 0em;"><div name="Endpoint" id="CalloutPortletmainPageEndpoint_field" class="celeritiTextAreaRequired" required="true" maxLength="100" trim="true" style="height:60px; width:18em;" type="text" dojoType="dijit.form.SimpleTextarea" value='' aria-invalid='true'></div></span> 
+									<span class="celeritiTableCell"></span> 
+								</div> 
+								</div> 
+								<div class="celeritiTableContainer"> 
+								<div class="celeritiTableRow" id="CalloutPortletmainPageRegistrySection"> 
+									<span class="celeritiLayoutCell"> 
+										<div class="celeritiTableContainer"> 
+											<div class="celeritiTableRow"> 
+												<span class="celeritiLabelCell" style="text-align: left; padding-left: 7em;"><span name="PortTypeName_RequiredPrompt" class="lotusFormRequired celeritiFormRequired">*</span><label for="CalloutPortletmainPortTypeName_field"><span name="PortTypeNamelabel">Port Type Name</span></label></span> 
+												<span class="celeritiLabelCell" style="text-align: left;"><span name="PortTypeNamespace_RequiredPrompt" class="lotusFormRequired celeritiFormRequired">*</span><label for="CalloutPortletmainPortTypeNamespace_field"><span name="PortTypeNamespacelabel">Port Type Namespace</span></label></span> 
+											</div> 
+											<div class="celeritiTableRow"> 
+												<span class="celeritiTableCell" style="padding-left: 7em; vertical-align: top;"><div name="PortTypeName" id="CalloutPortletmainPagePortTypeName_field" style="width:18em;" required="true" maxLength="20" trim="true" type="text" dojoType="dijit.form.ValidationTextBox" value='aaa' aria-invalid='false'></div></span> 
+												<span class="celeritiTableCell"><div name="PortTypeNamespace" id="CalloutPortletmainPagePortTypeNamespace_field" class="celeritiTextAreaRequired" required="true" maxLength="100" trim="true" style="height:60px; width:18em;" type="text" dojoType="dijit.form.SimpleTextarea" value='aaa' aria-invalid='false'></div></span> 
+											</div> 
+										</div> 
+									</span> 
+								</div>	 
+							</div> 
+						</span> 
+					</div> 
+					<div class="celeritiTableRow" id="CalloutPortletmainPageMQSection"> 
+						<span class="celeritiLayoutCell"> 
+							<div class="celeritiTableContainer">								 
+								<div class="celeritiTableRow"> 
+									<span class="celeritiLabelCell" style="text-align: left; padding-left: 7em;"><span name="QueName_RequiredPrompt" class="lotusFormRequired celeritiFormRequired">*</span><label for="CalloutPortletmainQueName_field"><span name="QueNamelabel">Queue Name</span></label></span> 
+									<span class="celeritiTableCell"></span> 
+								</div> 
+								<div class="celeritiTableRow"> 
+									<span class="celeritiTableCell" style="padding-left: 7em;"><div name="QueName" id="CalloutPortletmainPageQueName_field" style="width:18em;" required="true" maxLength="50" trim="true" type="text" dojoType="dijit.form.ValidationTextBox" value='' aria-invalid='true'></div></span> 
+									<span class="celeritiTableCell"><span name="RqInd_wrapper" id="CalloutPortletmainPageRqInd_field"><INPUT type="checkbox" name="cb_RqInd" id="checkBox_1comcscfssbankingsoaportalmodelstmportletCalloutPortlet_Default14a4dc900c6f3_1" dojoType= "dijit.form.CheckBox" onClick="var _el = document.getElementById('checkBox_1comcscfssbankingsoaportalmodelstmportletCalloutPortlet_Default14a4dc900c6f3_1_wrapper'); if (this.checked) _el.value='true';else _el.value='false'; if (_el.onchange) _el.onchange()" /><input type="hidden" value='' name="RqInd" id='checkBox_1comcscfssbankingsoaportalmodelstmportletCalloutPortlet_Default14a4dc900c6f3_1_wrapper'></span></span> 
+									<span class="celeritiLabelCell" style="text-align: left;"><label for='checkBox_1comcscfssbankingsoaportalmodelstmportletCalloutPortlet_Default14a4dc900c6f3_1'><span name="RqIndlabel">Request Only</span></label></span> 
+								</div>								 
+							</div> 
+						</span> 
+					</div> 
+					<div class="celeritiTableRow" id="CalloutPortletmainPageIsIFXSection"> 
+						<span class="celeritiLayoutCell"> 
+							<div class="celeritiTableContainer"> 
+								<div class="celeritiTableRow"> 
+									<span class="celeritiTableCell" style="text-align: left; padding-left: 7.2em;"> 
+										<span name="IsIFX_wrapper" id="CalloutPortletmainPageIsIFX_field" onclick=" setRsTransformVisibility();"><INPUT type="checkbox" name="cb_IsIFX" id="checkBox_0comcscfssbankingsoaportalmodelstmportletCalloutPortlet_Default14a4dc900c6f3_1" dojoType= "dijit.form.CheckBox" onClick="var _el = document.getElementById('checkBox_0comcscfssbankingsoaportalmodelstmportletCalloutPortlet_Default14a4dc900c6f3_1_wrapper'); if (this.checked) _el.value='true';else _el.value='false'; if (_el.onchange) _el.onchange()" /><input type="hidden" value='false' name="IsIFX" id='checkBox_0comcscfssbankingsoaportalmodelstmportletCalloutPortlet_Default14a4dc900c6f3_1_wrapper'></span> 
+										<label for='checkBox_0comcscfssbankingsoaportalmodelstmportletCalloutPortlet_Default14a4dc900c6f3_1'><span name="IsIFXlabel">Is IFX? </span></label> 
+									</span> 
+									<span class="celeritiTableCell" style="text-align: left; padding-left: 7em;"> 
+									</span>									 
+								</div> 
+							</div> 
+						</span> 
+					</div> 
+					<div class="celeritiTableRow" id="CalloutPortletmainPageRsTransformSection"> 
+						<span class="celeritiLayoutCell"> 
+							<div class="celeritiTableContainer">								 
+								<div class="celeritiTableRow"> 
+									<span class="celeritiLayoutCell"> 
+										<div class="celeritiTableContainer"> 
+											<span class="celeritiTableCell"><h3><span name="CalloutPortletmainPageRsTransformationText">Response Transformation</span></h3></span> 
+										</div> 
+									</span> 
+								</div> 
+								</div> 
+								<div class="celeritiTableContainer">	 
+									<div class="celeritiTableRow"> 
+										<span class="celeritiLabelCell" style="text-align: left; padding-right: 3em;"><span name="RsTransRoutineType_RequiredPrompt" class="lotusFormRequired celeritiFormRequired">*</span><label for="CalloutPortletmainPageRsTransRoutineType_field"><span name="RsTransRoutineTypelabel">Type</span></label></span> 
+										<span class="celeritiTableCell"><select type="text" name="RsTransRoutineType" id="CalloutPortletmainPageRsTransRoutineType_field" style="width:18em;" pageSize="10" required="true" dojoType="dijit.form.FilteringSelect" value='JAVA' aria-invalid='false'><option  value="MAP">Message Map</option><option selected value="JAVA">Java</option></select></INPUT></span>														 
+									</div> 
+									<div class="celeritiTableRow">	 
+										<span class="celeritiLabelCell" style="text-align: left; padding-right: 3em; vertical-align: top;"><span name="RsTransRoutineName_RequiredPrompt" class="lotusFormRequired celeritiFormRequired">*</span><label for="CalloutPortletmainPageRsTransRoutineName_field"><span name="RsTransRoutineNamelabel">Value</span></label></span>													 
+										<span class="celeritiTableCell"><input type="text" name="RsTransRoutineName" id="CalloutPortletmainPageRsTransRoutineName_field" class="celeritiTextAreaRequired" required="true" maxLength="100" trim="true" style="height:60px; width:18em;" dojoType="dijit.form.SimpleTextarea" value='aaa' aria-invalid='false'></INPUT></span> 
+									</div> 
+							</div> 
+						</span> 
+					</div>					 
+					<br> 
+					<div class="celeritiTableRow"> 
+						<span class="celeritiLayoutCell"> 
+							<div class="celeritiTableContainer"> 
+								<div class="celeritiTableRow" id="CalloutPortletmainPageRsCodesSection"> 
+									<span class="celeritiLabelCell" style="display: inline"><span name="CalloutPortletmainPageRsCodesText">Response Codes</span></span><a id='wpf_action_ref_5comcscfssbankingsoaportalmodelstmportletCalloutPortlet_Default14a4dc900c6f3_1' href='/wps/myportal/!ut/p/a1/pZBdC4IwFIZ_UezV5qaXc6u5zFI0Km_EqxD6uoh-fzOEqGgFnbsDz8N7zktqsiH1sb12u_bSnY7tvt9r1oz9zGhN_VmY6wkETdNVVWIMySywtQA-jMDdl1oklM-BUCkJo-KILVgATDD4DsCVn9LBdwA_3f8AlkkPaFNNM3go__Rl8M1fk_q5ItDQ7xtIFI8ywLABcFX8EvL-gxOwR27tF7zxi0jomQUQFRaQXMVcLD3kATkfVnY26MyouAFdJ3gn/dl5/d5/L2dBISEvZ0FBIS9nQSEh/pw/Z7_2Q9AGJ42J09QE0AC7DB7AO10P5/res/c=cacheLevelPage/p=bf_model=2914db2d_comQCPcscQCPfssQCPbankingQCPsoaQCPportalQCPmodelsQCPtmQCPportletQCPCalloutPortlet/p=bf_action=CalloutPortletLJO.addStatusCodeRow/p=bf_keep=true/=/' style="display:none"></a><input id="CalloutPortletmainPageAddRsCodeButton" value='Add' onclick="var _f=document.forms[&quot;CalloutPortletmainPageFormName&quot;];_f.action = document.getElementById(&quot;wpf_action_ref_5comcscfssbankingsoaportalmodelstmportletCalloutPortlet_Default14a4dc900c6f3_1&quot;).href;if(_f.nodeName != undefined){var _refID = _f.getAttribute(&quot;data-wef-link-id&quot;);if(_refID != null && _refID.length > 0) document.getElementById(_refID).href = _f.action;}_f.target = &quot;_self&quot;;if (!_f.onsubmit || !(_f.onsubmit() === false)) wpf_ppr8004201407150325.submit(_f, [&quot;CalloutPortletEncDiv&quot;], wpf_ppr8004201407150325.smartRefreshHandler, {execScripts:false, eventPfx: &quot;comcscfssbankingsoaportalmodelstmportletCalloutPortlet_Default14a4dc900c6f3Ajax&quot;});return false" type="button" class="lotusBtn lotusBtnAction" iconClass="dijitIconNewTask" label='Add' dojoType="dijit/form/Button"> 
+								</div> 
+								<div class="celeritiTableRow" id="CalloutPortletmainPageNoRsCodesSection"> 
+									<span class="celeritiLabelCell" style="text-align: left; padding-left: 2em;"><span name="CalloutPortletmainPageNoRsCodesText">There are no response codes at this time</span></span> 
+								</div>								 
+							</div> 
+						</span>						 
+					</div> 
+					<div class="celeritiTableRow"> 
+						<span class="celeritiLayoutCell"> 
+							<div class="celeritiTableContainer" id="CalloutPortletmainPageResponseListDP">						 
+							
+<div name="responseListDP_DataEntryPageWrapper"> 
+    <table width="" class="dataEntryPageTable" cellpadding="3" cellspacing="1" name="OuterTable"> 
+      <div name="PageContentsContainer">
+<div name="responseListDP_ResponseList_DataEntryGroupWrapper"> 
+          <div name="responseListDP_ResponseListLabelContainer"></div> 
+          <div name="GroupContainer">
+<div name="responseListDP_ResponseList_DataEntryGroup"> 
+              <div name="responseListDP_ResponseList_Repeat">
+<tr name="responseListDP_ResponseList_CalloutResponse_TableWrapper"><td colspan="4" class="outputDataCell" style="padding:0px" width="100%"> 
+          <div name="responseListDP_ResponseList_CalloutResponse_tableAndButton"> 
+          <div name="responseListDP_ResponseList_CalloutResponseGroupContainer">
+<table name="responseListDP_ResponseList_CalloutResponse_Table" width="100%" cellspacing="0" cellpadding="3">   
+          <tr name="TableHeaderContainer">
+<th name="responseListDP_ResponseList_CalloutResponse_StatusCode_ColumnHeader_int" align="center" nowrap=""><div name="responseListDP_ResponseList_CalloutResponse_StatusCodeHeader" class="tableHeadText">Status Code</div></th>
+
+<th name="responseListDP_ResponseList_CalloutResponse_ServerStatusCode_ColumnHeader_int" align="center" nowrap=""><div name="responseListDP_ResponseList_CalloutResponse_ServerStatusCodeHeader" class="tableHeadText">Server Status Code</div></th>
+
+<th name="responseListDP_ResponseList_CalloutResponse_StatusDesc_ColumnHeader" nowrap=""><div name="responseListDP_ResponseList_CalloutResponse_StatusDescHeader" class="tableHeadText">Status Description</div></th>
+
+
+</tr><tbody name="responseListDP_ResponseList_CalloutResponse_Repeat" class='tableRowOdd'> 
+          <tr name="DataContainer" class='tableRowOdd'>
+<td name="responseListDP_ResponseList_CalloutResponse_StatusCode_ColumnData_int" valign="top" class="outputDataRight"><div name='responseListDP_ResponseList_CalloutResponse_StatusCode_1' class="outputDataRight" nowrap="" _name_="responseListDP_ResponseList_CalloutResponse_StatusCode" constraints="{pattern:&quot;#&quot;}" style="width:120px;" type="text" dojoType="dijit.form.NumberTextBox" value='123' aria-invalid='false' required="true">Integer</div></td>
+
+<td name="responseListDP_ResponseList_CalloutResponse_ServerStatusCode_ColumnData_int" valign="top" class="outputDataRight"><div name='responseListDP_ResponseList_CalloutResponse_ServerStatusCode_1' class="outputDataRight" nowrap="" _name_="responseListDP_ResponseList_CalloutResponse_ServerStatusCode" constraints="{pattern:&quot;#&quot;}" style="width:120px;" type="text" dojoType="dijit.form.NumberTextBox" value='123' aria-invalid='false'>Integer</div></td>
+
+<td name="responseListDP_ResponseList_CalloutResponse_StatusDesc_ColumnData" valign="top"><div name='responseListDP_ResponseList_CalloutResponse_StatusDesc_1' class="outputData" _name_="responseListDP_ResponseList_CalloutResponse_StatusDesc" required="true" maxLength="50" trim="true" style="width:250px" type="text" dojoType="dijit.form.ValidationTextBox" value='aaaaaa' aria-invalid='false'></div><div name="responseListDP_ResponseList_CalloutResponse_StatusDesc_ValidationError" class="celeritiHide"></div></td>
+
+<td name="deleteStatusRow_ColumnData" valign="top"><a id='wpf_action_ref_13comcscfssbankingsoaportalmodelstmportletCalloutPortlet_Default14a4dc900c6f3_1' href='/wps/myportal/!ut/p/a1/pZBdC4IwFIZ_UezV5qaXc6u5zFI0Km_EqxD6uoh-fzOEqGgFnbsDz8N7zktqsiH1sb12u_bSnY7tvt9r1oz9zGhN_VmY6wkETdNVVWIMySywtQA-jMDdl1oklM-BUCkJo-KILVgATDD4DsCVn9LBdwA_3f8AlkkPaFNNM3go__Rl8M1fk_q5ItDQ7xtIFI8ywLABcFX8EvL-gxOwR27tF7zxi0jomQUQFRaQXMVcLD3kATkfVnY26MyouAFdJ3gn/dl5/d5/L2dBISEvZ0FBIS9nQSEh/pw/Z7_2Q9AGJ42J09QE0AC7DB7AO10P5/res/c=cacheLevelPage/p=bf_model=2914db2d_comQCPcscQCPfssQCPbankingQCPsoaQCPportalQCPmodelsQCPtmQCPportletQCPCalloutPortlet/p=bf_action=_gen_call_removeStatusCodeRow/p=bf_keep=true/=/' style="display:none"></a><input name='deleteStatusRow_1' class="outputData lotusBtn lotusBtnAction" _name_="deleteStatusRow" value=" " onclick="var _f=document.forms[&quot;CalloutPortletmainPageFormName&quot;];var _els = _f.elements; _els[&quot;CalloutPortletLJO.removeStatusCodeRow_Arg1&quot;].value = &quot;1&quot;; _f.action = document.getElementById(&quot;wpf_action_ref_13comcscfssbankingsoaportalmodelstmportletCalloutPortlet_Default14a4dc900c6f3_1&quot;).href;if(_f.nodeName != undefined){var _refID = _f.getAttribute(&quot;data-wef-link-id&quot;);if(_refID != null && _refID.length > 0) document.getElementById(_refID).href = _f.action;}_f.target = &quot;_self&quot;;if (!_f.onsubmit || !(_f.onsubmit() === false)) wpf_ppr8004201407150325.submit(_f, [&quot;CalloutPortletEncDiv&quot;], wpf_ppr8004201407150325.smartRefreshHandler, {execScripts:false, eventPfx: &quot;comcscfssbankingsoaportalmodelstmportletCalloutPortlet_Default14a4dc900c6f3Ajax&quot;});return false" type="button" iconClass="dijitIconDelete" dojoType="dijit/form/Button"><div name="FieldValidationError" class="ValidationErrorText"></div></td>
+</tr> 
+          </tbody><input name="responseListDP_ResponseList_CalloutResponse_MaxOrdinal" type="hidden" value='1'> 
+           
+        </table>
+</div> 
+          <div name="responseListDP_ResponseList_CalloutResponse_buttonSpace"></div> 
+        </div> 
+ 
+         
+        <div name="EmptyDataContainer"></div> 
+      </td></tr>
+</div> 
+            </div>
+</div> 
+        </div>
+</div> 
+    </table> 
+        <script type="text/javascript">   
+        var _bst_wroteGridtableCSS = false; 
+        if (document.getElementsByTagName && document.getElementById) 
+        { 
+            var styleSheetLinkID = "_bst_gridtable_css_link"; 
+            var styleSheetLinkElement = document.getElementById(styleSheetLinkID); 
+            if (!styleSheetLinkElement) 
+            { 
+                var head; 
+                var heads = document.getElementsByTagName("head"); 
+                if (!heads || heads.length == 0) 
+                { 
+                    var html = document.getElementsByTagName("html")[0]; 
+                    if (html) 
+                    { 
+                        head = document.createElement("head"); 
+                        html.appendChild(head); 
+                    } 
+                } 
+                else head = heads[0]; 
+                if (head) 
+                { 
+                    var link = document.createElement("link"); 
+                    link.setAttribute("id", styleSheetLinkID); 
+                    link.setAttribute("rel", "STYLESHEET"); 
+                    link.setAttribute("type", "text/css"); 
+                    link.setAttribute("href", "/wps/PA_CTMConfigAppWeb/factory/html_templates/gridtable.css"); 
+                    head.appendChild(link); 
+                    _bst_wroteGridtableCSS = true; 
+                } 
+            } 
+        } 
+        if (!_bst_wroteGridtableCSS) 
+        { 
+            document.write('<LINK rel="STYLESHEET" type="text/css" href="/wps/PA_CTMConfigAppWeb/factory/html_templates/gridtable.css">'); 
+        } 
+        </script> 
+  </div>
+</div> 
+						</span> 
+					</div> 
+					<br> 
+					<div class="celeritiTableRow" id="CalloutPortletmainPageButtonsSection"> 
+						<span class="celeritiLabelCell"> 
+								<span id="CalloutPortletmainPageAddButton_Span">									 
+									<a id='wpf_action_ref_1comcscfssbankingsoaportalmodelstmportletCalloutPortlet_Default14a4dc900c6f3_1' href='/wps/myportal/!ut/p/a1/pZBdC4IwFIZ_UezV5qaXc6u5zFI0Km_EqxD6uoh-fzOEqGgFnbsDz8N7zktqsiH1sb12u_bSnY7tvt9r1oz9zGhN_VmY6wkETdNVVWIMySywtQA-jMDdl1oklM-BUCkJo-KILVgATDD4DsCVn9LBdwA_3f8AlkkPaFNNM3go__Rl8M1fk_q5ItDQ7xtIFI8ywLABcFX8EvL-gxOwR27tF7zxi0jomQUQFRaQXMVcLD3kATkfVnY26MyouAFdJ3gn/dl5/d5/L2dBISEvZ0FBIS9nQSEh/pw/Z7_2Q9AGJ42J09QE0AC7DB7AO10P5/res/c=cacheLevelPage/p=bf_model=2914db2d_comQCPcscQCPfssQCPbankingQCPsoaQCPportalQCPmodelsQCPtmQCPportletQCPCalloutPortlet/p=bf_action=CalloutPortletLJO.addCallout/p=bf_keep=true/=/' style="display:none"></a><input id="CalloutPortletmainPageAddButton" value='Save & Add Another' onclick="if(!validateForm('CalloutPortletmainPageEncDiv'))return false;;var _f=this.form;_f.action = document.getElementById(&quot;wpf_action_ref_1comcscfssbankingsoaportalmodelstmportletCalloutPortlet_Default14a4dc900c6f3_1&quot;).href;if(_f.nodeName != undefined){var _refID = _f.getAttribute(&quot;data-wef-link-id&quot;);if(_refID != null && _refID.length > 0) document.getElementById(_refID).href = _f.action;}_f.target = &quot;_self&quot;;if (!_f.onsubmit || !(_f.onsubmit() === false)) wpf_ppr8004201407150325.submit(_f, [&quot;CalloutPortletmainPageEncDiv&quot;], wpf_ppr8004201407150325.smartRefreshHandler, {execScripts:false, eventPfx: &quot;comcscfssbankingsoaportalmodelstmportletCalloutPortlet_Default14a4dc900c6f3Ajax&quot;});return false" type="button" class="lotusBtn lotusBtnAction" iconClass="dijitIconSave" label='Save & Add Another' dojoType="dijit/form/Button">	 
+								</span> 
+								<a id='wpf_action_ref_2comcscfssbankingsoaportalmodelstmportletCalloutPortlet_Default14a4dc900c6f3_1' href='/wps/myportal/!ut/p/a1/pZBdC4IwFIZ_UezV5qaXc6u5zFI0Km_EqxD6uoh-fzOEqGgFnbsDz8N7zktqsiH1sb12u_bSnY7tvt9r1oz9zGhN_VmY6wkETdNVVWIMySywtQA-jMDdl1oklM-BUCkJo-KILVgATDD4DsCVn9LBdwA_3f8AlkkPaFNNM3go__Rl8M1fk_q5ItDQ7xtIFI8ywLABcFX8EvL-gxOwR27tF7zxi0jomQUQFRaQXMVcLD3kATkfVnY26MyouAFdJ3gn/dl5/d5/L2dBISEvZ0FBIS9nQSEh/pw/Z7_2Q9AGJ42J09QE0AC7DB7AO10P5/act/id=KWWmamtG2hg/p=bf_action=CalloutPortletLJO.done/279874239309/=/#Z7_2Q9AGJ42J09QE0AC7DB7AO10P5' style="display:none"></a><input id="CalloutPortletmainPageDoneButton" value='Done' onclick="if(!validateForm('CalloutPortletmainPageEncDiv'))return false;;var _f=document.forms[&quot;CalloutPortletmainPageFormName&quot;];_f.action = document.getElementById(&quot;wpf_action_ref_2comcscfssbankingsoaportalmodelstmportletCalloutPortlet_Default14a4dc900c6f3_1&quot;).href;_f.target = &quot;_self&quot;;if (!_f.onsubmit || !(_f.onsubmit() === false)) _f.submit();return false" type="button" class="lotusBtn lotusBtnAction" iconClass="dijitIconSave" label='Done' dojoType="dijit/form/Button"> 
+								<a id='wpf_action_ref_3comcscfssbankingsoaportalmodelstmportletCalloutPortlet_Default14a4dc900c6f3_1' href='/wps/myportal/!ut/p/a1/pZBdC4IwFIZ_UezV5qaXc6u5zFI0Km_EqxD6uoh-fzOEqGgFnbsDz8N7zktqsiH1sb12u_bSnY7tvt9r1oz9zGhN_VmY6wkETdNVVWIMySywtQA-jMDdl1oklM-BUCkJo-KILVgATDD4DsCVn9LBdwA_3f8AlkkPaFNNM3go__Rl8M1fk_q5ItDQ7xtIFI8ywLABcFX8EvL-gxOwR27tF7zxi0jomQUQFRaQXMVcLD3kATkfVnY26MyouAFdJ3gn/dl5/d5/L2dBISEvZ0FBIS9nQSEh/pw/Z7_2Q9AGJ42J09QE0AC7DB7AO10P5/act/id=GWWmamtG2iA/p=bf_action=CalloutPortletLJO.cancel/279874239309/=/#Z7_2Q9AGJ42J09QE0AC7DB7AO10P5' style="display:none"></a><input id="CalloutPortletmainPageCancelButton" value='Cancel' onclick="location.href=document.getElementById(&quot;wpf_action_ref_3comcscfssbankingsoaportalmodelstmportletCalloutPortlet_Default14a4dc900c6f3_1&quot;).href" type="button" class="lotusBtn lotusBtnAction" iconClass="dijitIconUndo" label='Cancel' dojoType="dijit/form/Button"> 
+						</span> 
+					</div>					 
+				
+
+</div> 
+			
+</form>				 
+		
+</div> 
+ 
+		<input type="hidden" id='wpf_client_event_handler_4comcscfssbankingsoaportalmodelstmportletCalloutPortlet_Default14a4dc900c6f3_1' onchange=" executePageScript();"><script type="text/javascript">wpf_event_bus.addListener("comcscfssbankingsoaportalmodelstmportletCalloutPortlet_Default14a4dc900c6f3AjaxPostLoad", { handle: function() {  executePageScript();}, _handlerID: "wpf_client_event_handler_4comcscfssbankingsoaportalmodelstmportletCalloutPortlet_Default14a4dc900c6f3_1" });</script><script name="CalloutPortletmainPageClientJS" type="text/javascript">/** 
+ * THIS SOFTWARE CONTAINS TRADE SECRETS AND CONFIDENTIAL INFORMATION WHICH ARE 
+ * PROPRIETARY TO COMPUTER SCIENCES CORPORATION. THE USE, REPRODUCTION, 
+ * DISTRIBUTION, OR DISCLOSURE OF THE SOFTWARE, IN WHOLE OR IN PART, WITHOUT THE 
+ * EXPRESS WRITTEN PERMISSION OF COMPUTER SCIENCES CORPORATION IS PROHIBITED. 
+ * THIS SOFTWARE IS ALSO AN UNPUBLISHED WORK PROTECTED UNDER THE COPYRIGHT LAWS 
+ * OF THE UNITED STATES OF AMERICA AND OTHER COUNTRIES. IF THIS SOFTWARE BECOMES 
+ * PUBLISHED, THE FOLLOWING NOTICE SHALL APPLY: 
+ * 
+ * COPYRIGHT (C) 2010 COMPUTER SCIENCES CORPORATION ALL RIGHTS RESERVED. 
+ */ 
+ 
+ 
+//Constants section 
+var CSS_CELERITI_HIDE = "celeritiHide"; 
+dojo.addOnLoad(setSectionVisibility); 
+dojo.ready(setEndpointVisibility); 
+dojo.ready(setRsTransformVisibility); 
+dojo.ready(setNoRsCodesTextVisibility); 
+dojo.addOnLoad(setBtnVisibility); 
+ 
+/** 
+ * Show/hide SOAP/MQ details section, based on "Callout Type" type value 
+ */ 
+function setSectionVisibility(){	 
+	var mode=""; 
+	if(dijit.byId("CalloutPortletmainPageMode_field")!=undefined) 
+		mode=dijit.byId("CalloutPortletmainPageMode_field").value; 
+	dojo.addClass("CalloutPortletmainPageSOAPSection","celeritiHide"); 
+	dojo.addClass("CalloutPortletmainPageMQSection","celeritiHide"); 
+	dojo.addClass("CalloutPortletmainPageIsIFXSection","celeritiHide"); 
+	if(dojo.byId("CalloutPortletmainPageCalloutType_field").value == "SOAP"){ 
+		clearMQSection(); 
+		if(mode=="Start" || mode=="Edit"){ 
+			var radioButtonList=document.getElementsByName("EndpointType");	 
+				if(radioButtonList[0].checked || radioButtonList[1].checked){			 
+					} else{ 
+						radioButtonList[0].checked = true; 
+						setEndpointVisibility(); 
+					} 
+			 
+			 
+		} 
+		dojo.removeClass("CalloutPortletmainPageSOAPSection","celeritiHide"); 
+		dojo.removeClass("CalloutPortletmainPageIsIFXSection","celeritiHide"); 
+	}else if(dojo.byId("CalloutPortletmainPageCalloutType_field").value == "MQ"){ 
+		clearSOAPSection(); 
+		dojo.removeClass("CalloutPortletmainPageMQSection","celeritiHide"); 
+		dojo.removeClass("CalloutPortletmainPageIsIFXSection","celeritiHide"); 
+	} 
+} 
+ 
+/** 
+ * Show/hide Enpoint/RegistryLookup sections, based on "Enpoint Type" value 
+ */ 
+function setEndpointVisibility(){ 
+	dojo.addClass("CalloutPortletmainPageEndpointSection","celeritiHide"); 
+	dojo.addClass("CalloutPortletmainPageRegistrySection","celeritiHide");	 
+	var radioButtonList=document.getElementsByName("EndpointType");		 
+	for(var i=0;i<radioButtonList.length;i++){  
+		if(radioButtonList[i].checked){			 
+			if(radioButtonList[i].value=="ENDPOINT"){ 
+				dijit.byId("CalloutPortletmainPagePortTypeName_field").attr("value",""); 
+				dijit.byId("CalloutPortletmainPagePortTypeNamespace_field").attr("value",""); 
+				dojo.removeClass("CalloutPortletmainPageEndpointSection","celeritiHide"); 
+			}  
+			if(radioButtonList[i].value=="REGISTRY"){ 
+				dijit.byId("CalloutPortletmainPageEndpoint_field").attr("value",""); 
+				dojo.removeClass("CalloutPortletmainPageRegistrySection","celeritiHide"); 
+			}  
+		}  
+	} 
+} 
+ 
+/** 
+ * Show/hide Response transformation section, based on "IsIFX" checkbox selection 
+ */ 
+function setRsTransformVisibility(){ 
+	var isIFX=document.getElementsByName("IsIFX");	 
+	if(isIFX[0].value=="true"){  
+		dijit.byId("CalloutPortletmainPageRsTransRoutineType_field").attr("value",""); 
+		dijit.byId("CalloutPortletmainPageRsTransRoutineName_field").attr("value",""); 
+		dojo.addClass("CalloutPortletmainPageRsTransformSection","celeritiHide"); 
+	}else{ 
+		dojo.removeClass("CalloutPortletmainPageRsTransformSection","celeritiHide"); 
+	} 
+} 
+ 
+/** 
+ * Show/hide message section, based on "IsIFX" checkbox selection 
+ */ 
+function setNoRsCodesTextVisibility(){	 
+	var resListContainer = dojo.query("tbody[name^='responseListDP_ResponseList_CalloutResponse_Repeat']"); 
+	//var resListContainer = dojo.query("tr[name^='DataContainer']"); 
+ 
+	if(resListContainer.length>0){  
+		dojo.addClass("CalloutPortletmainPageNoRsCodesSection","celeritiHide");		 
+	}else{ 
+		dojo.removeClass("CalloutPortletmainPageNoRsCodesSection","celeritiHide"); 
+		dojo.addClass("CalloutPortletmainPageResponseListDP","celeritiHide"); 
+	} 
+} 
+ 
+/** 
+ * Set visibility of various buttons on screen based on operation mode 
+ */ 
+function setBtnVisibility(){		 
+	var mode=""; 
+	if(dijit.byId("CalloutPortletmainPageMode_field")!=undefined) 
+		mode=dijit.byId("CalloutPortletmainPageMode_field").value; 
+ 
+	if(mode=="Start"){ 
+		dojo.addClass("CalloutPortletmainPageCopyCalloutButton_Span","celeritiHide"); 
+		dojo.addClass("CalloutPortletmainPageDeleteCalloutButton_Span","celeritiHide"); 
+		dojo.addClass("CalloutPortletmainPageNewCalloutButton_Span","celeritiHide"); 
+		//dojo.addClass("CalloutPortletmainPageEditCalloutButton","celeritiHide"); 
+		 
+	} 
+	else if(mode=="CreateDone"){ 
+		dojo.addClass("CalloutPortletmainPageAddButton","celeritiHide"); 
+		dojo.addClass("CalloutPortletmainPageDoneButton","celeritiHide"); 
+		dojo.addClass("CalloutPortletmainPageCancelButton","celeritiHide"); 
+		dojo.addClass("CalloutPortletmainPageAddRsCodeButton","celeritiHide"); 
+		 
+		dijit.byId('CalloutPortletmainPageSearchCalloutName_field').set('disabled',false); 
+		dojo.byId("CalloutPortletmainPageSearchButton").disabled = false; 
+		 
+	} 
+	else if(mode=="Search"){ 
+		//added 
+		dojo.addClass("CalloutPortletmainPageSOAPSection","celeritiHide"); 
+		dojo.addClass("CalloutPortletmainPageIsIFXSection","celeritiHide"); 
+		dojo.addClass("CalloutPortletmainPageCalloutSection","celeritiHide"); 
+		dojo.addClass("CalloutPortletmainPageCopyCalloutButton_Span","celeritiHide"); 
+		dojo.addClass("CalloutPortletmainPageDeleteCalloutButton_Span","celeritiHide"); 
+		dojo.addClass("CalloutPortletmainPageMQSection","celeritiHide"); 
+		 
+		dojo.addClass("CalloutPortletmainPageShowSearchLinkSection","celeritiHide"); 
+		dojo.addClass("CalloutPortletmainPageCalloutSection","celeritiHide"); 
+		dojo.addClass("CalloutPortletmainPageRsCodesSection","celeritiHide"); 
+		dojo.addClass("CalloutPortletmainPageNoRsCodesSection","celeritiHide"); 
+		dojo.addClass("CalloutPortletmainPageResponseListDP","celeritiHide"); 
+		dojo.addClass("CalloutPortletmainPageRsTransformSection","celeritiHide"); 
+		dojo.addClass("CalloutPortletmainPageButtonsSection","celeritiHide"); 
+		dojo.addClass("CalloutPortletmainPageAddRsCodeButton","celeritiHide"); 
+			 
+		dojo.removeClass("CalloutPortletmainPageCalloutListSection","celeritiHide"); 
+		dojo.removeClass("CalloutPortletmainPageSearchSection","celeritiHide"); 
+		dojo.removeClass("CalloutPortletmainPageHideSearchLinkSection","celeritiHide");	 
+	}else if(mode=="Edit"){ 
+		dojo.addClass("CalloutPortletmainPageAddButton_Span","celeritiHide");	 
+	} 
+} 
+ 
+function enableCalloutEditing(){ 
+	var pageContentList=dojo.query("#CalloutPortletmainPageCalloutDP")[0]; 
+	dojo.query("input, select", pageContentList).removeAttr("disabled"); 
+	 
+	dojo.removeClass("CalloutPortletmainPageAddButton","celeritiHide"); 
+	dojo.removeClass("CalloutPortletmainPageDoneButton","celeritiHide"); 
+	dojo.removeClass("CalloutPortletmainPageCancelButton","celeritiHide"); 
+	dojo.removeClass("CalloutPortletmainPageAddRsCodeButton","celeritiHide");	 
+	 
+	dijit.byId("CalloutPortletmainPageMode_field").value="Edit"; 
+	 
+} 
+/** 
+ * Set visibility of Search section 
+ */ 
+function showSearchSection(){ 
+	dojo.addClass("CalloutPortletmainPageShowSearchLinkSection","celeritiHide"); 
+	dojo.removeClass("CalloutPortletmainPageSearchSection","celeritiHide"); 
+	dojo.removeClass("CalloutPortletmainPageHideSearchLinkSection","celeritiHide"); 
+	dojo.removeClass("CalloutPortletmainPageSearchTopSection","celeritiHide"); 
+} 
+ 
+/** 
+ * Set visibility of Search section 
+ */ 
+function hideSearchSection(){ 
+	dojo.addClass("CalloutPortletmainPageHideSearchLinkSection","celeritiHide"); 
+	dojo.removeClass("CalloutPortletmainPageShowSearchLinkSection","celeritiHide"); 
+	dojo.addClass("CalloutPortletmainPageSearchTopSection","celeritiHide"); 
+} 
+/** 
+ * This method is used to validate the RsTransRoutineName 
+ */ 
+function validateTransRoutineName(encDivId){ 
+	var regExp = new RegExp("\\s"); 
+	var dijitItem = dijit.byId("CalloutPortletmainPageRsTransRoutineName_field"); 
+	var transRoutineName=dijit.byId("CalloutPortletmainPageRsTransRoutineName_field").value; 
+ 
+	if(regExp.test(transRoutineName)){ 
+		writeStatus(encDivId); 
+		dijitItem.focus(); 
+		return false; 
+	} 
+	return true; 
+} 
+/** 
+ * This method is used to validate the input in search field 
+ */ 
+function validateSearchInputs(){ 
+	var validInput = true; 
+	var name = dijit.byId("CalloutPortletmainPageSearchCalloutName_field").attr("value"); 
+	if((name==null || name=="")){ 
+		alert("Search values are invalid or blank"); 
+		validInput=false; 
+	} 
+	return validInput; 
+} 
+/** 
+ * This method would get executed on partial page refresh, and would execute all the scripts  
+ * which gets executed on page load. 
+ */ 
+function executePageScript(){ 
+	setSectionVisibility(); 
+	setEndpointVisibility(); 
+	setRsTransformVisibility(); 
+	setNoRsCodesTextVisibility(); 
+	setBtnVisibility(); 
+} 
+function clearSOAPSection(){ 
+	dijit.byId("CalloutPortletmainPageEndpoint_field").attr("value",""); 
+	dijit.byId("CalloutPortletmainPagePortTypeName_field").attr("value",""); 
+	dijit.byId("CalloutPortletmainPagePortTypeNamespace_field").attr("value",""); 
+} 
+function clearMQSection(){ 
+	//dijit.byId("CalloutPortletmainRqInd_field").attr("value",""); 
+	dijit.byId("CalloutPortletmainPageQueName_field").attr("value",""); 
+}</script> 
+		</div> 
+	</span></div>
+<form class='c2a:target' method='POST' action='/wps/myportal/!ut/p/a1/pZBdC4IwFIZ_UezV5qaXc6u5zFI0Km_EqxD6uoh-fzOEqGgFnbsDz8N7zktqsiH1sb12u_bSnY7tvt9r1oz9zGhN_VmY6wkETdNVVWIMySywtQA-jMDdl1oklM-BUCkJo-KILVgATDD4DsCVn9LBdwA_3f8AlkkPaFNNM3go__Rl8M1fk_q5ItDQ7xtIFI8ywLABcFX8EvL-gxOwR27tF7zxi0jomQUQFRaQXMVcLD3kATkfVnY26MyouAFdJ3gn/dl5/d5/L3dDb1ZJQSEhL3dPb0JKTnNBLzRQeWhDQlVZV0JFIS80V1dtYW10RzJpUS8yMDA3L0ludm9rZUNvbW11bmljYXRpb25UYXJnZXQ!/'>
+  <input type='hidden' name='com.ibm.wps.propertybroker.standard.c2a.pageid' value='Z6_32MIGG42J8PGE0A4KKUTS030C6' ></input>
+  <input type='hidden' name='com.ibm.wps.propertybroker.standard.c2a.portletwindowid' value='Z7_2Q9AGJ42J09QE0AC7DB7AO10P5' ></input>
+  <input type='hidden' name='com.ibm.wps.propertybroker.standard.c2a.commtargetname' value='process.{http://www.csc.com/fss/banking/celeriti}CalloutData' ></input>
+  <input type='hidden' name='com.ibm.wps.propertybroker.standard.c2a.commtargetqname' value='{http://www.csc.com/fss/banking/celeriti}CalloutData' ></input>
+  <span class='c2a:typename' style='display:none'>http://www.csc.com/fss/banking/celeriti#CalloutData</span>
+  <span class='c2a:action-label' style='display:none'>CalloutData</span>
+  <label style='display:none' for='ns_Z7_2Q9AGJ42J09QE0AC7DB7AO10P5_process.{http://www.csc.com/fss/banking/celeriti}CalloutData'>ns_Z7_2Q9AGJ42J09QE0AC7DB7AO10P5_process.{http://www.csc.com/fss/banking/celeriti}CalloutData</label>  <input type='text' class='c2a:action-param' style='display:none' name='process.{http://www.csc.com/fss/banking/celeriti}CalloutData' id='ns_Z7_2Q9AGJ42J09QE0AC7DB7AO10P5_process.{http://www.csc.com/fss/banking/celeriti}CalloutData'></input></form>
+<div class="wpthemeClear"></div>
+	</div>
+</section> 
+</div>
+		</td>
+	</tr>
+	 
+</table>
+		</td>
+
+        
+        
+	</tr>
+</table><div class="wpthemeClear"></div>
+				</div>
+			</div>
+		</div><!--end main content-->
+		
+		<footer class="celeritiThemeFooter" role="contentinfo">
+			<div class="wpthemeInner">	
+				
+
+<div style="text-align: center;">	
+	<ul class="celeritiThemeFooterNavList">
+		<li class="celeritiThemeFooterNavListItem">
+			<a href="http://www.csc.com/banking/ds/70113-how_to_contact_the_banking_customer_support_center" target="_blank">Contact Us</a> 			
+		</li>
+		
+		<li class="celeritiThemeFooterNavListItem"><a href="/wps/myportal/!ut/p/a1/pZBdC4IwFIZ_UezV5qaXc6u5zFI0Km_EqxD6uoh-fzOEqGgFnbsDz8N7zktqsiH1sb12u_bSnY7tvt9r1oz9zGhN_VmY6wkETdNVVWIMySywtQA-jMDdl1oklM-BUCkJo-KILVgATDD4DsCVn9LBdwA_3f8AlkkPaFNNM3go__Rl8M1fk_q5ItDQ7xtIFI8ywLABcFX8EvL-gxOwR27tF7zxi0jomQUQFRaQXMVcLD3kATkfVnY26MyouAFdJ3gn/dl5/d5/L2dJQSEvUUt3QS80SmlFL1o2X0NHQUg0N0wwMEdQNzkwSURCOTBNTkkwT0kz/">
+			<span lang="en" dir="ltr">Search Center</span></a>
+		</li>
+		
+		<li class="celeritiThemeFooterNavListItem"><a href="/wps/myportal/!ut/p/a1/pZBdC4IwFIZ_UezV5qaXc6u5zFI0Km_EqxD6uoh-fzOEqGgFnbsDz8N7zktqsiH1sb12u_bSnY7tvt9r1oz9zGhN_VmY6wkETdNVVWIMySywtQA-jMDdl1oklM-BUCkJo-KILVgATDD4DsCVn9LBdwA_3f8AlkkPaFNNM3go__Rl8M1fk_q5ItDQ7xtIFI8ywLABcFX8EvL-gxOwR27tF7zxi0jomQUQFRaQXMVcLD3kATkfVnY26MyouAFdJ3gn/dl5/d5/L2dJQSEvUUt3QS80SmlFL1o2X0NHQUg0N0wwMEdQNzkwSURCOTBNTkkwR1I3/">
+		<span lang="en" dir="ltr">Site Map</span></a>
+		</li>
+		
+	</ul>
+	<p>Powered by Intelligent SOA<sup>TM</sup></p>
+	<p>© 2011-2015 Computer Sciences Corporation. All rights reserved.</p>
+</div>
+<div class="wpthemeClear"></div>
+			</div>
+		</footer><!-- page footer -->
+		
+	</div><!-- end frame -->
+		
+    <!-- This is responsible for bootstrapping the configuration for the javascript framework. 
+        This is located here instead of the head section to improve client performance. -->
+	<div class="wpthemeComplementaryContent" id="wpthemeComplementaryContent" role="region" aria-labelledby="wpthemeComplementaryContentText">
+		<span class="wpthemeAltText" id="wpthemeComplementaryContentText" >Complementary Content</span>
+		<script type="text/javascript" src="/wps/mycontenthandler/!ut/p/digest!R4AQ_XWdtNL1tW9qKVQ01Q/mashup/ra:collection?themeID=ZJ_2Q9AGJ42JGFB70A8PBRL4Q0003&amp;locale=en&amp;mime-type=text%2Fplain&amp;entry=mm_enabler__0.0%3Aconfig_config_static&amp;entry=wcm_config__0.0%3Aconfig_config_static&amp;entry=wcm_inplaceEdit__0.0%3Aconfig_config_static&amp;entry=wp_portal__0.0%3Aconfig_config_static"></script><script type="text/javascript">i$.merge({"ibmCfg":{"enablerConfig":{"com.ibm.mashups.proxy.url":"/wps/proxy","com.ibm.mashups.productname":"IBM WebSphere Portal","com.ibm.mashups.anonymous.mode":"true","serviceDocumentUrl":"/wps/mycontenthandler/!ut/p/digest!uVGiZ35J3Xjef6bF9lCU5A/model/service-document/?locale=en","anonymousUser":false,"user":"wpsadmin","fontSizeEnlarged":false,"isBidi":false,"locale":"en","displayLocale":"en","com.ibm.mashups.contextroot":"/wps","defaultLayoutTemplateURI":"war:CeleritiTheme8001/themes/CeleritiTheme8001/layout-templates/2ColumnEqual/","com.ibm.mashups.contenthandler.private":"/wps/mycontenthandler/!ut/p/digest!uVGiZ35J3Xjef6bF9lCU5A/","com.ibm.mashups.contenthandler.public":"/wps/contenthandler/!ut/p/digest!uVGiZ35J3Xjef6bF9lCU5A/"}},"portalMashupsConfig":{"serviceDocURL":"/wps/mycontenthandler/!ut/p/digest!uVGiZ35J3Xjef6bF9lCU5A/model/service-document/?locale=en","contentHandlerContextPath":"/wps/mycontenthandler/!ut/p/digest!uVGiZ35J3Xjef6bF9lCU5A/"}});
+	var ibmPortalCPConfig={"portletContextMenu":{"isTaggingEnabled":true,"isRatingEnabled":true},"isTagCenterAvailable":true,"tagging":{"dialog":{"displayTabs":false,"typeaheadSearchPattern":null,"defaultView":"PUBLIC","order":"DESC","privateTaggingEnabled":false,"localePickerEnabled":true,"deletingEnabled":true,"maxPersonalTags":50,"countsEnabled":false,"orderMetric":"TAG_SPACE_COUNT_REVERSE_NAME","maxCommunityTags":50,"messageFadeOutDuration":1000},"inline":{"maxResults":5,"displayTwisty":"COLLAPSED","showDialogLauncher":true,"tagClickActionMode":"TAG_CENTER","tagsClickable":true,"tagScope":"COMMUNITY_PERSONAL_PUBLIC","countsEnabled":false,"tagClickTransmitScopes":false,"order":"DESC","orderMetric":"TAG_SPACE_COUNT_REVERSE_NAME","tagsChangedEvent":"tagsChanged"},"validation":{"validationRegex":"[^\\<\\\\>\\(\\)\\[\\]:]{1,255}"}},"isTaggingEnabled":true,"isRatingEnabled":true,"operations":{"canCreatePrivateTags":true,"canCreatePublicRatings":true,"canViewRatings":true,"canBrowseTags":true,"canDeleteOtherUsersTags":true,"canCreatePublicTags":true,"canViewTags":true,"canResetRatingPerResource":true,"canCreatePrivateRatings":true},"rating":{"maxRatingValue":5,"dialog":{"displayTabs":false,"privateRatingEnabled":false,"defaultView":"PUBLIC","deletingEnabled":true,"numStars":5,"messageFadeOutDuration":1000},"inline":{"displayTwisty":"COLLAPSED","showDialogLauncher":"COLLAPSED","ratingScope":"COMMUNITY_PERSONAL_PUBLIC","onStarHoverShowRatingDistribution":true,"onStarClickOpenDialog":true,"ratingDistributionPosition":"30,30","numStars":5,"ratingsChangedEvent":"ratingsChanged"}},"contextMenu":{"isTaggingEnabled":true,"isRatingEnabled":true}};
+ 
+ 
+ 
+var SemTagSvcPortalGlobalDynamic={
+basePumaResolvedUrl: ''+
+''+
+'/wps/mycontenthandler/!ut/p/digest!uVGiZ35J3Xjef6bF9lCU5A/um/secure/users/profiles?locale=en_US',
+availAttribUrl: ''+
+''+
+'/wps/mycontenthandler/!ut/p/digest!uVGiZ35J3Xjef6bF9lCU5A/um/secure/attributes/users?locale=en_US'
+};
+i$.merge({"ibmCfg":{"themeConfig":{"themeUniqueName":"portal.celerititheme8001","themeRootURI":"/wps/mycontenthandler/!ut/p/digest!YHmQiO0Ec8hDUTHugGJAbw/war/CeleritiTheme8001/themes/CeleritiTheme8001","themeWebAppBaseURI":"/CeleritiTheme8001/themes/html/dynamicSpots","themeWebDAVBaseURI":"war:CeleritiTheme8001/themes/CeleritiTheme8001/","modulesWebAppBaseURI":"/wps/themeModules","commonResourcesRootURI":"/wps/mycontenthandler/!ut/p/digest!chKmIlFLdAjIrqV18BJUlQ/dav/fs-type1/common-resources","isRTL":false,"isPageRenderModeCSA":false,"portletOverridePageTitle":"Callout","currentContentNodeOID":"Z6_32MIGG42J8PGE0A4KKUTS030C6","loadingImage":"css/images/loading.gif","dndSourceDefinitions":[{"id":"ibmDndColumn","object":"com.ibm.pb.dnd.layout.LayoutColumnSource","orientation":"vertical"},{"id":"ibmDndRow","object":"com.ibm.pb.dnd.layout.LayoutRowSource","orientation":"horizontal"}],"categorySources":[],"styleSources":[],"layoutSources":[]},"portalConfig":{"locale":"en","portalURI":"/wps/myportal","contentHandlerURI":"/wps/mycontenthandler/!ut/p/digest!uVGiZ35J3Xjef6bF9lCU5A/","isVirtualPortal":false,"canImpersonate":true,"themeRootURI":"/CeleritiTheme8001/themes/html/dynamicSpots","parentPageID":"Z6_32MIGG42J8OHE0A4GITFM010S4","currentPageOID":"Z6_32MIGG42J8PGE0A4KKUTS030C6","bootstrapState":"&lt;?xml version=&#034;1.0&#034; encoding=&#034;UTF-8&#034;?&gt;&lt;root xmlns=&#034;http://www.ibm.com/xmlns/prod/websphere/portal/v6.1/portal-state&#034;&gt;&lt;state type=&#034;navigational&#034;&gt;&lt;selection selection-node=&#034;Z6_32MIGG42J8PGE0A4KKUTS030C6&#034;&gt;&lt;mapping src=&#034;Z6_000000000000000000000000A0&#034; dst=&#034;Z6_CGAH47L008DDC0IDB96N6500E0&#034;/&gt;&lt;mapping src=&#034;Z6_CGAH47L008DDC0IDB96N6500E0&#034; dst=&#034;Z6_32MIGG42J8PGE0A4KKUTS030K4&#034;/&gt;&lt;mapping src=&#034;Z6_32MIGG42J8PGE0A4KKUTS030K4&#034; dst=&#034;Z6_32MIGG42J8PGE0A4KKUTS030C6&#034;/&gt;&lt;mapping src=&#034;Z6_32MIGG42J8OHE0A4GITFM010S4&#034; dst=&#034;Z6_32MIGG42J8PGE0A4KKUTS030C6&#034;/&gt;&lt;mapping src=&#034;Z6_32MIGG42J8OHE0A4GITFM010C5&#034; dst=&#034;Z6_32MIGG42J8PGE0A4KKUTS030C6&#034;/&gt;&lt;/selection&gt;&lt;expansions&gt;&lt;node id=&#034;Z6_CGAH47L0004820IDBHD79M00I6&#034;/&gt;&lt;node id=&#034;Z6_000000000000000000000000A0&#034;/&gt;&lt;node id=&#034;Z6_32MIGG42J8OHE0A4GITFM010S4&#034;/&gt;&lt;node id=&#034;Z6_32MIGG42J8OHE0A4GITFM010C5&#034;/&gt;&lt;/expansions&gt;&lt;portlet id=&#034;Z7_2Q9AGJ42J09QE0AC7DB7AO10P5&#034;/&gt;&lt;/state&gt;&lt;/root&gt;","isUserLoggedIn":true,"currentUser":"wpsadmin","currentUserOID":"Z9eAeHHC6MO4CNPCAMM46G1ECMMG63BEGJM8CL1DCJMC66BO83OG6P1CCMQGC63","aggregatedStyle":null,"wcmPageMetadata":{"contentRoot":null,"sharingScope":null}},"userName":"wpsadmin"},"com_ibm_theme_capabilities":{"contextmenu_live_object":"1.0","widget_container":"2.1","wcm_inplaceEdit":"1.0","contextmenu":"1.0","mashups.enabler":"3.0.0.1","dojo":"1.7","portal.livetext.adr":"8.0","mashups.builder":"3.0.0.1","federated_documents.picker":"8.0","analytics_aggregator":"8.0","portal.livetext.hcard":"8.0","active_site_analytics":"8.0","portal.livetext.action":"8.0","open_ajax_hub":"2.0","content_mapping.picker":"8.0","cp_tagging_rating":"8.0","oneUI":"3.0.1","social_rendering":"8.0","portal.livetext.c2a":"8.0"}});ibmCfg.portalConfig.bootstrapState=(ibmCfg.portalConfig.bootstrapState||"").replace(/&lt;/gm, '<').replace(/&gt;/gm, '>').replace(/&amp;/gm, '&').replace(/&#039;/gm, "'").replace(/&#034;/gm, '"');
+(function(){ibmToolbarConfig = {projectUUID: "",toolbarMode: "closed",inManagedPages: "true"==="true",isPrivilegedUser: "false"==="true",hasEditSharedPermission: "true"==="true",dialogJavascriptURL: "/wps/mycontenthandler/!ut/p/digest!YHmQiO0Ec8hDUTHugGJAbw/dialog/dialogModal.js",dialogUtilsJavascriptURL: "/wps/mycontenthandler/!ut/p/digest!YHmQiO0Ec8hDUTHugGJAbw/dialog/dialogModalUtils.js",draftPageUUID: ""
+	}})();
+
+ibmCfg.portalConfig.asaConfig = {canViewAsaReports: "true",canViewAsaSitePromotions: "true",canCreateAsaSitePromotions: "true",canDeleteAsaSitePromotions: "true",reportConfig: {"scopes":[]}
+};</script><script type="text/javascript" src="/wps/mycontenthandler/!ut/p/digest!jSQsLXnPCd3_Lukg57Xd8A/mashup/ra:collection?themeID=ZJ_2Q9AGJ42JGFB70A8PBRL4Q0003&amp;locale=en&amp;mime-type=text%2Fplain&amp;entry=wp_portal_client_rest_utils__0.0%3Aconfig_js&amp;entry=mm_enabler__0.0%3Aconfig_js&amp;entry=mm_builder__0.0%3Aconfig_js&amp;entry=wp_tagging_rating__0.0%3Aconfig_js&amp;entry=wp_pagebuilder_base__0.0%3Aconfig_js&amp;entry=wp_pagebuilder_ui__0.0%3Aconfig_js&amp;entry=mm_new_page_dialog__0.0%3Aconfig_js&amp;entry=wp_one_ui_30__0.0%3Aconfig_js&amp;entry=mm_builder_dialogs__0.0%3Aconfig_js&amp;entry=mm_page_sharing_base__0.0%3Aconfig_js&amp;entry=mm_page_sharing_permission__0.0%3Aconfig_js&amp;entry=wp_wcm_modal_dialog__0.0%3Aconfig_js&amp;entry=wp_portal_ui_utils__0.0%3Aconfig_js&amp;entry=wp_content_mapping_picker__0.0%3Aconfig_js&amp;entry=wp_dialog_main__0.0%3Aconfig_js&amp;entry=wp_contextmenu_js__0.0%3Aconfig_js&amp;entry=wp_liveobject_framework__0.0%3Aconfig_js&amp;entry=wp_contextmenu_live_object__0.0%3Aconfig_js&amp;entry=wp_content_targeting_cam__0.0%3Aconfig_js&amp;entry=mm_delete_control__0.0%3Aconfig_js&amp;entry=mm_delete_page__0.0%3Aconfig_js&amp;entry=wp_theme_menus__0.0%3Aconfig_js&amp;entry=wp_theme_skin_region__0.0%3Aconfig_js&amp;entry=wp_managed_pages_support_edit__0.0%3Aconfig_js&amp;entry=wp_project_menu_edit__0.0%3Aconfig_js&amp;entry=wp_federated_documents_picker__0.0%3Aconfig_js&amp;entry=wp_template_select_dialog__0.0%3Aconfig_js&amp;entry=wp_project_menu__0.0%3Aconfig_js&amp;entry=wp_pagebuilder_data__0.0%3Aconfig_js&amp;entry=wp_pagebuilder_dnd__0.0%3Aconfig_js&amp;entry=mm_move_page__0.0%3Aconfig_js&amp;entry=wp_pagebuilder_controls__0.0%3Aconfig_js&amp;entry=wp_theme_high_contrast__0.0%3Aconfig_js&amp;entry=wp_pagebuilder_shelf_base__0.0%3Aconfig_js&amp;entry=wp_analytics__0.0%3Aconfig_js&amp;entry=wp_theme_edit__0.0%3Aconfig_js&amp;entry=wp_theme_widget__0.0%3Aconfig_js&amp;entry=wp_toolbar__0.0%3Aconfig_js&amp;entry=wp_status_bar__0.0%3Aconfig_js&amp;entry=mm_builder_wiring__0.0%3Aconfig_js"></script><span id="componentActionMenuTemplate" class="wpthemeMenu"
+    data-positioning-handler="verticallyCenteredRightHand">
+    <div class="wpthemeMenuBorder">
+        <!-- define the menu item template inside the "ul" element.  only "css-class", "description", and "title" are handled by the theme's sample javascript. -->
+        <ul class="wpthemeMenuDropDown wpthemeTemplateMenu" role="menu">
+            <li class="${css-class}" role="menuitem" tabindex="-1"><span
+                class="wpthemeMenuText">${title}</span></li>
+        </ul>
+        <div class="verticalMenuPointer pointer"></div>
+    </div> <!-- Template for loading -->
+    <div class="wpthemeMenuLoading wpthemeTemplateLoading">${loading}</div>
+    <!-- Template for submenu -->
+    <div class="wpthemeAnchorSubmenu wpthemeTemplateSubmenu">
+        <div class="wpthemeMenuBorder wpthemeMenuSubmenu">
+            <ul id="${submenu-id}" class="wpthemeMenuDropDown"
+                role="menu">
+                <li role="menuitem" tabindex="-1"></li>
+            </ul>
+        </div>
+    </div>
+</span><span id="inlineEditMenuTemplate" class="wpthemeMenu lotusui30"
+    data-positioning-handler="horizontallyCenteredBelow">
+    <div>
+        <ul role="menu" class="wpthemeMenuInlineList wpthemeTemplateMenu">
+            <li tabindex="-1" role="menuitem" class="${css-class}"><span class="wpthemeMenuText">${title}</span></li>
+        </ul>
+        <div class="horizontalMenuPointer pointer"></div>
+    </div>
+    <div class="wpthemeMenuLoading wpthemeTemplateLoading">${loading}</div>
+</span>
+<div class="iw-iWidget mumHiddenWidget iw-Standalone" id="newPage">
+	<a class="iw-Definition" href="/wps/mccbuilder.v3001/widget-catalog/NewPageDialog.xml?pragma=cache&max-age=1209600&cache-scope=public&vary=none&user-context=false"></a>
+	<span class="iw-ItemSet" title="attributes">
+		<a class="iw-Item" href="#controller">ibmCfg.controllers.navigation</a>
+		<a class="iw-Item" href="#showFriendlyURL">true</a>
+		<a class="iw-Item" href="#showMakePrivate">true</a>
+		<a class="iw-Item" href="#showPageTemplate">true</a>
+	</span>
+</div>
+
+<div class="iw-iWidget mumHiddenWidget iw-Standalone" lazyLoad="true" id="sharePage">
+	<a class="iw-Definition" href="/wps/mccbuilder.v3001/widget-catalog/accessControl.xml?pragma=cache&max-age=1209600&cache-scope=public&vary=none&user-context=false"></a>
+</div>   
+<div class="iw-iWidget mumHiddenWidget iw-Standalone" lazyLoad="true" id="viewMorePage">
+	<a class="iw-Definition" href="/wps/mccbuilder.v3001/widget-catalog/viewMorePage.xml?pragma=cache&max-age=1209600&cache-scope=public&vary=none&user-context=false"></a>							
+</div>         
+<div class="iw-iWidget iw-Standalone" id="sharedPagesDialogDisplayer">
+	<a class="iw-Definition" href="/wps/mccbuilder.v3001/widget-catalog/displayHelper.xml?pragma=cache&max-age=1209600&cache-scope=public&vary=none&user-context=false"> </a>
+	<span class="iw-ItemSet" title="attributes">
+		<a class="iw-Item" href="#sharePage">sharePage</a>
+		<a class="iw-Item" href="#viewMorePage">viewMorePage</a>
+	</span>
+</div>
+<div class="iw-iWidget mumHiddenWidget iw-Standalone" id="templateSelect">
+	<a class="iw-Definition" href="/wps/themeModules/modules/pagebuilder/xml/TemplateSelectDialog.xml?pragma=cache&amp;max-age=1209600&amp;cache-scope=public&amp;vary=none&amp;user-context=false"></a>
+	<span class="iw-ItemSet" title="attributes">
+		<a class="iw-Item" href="#controller">ibmCfg.controllers.navigation</a>
+	</span>
+</div>
+<div class="iw-iWidget mumHiddenWidget iw-Standalone" lazyLoad="true" id="reorderPage">
+	<a class="iw-Definition" href="/wps/mccbuilder.v3001/widget-catalog/reorderPageWidget.xml?pragma=cache&max-age=1209600&cache-scope=public&vary=none&user-context=false"></a>
+</div>   
+<div class="iw-iWidget iw-Standalone" id="movePagesDialogDisplayer">
+	<a class="iw-Definition" href="/wps/mccbuilder.v3001/widget-catalog/displayHelper.xml?pragma=cache&max-age=1209600&cache-scope=public&vary=none&user-context=false"> </a>
+	<span class="iw-ItemSet" title="attributes">
+		<a class="iw-Item" href="#reorderPage">reorderPage</a>
+	</span>
+</div>
+<div class="iw-iWidget iw-Standalone" id="theme-toolbar-widget">
+	<a class="iw-Definition" href="/wps/themeModules/modules/pagebuilder/xml/universalToolbar.xml"></a>
+	<span class="iw-ItemSet" title="attributes">
+		<a class="iw-Item" href="#rootID">theme-toolbar</a>
+		<a class="iw-Item" href="#shelfRootID">utb-shelf</a>
+	</span>
+</div>
+
+<div class="iw-iWidget mumHiddenWidget iw-Standalone" lazyLoad="true" id="wireInterface">
+	<a class="iw-Definition" href="/wps/mccbuilder.v3001/widget-catalog/wireInterfaceWithSettings.xml?pragma=cache&max-age=1209600&cache-scope=public&vary=none&user-context=false"></a>
+	<span class="iw-ItemSet" title="attributes">
+		<a class="iw-Item" href="#displaySettings">true</a>
+		<a class="iw-Item" href="#displayPortletsAndWidgetsWarningMessage">true</a>
+	</span>
+</div>
+<div class="iw-iWidget mumHiddenWidget iw-Standalone"  id="autoWiringManager">
+	<a class="iw-Definition" href="/wps/mccbuilder.v3001/widget-catalog/autoWiringManager.xml?pragma=cache&max-age=1209600&cache-scope=public&vary=none&user-context=false"></a>         
+</div>
+<div class="iw-iWidget iw-Standalone" id="wiringDialogDisplayer">
+	<a class="iw-Definition" href="/wps/mccbuilder.v3001/widget-catalog/displayHelper.xml?pragma=cache&max-age=1209600&cache-scope=public&vary=none&user-context=false"> </a>
+	<span class="iw-ItemSet" title="attributes">
+		<a class="iw-Item" href="#wireInterface">wireInterface</a>
+		<a class="iw-Item" href="#autoWiringManager">autoWiringManager</a>
+	</span>
+</div></div>
+</body>
+</html>

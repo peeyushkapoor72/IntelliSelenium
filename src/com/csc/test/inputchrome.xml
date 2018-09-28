@@ -1,0 +1,1313 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport"
+			content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1">
+			<!-- rel=dynamic-content indicates an element that is replaced with the 
+				contents produced by the specified href. dyn-cs:* URIs are resolved using 
+				the WP DynamicContentSpotMappings resource environment provider. These values 
+				can also be set using theme metadata if a theme is specified in the URI (e.g. 
+				@tl:oid:theme_unique_name). -->
+			<link rel="stylesheet"
+				href="/wps/contenthandler/!ut/p/digest!z3YBj4v1HDd8rl3GY8zRZA/sp/mashup:ra:collection?soffset=0&amp;eoffset=7&amp;themeID=ZJ_2Q9AGJ42JGFB70A8PBRL4Q0003&amp;locale=en&amp;mime-type=text%2Fcss&amp;entry=wp_social_rendering__0.0%3Ahead_css&amp;entry=wp_one_ui_30__0.0%3Ahead_css&amp;entry=wp_one_ui_dijit_30__0.0%3Ahead_css&amp;entry=wp_tagging_rating__0.0%3Ahead_css&amp;entry=wp_oob_sample_styles__0.0%3Ahead_css&amp;entry=wp_content_mapping_picker__0.0%3Ahead_css&amp;entry=wp_dialog_css__0.0%3Ahead_css&amp;entry=wp_contextmenu_css__0.0%3Ahead_css&amp;entry=wcm_inplaceEdit__0.0%3Ahead_css&amp;entry=wp_preview__0.0%3Ahead_css&amp;entry=wp_content_targeting_cam__0.0%3Ahead_css&amp;entry=wp_legacy_layouts__0.0%3Ahead_css&amp;entry=wp_theme_portal_80__0.0%3Ahead_css&amp;entry=wp_federated_documents_picker__0.0%3Ahead_css&amp;entry=mm_builder_dialogs__0.0%3Ahead_css&amp;entry=mm_page_sharing_base__0.0%3Ahead_css&amp;entry=wp_project_menu__0.0%3Ahead_css&amp;entry=wp_pagebuilder_dnd__0.0%3Ahead_css&amp;entry=mm_move_page__0.0%3Ahead_css&amp;entry=wp_analytics__0.0%3Ahead_css&amp;entry=wp_toolbar__0.0%3Ahead_css&aamp;entry=wp_status_bar__0.0%3Ahead_css&amp;entry=mm_builder_wiring__0.0%3Ahead_css&amp;entry=wp_portlet_css__0.0%3Ahead_css"
+				type="text/css" />
+			<link rel="stylesheet"
+				href="/wps/contenthandler/!ut/p/digest!z3YBj4v1HDd8rl3GY8zRZA/sp/mashup:ra:collection?soffset=7&amp;eoffset=34&amp;themeID=ZJ_2Q9AGJ42JGFB70A8PBRL4Q0003&amp;locale=en&amp;mime-type=text%2Fcss&amp;entry=wp_social_rendering__0.0%3Ahead_css&amp;entry=wp_one_ui_30__0.0%3Ahead_css&amp;entry=wp_one_ui_dijit_30__0.0%3Ahead_css&amp;entry=wp_tagging_rating__0.0%3Ahead_css&amp;entry=wp_oob_sample_styles__0.0%3Ahead_css&amp;entry=wp_content_mapping_picker__0.0%3Ahead_css&amp;entry=wp_dialog_css__0.0%3Ahead_css&amp;entry=wp_contextmenu_css__0.0%3Ahead_css&amp;entry=wcm_inplaceEdit__0.0%3Ahead_css&amp;entry=wp_preview__0.0%3Ahead_css&amp;entry=wp_content_targeting_cam__0.0%3Ahead_css&amp;entry=wp_legacy_layouts__0.0%3Ahead_css&amp;entry=wp_theme_portal_80__0.0%3Ahead_css&amp;entry=wp_federated_documents_picker__0.0%3Ahead_css&amp;entry=mm_builder_dialogs__0.0%3Ahead_css&amp;entry=mm_page_sharing_base__0.0%3Ahead_css&amp;entry=wp_project_menu__0.0%3Ahead_css&amp;entry=wp_pagebuilder_dnd__0.0%3Ahead_css&amp;entry=mm_move_page__0.0%3Ahead_css&amp;entry=wp_analytics__0.0%3Ahead_css&amp;entry=wp_toolbar__0.0%3Ahead_css&amp;entry=wp_status_bar__0.0%3Ahead_css&amp;entry=mm_builder_wiring__0.0%3Ahead_css&amp;entry=wp_portlet_css__0.0%3Ahead_css"
+				type="text/css" />
+			<link rel="stylesheet"
+				href="/wps/contenthandler/!ut/p/digest!z3YBj4v1HDd8rl3GY8zRZA/sp/mashup:ra:collection?soffset=34&amp;eoffset=36&amp;themeID=ZJ_2Q9AGJ42JGFB70A8PBRL4Q0003&amp;locale=en&amp;mime-type=text%2Fcss&amp;entry=wp_social_rendering__0.0%3Ahead_css&amp;entry=wp_one_ui_30__0.0%3Ahead_css&amp;entry=wp_one_ui_dijit_30__0.0%3Ahead_css&amp;entry=wp_tagging_rating__0.0%3Ahead_css&amp;entry=wp_oob_sample_styles__0.0%3Ahead_css&amp;entry=wp_content_mapping_picker__0.0%3Ahead_css&amp;entry=wp_dialog_css__0.0%3Ahead_css&amp;entry=wp_contextmenu_css__0.0%3Ahead_css&amp;entry=wcm_inplaceEdit__0.0%3Ahead_css&amp;entry=wp_preview__0.0%3Ahead_css&amp;entry=wp_content_targeting_cam__0.0%3Ahead_css&amp;entry=wp_legacy_layouts__0.0%3Ahead_css&amp;entry=wp_theme_portal_80__0.0%3Ahead_css&amp;entry=wp_federated_documents_picker__0.0%3Ahead_css&amp;entry=mm_builder_dialogs__0.0%3Ahead_css&amp;entry=mm_page_sharing_base__0.0%3Ahead_css&amp;entry=wp_project_menu__0.0%3Ahead_css&amp;entry=wp_pagebuilder_dnd__0.0%3Ahead_css&amp;entry=mm_move_page__0.0%3Ahead_css&amp;entry=wp_analytics__0.0%3Ahead_css&amp;entry=wp_toolbar__0.0%3Ahead_css&amp;entry=wp_status_bar__0.0%3Ahead_css&amp;entry=mm_builder_wiring__0.0%3Ahead_css&amp;entry=wp_portlet_css__0.0%3Ahead_css"
+				type="text/css" />
+			<script type="text/javascript">var
+				djConfig={"baseUrl":"/wps/portal_dojo/v1.7/dojo/","locale":"en","isDebug":false,"debugAtAllCosts":false,"parseOnLoad":false,"afterOnLoad":false,"modulePaths":{"com":"/wps/themeModules/js/com","ibm":"/wps/themeModules/js/ibm"}};djConfig.locale=djConfig.locale.replace(/_/g,
+				"-").replace(/iw/, "he").toLowerCase();</script>
+			<script type="text/javascript"
+				src="/wps/contenthandler/!ut/p/digest!Uauf0XNCLKlNsdgpdqHEIA/mashup/ra:collection?themeID=ZJ_2Q9AGJ42JGFB70A8PBRL4Q0003&amp;locale=en&amp;mime-type=text%2Fplain&amp;entry=dojo_17__0.0%3Ahead_js&amp;entry=dojo_fx_17__0.0%3Ahead_js&amp;entry=dojo_fmt_17__0.0%3Ahead_js&amp;entry=dojo_dom_17__0.0%3Ahead_js&amp;entry=dojo_app_17__0.0%3Ahead_js&amp;entry=dijit_17__0.0%3Ahead_js&amp;entry=dojo_dnd_basic_17__0.0%3Ahead_js&amp;entry=dojo_dnd_ext_17__0.0%3Ahead_js&amp;entry=dijit_layout_basic_17__0.0%3Ahead_js&amp;entry=dijit_menu_17__0.0%3Ahead_js&amp;entry=dojo_data_17__0.0%3Ahead_js&amp;entry=dijit_form_17__0.0%3Ahead_js&amp;entry=dijit_layout_ext_17__0.0%3Ahead_js&amp;entry=dojox_xml_17__0.0%3Ahead_js&amp;entry=dojox_io_17__0.0%3Ahead_js&amp;entry=wp_client_main__0.0%3Ahead_js&amp;entry=wp_client_ext__0.0%3Ahead_js&amp;entry=wp_client_selector__0.0%3Ahead_js&amp;entry=wp_dialog_util__0.0%3Ahead_js&amp;entry=wp_dialog_main__0.0%3Ahead_js&amp;entry=wp_contextmenu_js__0.0%3Ahead_js&amp;entry=wcm_inplaceEdit__0.0%3Ahead_js&amp;entry=dojox_fx_17__0.0%3Ahead_js&amp;entry=dojox_gfx_17__0.0%3Ahead_js&amp;entry=dojox_charting_17__0.0%3Ahead_js&amp;entry=dojox_layout_basic_17__0.0%3Ahead_js&amp;entry=dojox_collections_17__0.0%3Ahead_js&amp;entry=dojox_uuid_17__0.0%3Ahead_js&amp;entry=dojox_data_basic_17__0.0%3Ahead_js&amp;entry=dojox_aspect_17__0.0%3Ahead_js&amp;entry=wp_theme_portal_80__0.0%3Ahead_js&amp;entry=celeriti_theme_portal_8001__0.0%3Ahead_js&amp;entry=wp_analytics_aggregator__0.0%3Ahead_js&amp;entry=wp_portal_client_utils__0.0%3Ahead_js&amp;entry=dijit_tree_17__0.0%3Ahead_js&amp;entry=wp_portlet_client_model__0.0%3Ahead_js&amp;entry=mm_open_ajax_hub__0.0%3Ahead_js"></script><!--[if IE 7]> <script type="text/javascript">document.getElementsByTagName("html")[0].className+=" 
+				lotusui_ie lotusui_ie7";</script> <![endif] -->
+			<!--[if IE 8]> <script type="text/javascript">document.getElementsByTagName("html")[0].className+=" 
+				lotusui_ie8";</script> <![endif] -->
+			<!--[if IE 9]> <script type="text/javascript">document.getElementsByTagName("html")[0].className+=" 
+				lotusui_ie9";</script> <![endif] -->
+			<style id="layout-wstate-styles"></style>
+
+			<link rel="schema.PORTAL_CP"
+				href="http://www.ibm.com/xmlns/prod/websphere/portal/v7.0/portal-contextual-portal" />
+
+
+			<title>Welcome</title>
+
+			<link id="com.ibm.lotus.NavStateUrl" rel="alternate"
+				href="/wps/portal/Home/Welcome/!ut/p/a1/04_Sj9CPykssy0xPLMnMz0vMAfGjzOKd3R09TMx9DAwsXFycDTxdnCzN_MxMDQxcDYAKIoEKDHAARwNC-sP1o1CVGJhYGIGUeLiYW_oaGHiaQRXgsaIgN8Ig01FREQDGF4rz/dl5/d5/L2dJQSEvUUt3QS80SmlFL1o2X0NHQUg0N0wwMDhEREMwSURCOTZONjUwMEUw/" />
+
+			<link rel="bookmark" title='Welcome'
+				href='/wps/portal/Home/Welcome/!ut/p/a1/04_Sj9CPykssy0xPLMnMz0vMAfGjzOKd3R09TMx9DAwsXFycDTxdnCzN_MxMDQxcDYAKIoEKDHAARwNC-sP1o1CVGJhYGIGUeLiYW_oaGHiaQRXgsaIgN8Ig01FREQDGF4rz/dl5/d5/L2dJQSEvUUt3QS80SmlFL1o2X0NHQUg0N0wwMDhEREMwSURCOTZONjUwMEUw/'
+				hreflang="en" />
+
+			<script src="js/modernizr.js"></script>
+			<link rel="stylesheet" href="css/glyphicons.css">
+				<link rel="stylesheet" href="css/halflings.css">
+					<link rel="stylesheet" href="css/social.css">
+						<link rel="stylesheet" href="css/filetypes.css">
+
+
+							<link
+								href="/CeleritiTheme8001/themes/CeleritiTheme8001/images/cscicon.ico"
+								rel="shortcut icon" type="image/x-icon" />
+
+							<link title="assigned"
+								href="/wps/contenthandler/!ut/p/war/CeleritiTheme8001/themes/CeleritiTheme8001/css/blue/blue.css"
+								rel="stylesheet" type="text/css" /><!-- rendering is delegated to 
+								the specified href for each locale -->
+	</head>
+	<body class="lotusui30dojo tundra locale_en">
+
+		<div class="wpthemeFrame">
+
+			<header role="banner">
+
+				<div class="wpthemeHeader">
+					<!-- inserts the managed pages preview mode contributions -->
+					<div class="wpthemeInner">
+						<div class="celeritiThemeLogo">
+							<span class="celeritiThemeLogoText wpthemeLeft">celeriti</span>
+						</div>
+
+						<!-- renders the top navigation -->
+
+						<div class="wpthemeNavContainer1">
+							<nav class="wpthemeHeaderNav">
+								<ul class="wpthemeNavList">
+
+									<li class="wpthemeNavListItem wpthemeLeft wpthemeSelected">
+										<a href="?uri=nm:oid:Z6_CGAH47L0004820IDBHD79M00I6" class="wpthemeLeft wpthemeFirst">
+											<span lang="en" dir="ltr">Celeriti</span>
+										</a>
+
+									</li>
+
+								</ul>
+							</nav>
+							<div class="wpthemeClear"></div>
+						</div>
+						<!-- displays the state of the current page -->
+						<div class="wpthemeRight">
+						</div>
+					</div>
+				</div><!-- end header -->
+
+				<!-- inserts the universal toolbar -->
+				<div class="wpthemeBanner">
+					<div class="celeritiThemeBanner">
+						<div class="wpthemeInner">
+
+							<ul class="wpthemeCommonActions wpthemeLeft">
+
+								<li>
+									<span class="wpthemeBranding">
+
+										<a class="wpthemeBrandingLink" href="?uri=nm:oid:Z6_CGAH47L0004820IDBHD79M00I6"
+											alt="Celeriti">
+											<img
+												src="/wps/themeModules/themes/html/dynamicSpots/icons/blank.gif"
+												alt="Celeriti Logo" />
+										</a>
+										<span class="celeritiThemeLogoText">celeriti</span>
+									</span>
+								</li>
+							</ul>
+							<ul class="wpthemeCommonActions wpthemeRight">
+
+								<li class="wpthemeFirst" id="wpthemeSignUp">
+
+									<a
+										href='/wps/portal/!ut/p/a1/04_Sj9CPykssy0xPLMnMz0vMAfGjzOKd3R09TMx9DAwsXFycDTxdnCzN_MxMDQxcDYAKIoEKDHAARwNC-sP1o1CVGJhYGIGUeLiYW_oaGHiaQRXgsaIgN8Ig01FREQDGF4rz/dl5/d5/L0lJSkpKSUtVSkNncFJDZ3BSQSEhL29Cd3dBQUFZUUFBRUl3UWxDVUl6Z3VDWnlTcEtaSUEhLzRKaUYwQWtLTUlRaWt5RktOUmprS2NhZ2tBISEvWjZfQ0dBSDQ3TDAwMDQ4MjBJREJIRDc5TTAwRTEvWjdfQ0dBSDQ3TDAwMDQ4MjBJREJIRDc5TTAwVTIvbm9ybWFsL2FvL3RobS9PQ04vWjZfQ0dBSDQ3TDAwOEREQzBJREI5Nk42NTAwRTA!/#Z7_CGAH47L0004820IDBHD79M00U2'>Sign Up</a>
+
+								</li>
+
+								<li class="wpthemeLast" id="wpthemeLogin">
+
+									<a
+										href='/wps/myportal/!ut/p/a0/04_Sj9CPykssy0xPLMnMz0vMAfGjzOINcABHA_2CbEdFAJhiXVo!/'>
+										Log In</a>
+
+								</li>
+
+							</ul>
+							<div class="wpthemeClear"></div>
+						</div>
+					</div>
+				</div><!--end main banner -->
+
+				<div class="wpthemeBanner wpthemeBannerPrimaryNavigation">
+					<div class="celeritiThemeBanner">
+						<div class="wpthemeInner">
+
+							<div class="wpthemeNavContainer1">
+								<nav id="primaryNavLevel1" class="celeritiThemePrimaryNav">
+									<ul class="celeritiThemeNavList">
+										<!-- c:forEach var="node" items="[Welcome, Why Celeriti, About 
+											Us]" varStatus="primaryNavItem" -->
+										<li class="wpthemeLeft wpthemeSelected">
+											<a href="?uri=nm:oid:Z6_CGAH47L008DDC0IDB96N6500E0" class=" wpthemeFirst">
+												<span lang="en" dir="ltr">
+													Welcome
+													<span class="wpthemeAccess"> currently selected</span>
+												</span>
+											</a>
+
+										</li>
+										<!-- c:forEach var="node" items="[Welcome, Why Celeriti, About 
+											Us]" varStatus="primaryNavItem" -->
+										<li class="wpthemeLeft">
+											<a href="?uri=nm:oid:Z6_2Q9AGJ42J87R50A2K2TEOK00K2" class="">
+												<span lang="en" dir="ltr">Why Celeriti</span>
+											</a>
+
+										</li>
+										<!-- c:forEach var="node" items="[Welcome, Why Celeriti, About 
+											Us]" varStatus="primaryNavItem" -->
+										<li class="wpthemeLeft">
+											<a href="?uri=nm:oid:Z6_2Q9AGJ42J87R50A2K2TEOK00C6" class="">
+												<span lang="en" dir="ltr">About Us</span>
+											</a>
+
+										</li>
+
+									</ul>
+								</nav>
+								<div class="wpthemeClear"></div>
+							</div>
+							<div class="wpthemeClear"></div>
+						</div>
+					</div>
+				</div><!--end main banner -->
+
+			</header>
+
+			<div class="wpthemeMainContent" role="main">
+				<div class="wpthemeInner">
+					<!-- asa markup contributions for pages -->
+
+
+					<div class="asa.page" id="asa.page" style="display:none;">
+						<span class="asa.page.id">Z6_CGAH47L008DDC0IDB96N6500E0</span>
+
+
+
+					</div>
+
+					<div class="wpthemeClear"></div>
+
+					<div class="wpthemeInner">
+						<div id="wpthemeStatusBarContainer" class="lotusui30">
+
+							<noscript>
+								<div class="lotusMessage2" role="alert" wairole="alert">
+									<img class="lotusIcon lotusIconMsgError" src="icons/blank.gif"
+										alt="Error" />
+									<span class="lotusAltText">Error:</span>
+									<div class="lotusMessageBody">Javascript is disabled in this browser. This
+										page requires Javascript. Modify your browser's settings to
+										allow Javascript to execute. See your browser's documentation
+										for specific instructions.</div>
+								</div>
+							</noscript>
+						</div>
+					</div>
+				</div>
+
+				<!-- required - do not remove -->
+				<div style="display:none" id="portletState">{}</div>
+				<div id="layoutContainers" class="wpthemeLayoutContainers wpthemeLayoutContainersHidden">
+					<div class="wpthemeInner">
+						<div class="hiddenWidgetsDiv">
+							<!-- widgets in this container are hidden in the UI by default -->
+							<div
+								class='component-container ibmDndRow wpthemeCol12of12 hiddenWidgetsContainer wpthemeFull id-Z7_CGAH47L008DDC0IDB96N6500E1'
+								name='ibmHiddenWidgets'></div>
+							<div style="clear:both"></div>
+						</div>
+						<!-- this layout has two columns with right column assigned a smaller 
+							width -->
+						<div class="wptheme2Col wpthemeUnequal wptheme2ColLeft">
+							<div
+								class='component-container wpthemeCol8of12 wpthemeCol wpthemeWide wpthemeLeft ibmDndColumn wpthemePrimaryContainer id-Z7_CGAH47L008DDC0IDB96N6500E5'
+								name='ibmMainContainer'>
+								<div class='component-control id-Z7_2Q9AGJ42J87R50A2K2TEOK0003'>
+									<span id="Z7_2Q9AGJ42J87R50A2K2TEOK0003"></span>
+									<section
+										class="ibmPortalControl wpthemeControl wpthemeStandard a11yRegionTarget"
+										role="region">
+
+
+
+
+										<div class="asa.portlet" id="asa.portlet.Z7_2Q9AGJ42J87R50A2K2TEOK0003"
+											style="display:none;">
+											<span class="asa.portlet.id">Z7_2Q9AGJ42J87R50A2K2TEOK0003</span>
+
+
+
+										</div>
+
+										<!-- start header markup -->
+										<header class="wpthemeControlHeader dojoDndHandle">
+											<div class="wpthemeInner">
+												<h2>
+													<!-- lm-dynamic-title node marks location for dynamic title 
+														support -->
+													<span class="lm-dynamic-title asa.portlet.title a11yRegionLabel">Welcome</span>
+												</h2>
+
+												<!-- Dynamic content spot to control Portlet Menu visibility 
+													in Standard Skin.(portletMenu.jsp) -->
+											</div>
+										</header>
+
+										<div class="wpthemeControlBody wpthemeOverflowAuto wpthemeClear"> <!-- lm:control dynamic spot injects markup of layout control -->
+											<!-- asa.overlay marks the node that the AsaOverlayWidget will 
+												be placed in -->
+											<div style="position:relative; z-index: 1;">
+												<div class="analytics.overlay"></div>
+											</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+											<div class="lotusui30 oobSampleContentContainer"
+												tabindex="0" role="toolbar" aria-label="Authoring Tools"
+												onfocus="if(ec = document.getElementById('EditControl_713fdcfa-eeb2-438e-81c8-b51f4920cd8e')){ec.style.display ='block';}">
+
+												<div class="oobSampleRichText">
+													<div dir="ltr" id="lipsum">
+														<div dir="ltr" id="lipsum">
+															<h1 class="hdr-h1"
+																style="margin: 0px 0px 1.2em; padding: 0px; font-size: 2.25rem; line-height: 1.1em; font-weight: normal; color: rgb(0, 0, 0); font-family: Arial, sans-serif;">
+																<span style="font-size:24px;">
+																	<span style="font-family:verdana,geneva,sans-serif;">Celeriti™: Enterprise Banking &amp;
+																		Lending Software</span>
+																</span>
+															</h1>
+															<p>
+																<img
+																	src="/wps/wcm/connect/91a4d2bc-06cd-4b87-9b71-5482fd51b13c/1/celeriti_top.PNG?MOD=AJPERES&amp;CACHEID=91a4d2bc-06cd-4b87-9b71-5482fd51b13c/1"
+																	style="width: 500px; height: 67px; float: left; border-width: 0px; border-style: solid;"
+																	title="" />
+															</p>
+															<p
+																style="margin: 0px; padding: 0.3em 0px 0.5em; color: rgb(116, 118, 120); line-height: 1.25em; font-family: Arial, sans-serif;">
+			&nbsp;
+															</p>
+															<p
+																style="margin: 0px; padding: 0.3em 0px 0.5em; color: rgb(116, 118, 120); line-height: 1.25em; font-family: Arial, sans-serif;">
+			&nbsp;
+															</p>
+															<p
+																style="margin: 0px; padding: 0.3em 0px 0.5em; color: rgb(116, 118, 120); line-height: 1.25em; font-family: Arial, sans-serif;">
+			&nbsp;
+															</p>
+															<h2
+																style="margin: 0px; padding: 0.3em 0px 0.5em; color: rgb(116, 118, 120); line-height: 1.25em; font-family: Arial, sans-serif;">
+																<span style="color:#000080;">
+																	<span style="font-size:18px;">
+																		<span style="font-family:verdana,geneva,sans-serif;">Modernize, increase speed and meet
+																			customer demands.</span>
+																	</span>
+																</span>
+															</h2>
+															<h3
+																style="margin: 0px; padding: 0.3em 0px 0.5em; color: rgb(116, 118, 120); line-height: 1.25em; font-family: Arial, sans-serif;">
+																<span style="color:#696969;">
+																	<span style="font-size:14px;">
+																		<span style="line-height: 18px;">Celeriti™ is CSC's end-to-end suite
+																			of SOA-based enterprise software for banking, cards,
+																			payments and lending. Celeriti gives financial
+																			services organizations of all sizes the latest
+																			technology at a lower cost of ownership. With
+																			Celeriti you can gain speed and certainty, and:
+																		</span>
+																	</span>
+																</span>
+															</h3>
+															<ul
+																style="margin: 0px 0px 2em; padding: 0px; color: rgb(116, 118, 120); font-family: Arial, sans-serif; line-height: 18px;">
+																<li
+																	style="margin: 0px; padding: 0px 0px 0px 17px; line-height: 1.5em; list-style: none; background: url(http://www.csc.com/assets/new/triangles.png) 0px -189px no-repeat;">
+																	<span style="font-family:verdana,geneva,sans-serif;">Expand delivery channel capabilities
+																	</span>
+																</li>
+																<li
+																	style="margin: 0px; padding: 0px 0px 0px 17px; line-height: 1.5em; list-style: none; background: url(http://www.csc.com/assets/new/triangles.png) 0px -189px no-repeat;">
+																	<span style="font-family:verdana,geneva,sans-serif;">Ensure a seamless customer experience
+																	</span>
+																</li>
+																<li
+																	style="margin: 0px; padding: 0px 0px 0px 17px; line-height: 1.5em; list-style: none; background: url(http://www.csc.com/assets/new/triangles.png) 0px -189px no-repeat;">
+																	<span style="font-family:verdana,geneva,sans-serif;">Achieve a flexible, easy-to-integrate
+																		systems environment</span>
+																</li>
+																<li
+																	style="margin: 0px; padding: 0px 0px 0px 17px; line-height: 1.5em; list-style: none; background: url(http://www.csc.com/assets/new/triangles.png) 0px -189px no-repeat;">
+																	<span style="font-family:verdana,geneva,sans-serif;">Take advantage of the latest
+																		deployment models</span>
+																</li>
+																<li
+																	style="margin: 0px; padding: 0px 0px 0px 17px; line-height: 1.5em; list-style: none; background: url(http://www.csc.com/assets/new/triangles.png) 0px -189px no-repeat;">
+																	<span style="font-family:verdana,geneva,sans-serif;">Shorten time to market</span>
+																</li>
+																<li
+																	style="margin: 0px; padding: 0px 0px 0px 17px; line-height: 1.5em; list-style: none; background: url(http://www.csc.com/assets/new/triangles.png) 0px -189px no-repeat;">
+																	<span style="font-family:verdana,geneva,sans-serif;">Support global processing and
+																		international operations.</span>
+																</li>
+															</ul>
+															<p
+																style="margin: 0px; padding: 0.4em 0px; color: rgb(116, 118, 120); font-family: Arial, sans-serif; line-height: 18px;">
+																<span style="font-family:verdana,geneva,sans-serif;">Unlike software from other vendors or
+																	systems developed in house, CSC's Celeriti provides a
+																	modern, scalable, componentized architecture with
+																	sophisticated and highly flexible capabilities that
+																	adapt your organization’s processing to changing
+																	business requirements quickly and easily.</span>
+															</p>
+															<p
+																style="margin: 0px; padding: 0.4em 0px; color: rgb(116, 118, 120); font-family: Arial, sans-serif; line-height: 18px;">
+																<span style="font-family:verdana,geneva,sans-serif;">
+																	<span style="color:#4b0082;">
+																		<span
+																			style="margin: 0px; padding: 0px; font-weight: bolder;">New Celeriti Products</span>
+																	</span>
+																	<br style="margin: 0px; padding: 0px;" />
+																	At the heart of the Celeriti software suite are five
+																	components of modern technology. The Web Portal User
+																	Interface extends Web 2.0 technologies to the front and
+																	back office. Reusable SOA Business Processes and Web
+																	Services enable easier integration and maintenance of
+																	systems. The Business Intelligence and enterprisewide
+																	Data Warehouse allow you to drive business strategies
+																	based on actionable data. Business Rules and Parameters
+																	help streamline product creation and editing. And the
+																	Celeriti Distributed Platform Architecture expands
+																	usability.
+																</span>
+															</p>
+															<p
+																style="margin: 0px; padding: 0.4em 0px; color: rgb(116, 118, 120); font-family: Arial, sans-serif; line-height: 18px;">
+																<span style="font-family:verdana,geneva,sans-serif;">Celeriti also forms the basis for
+																	premise-free banking and cards processing, allowing
+																	banks to take advantage of software as a service
+																	(SaaS), cloud-based infrastructure and business process
+																	outsourcing services.</span>
+															</p>
+															<p
+																style="margin: 0px; padding: 0.4em 0px; color: rgb(116, 118, 120); font-family: Arial, sans-serif; line-height: 18px;">
+																<span style="font-family:verdana,geneva,sans-serif;">
+																	<span style="color:#4b0082;">
+																		<span
+																			style="margin: 0px; padding: 0px; font-weight: bolder;">Celeriti Components and Progressive
+																			Modernization</span>
+																	</span>
+																	<br style="margin: 0px; padding: 0px;" />
+																	CSC clients currently using&nbsp;
+																	<a
+																		href="http://www.csc.com/banking/offerings/11090/48573-hogan_systems"
+																		style="margin: 0px; padding: 0px; text-decoration: none; color: rgb(42, 93, 176); cursor: pointer;">Hogan® Banking Systems</a>&nbsp;or
+																	<a
+																		href="http://www.csc.com/banking/offerings/11090/48238-cams_ii_card_merchant_system"
+																		style="margin: 0px; padding: 0px; text-decoration: none; color: rgb(42, 93, 176); cursor: pointer;">&nbsp;CAMS
+																		II™ Card &amp; Merchant System
+																	</a>&nbsp;can
+																	achieve Celeriti capabilities by implementing the
+																	separate Celeriti components as needed. CSC delivers
+																	these through an approach called Progressive
+																	Modernization that lets you update your systems
+																	environment incrementally according to business needs
+																	and priorities. Choose some or all of Celeriti’s
+																	components:
+																</span>
+															</p>
+															<ul
+																style="margin: 0px 0px 2em; padding: 0px; color: rgb(116, 118, 120); font-family: Arial, sans-serif; line-height: 18px;">
+																<li
+																	style="margin: 0px; padding: 0px 0px 0px 17px; line-height: 1.5em; list-style: none; background: url(http://www.csc.com/assets/new/triangles.png) 0px -189px no-repeat;">
+																	<span style="font-family:verdana,geneva,sans-serif;">
+																		<a
+																			href="http://assets1.csc.com/banking/downloads/1219BANK_OverviewCeleritiWebPortal_T.pdf"
+																			target="_blank"
+																			style="margin: 0px; padding: 0px; text-decoration: none; color: rgb(42, 93, 176); cursor: pointer;">Web Portal User Interface</a>&nbsp;(168
+																		KB PDF)
+																	</span>
+																</li>
+																<li
+																	style="margin: 0px; padding: 0px 0px 0px 17px; line-height: 1.5em; list-style: none; background: url(http://www.csc.com/assets/new/triangles.png) 0px -189px no-repeat;">
+																	<span style="font-family:verdana,geneva,sans-serif;">
+																		<a
+																			href="http://assets1.csc.com/banking/downloads/1222BANK_CeleritiSOA_T.pdf"
+																			target="_blank"
+																			style="margin: 0px; padding: 0px; text-decoration: none; color: rgb(42, 93, 176); cursor: pointer;">SOA Business Processes and Web Services</a>&nbsp;(338
+																		KB PDF)
+																	</span>
+																</li>
+																<li
+																	style="margin: 0px; padding: 0px 0px 0px 17px; line-height: 1.5em; list-style: none; background: url(http://www.csc.com/assets/new/triangles.png) 0px -189px no-repeat;">
+																	<span style="font-family:verdana,geneva,sans-serif;">
+																		<a
+																			href="http://assets1.csc.com/banking/downloads/1223BANK_5482_03_Celeriti_BusIntell_T.pdf"
+																			target="_blank"
+																			style="margin: 0px; padding: 0px; text-decoration: none; color: rgb(42, 93, 176); cursor: pointer;">Business Intelligence and Data Warehouse</a>&nbsp;(274
+																		KB PDF)
+																	</span>
+																</li>
+																<li
+																	style="margin: 0px; padding: 0px 0px 0px 17px; line-height: 1.5em; list-style: none; background: url(http://www.csc.com/assets/new/triangles.png) 0px -189px no-repeat;">
+																	<span style="font-family:verdana,geneva,sans-serif;">Business Rules and Parameters</span>
+																</li>
+																<li
+																	style="margin: 0px; padding: 0px 0px 0px 17px; line-height: 1.5em; list-style: none; background: url(http://www.csc.com/assets/new/triangles.png) 0px -189px no-repeat;">
+																	<span style="font-family:verdana,geneva,sans-serif;">
+																		<a
+																			href="http://assets1.csc.com/banking/downloads/1224BANK_CeleritiDistPlatform_T.pdf"
+																			target="_blank"
+																			style="margin: 0px; padding: 0px; text-decoration: none; color: rgb(42, 93, 176); cursor: pointer;">Distributed Platform Architecture</a>&nbsp;(275
+																		KB PDF).
+																	</span>
+																</li>
+															</ul>
+															<p
+																style="margin: 0px; padding: 0.4em 0px; color: rgb(116, 118, 120); font-family: Arial, sans-serif; line-height: 18px;">
+																<span style="font-family:verdana,geneva,sans-serif;">Progressive Modernization is truly the
+																	lowest-cost, lowest-risk path to new technology
+																	compared to a rip-and-replace project. New components
+																	are delivered in smaller updates that can coexist with
+																	your current capabilities, allowing gradual cutover to
+																	the new capabilities. CSC can work with you to develop
+																	a customized roadmap, a unique transformation plan that
+																	aligns CSC’s solutions and capabilities with your plans
+																	and strategies.</span>
+															</p>
+														</div>
+													</div>
+													<p dir="ltr">
+	&nbsp;
+													</p>
+
+												</div>
+											</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+											<div class="wpthemeClear"></div>
+										</div>
+									</section>
+								</div>
+							</div>
+							<div
+								class='component-container wpthemeCol wpthemeLeft wpthemeNarrow wpthemeCol4of12 ibmDndColumn wpthemeSecondaryContainer id-Z7_2Q9AGJ42J87R50A2K2TEOK0005'
+								name='right'>
+								<div class='component-control id-Z7_2Q9AGJ42J87R50A2K2TEOK00G6'>
+									<span id="Z7_2Q9AGJ42J87R50A2K2TEOK00G6"></span>
+									<section
+										class="ibmPortalControl wpthemeControl wpthemeStandard a11yRegionTarget"
+										role="region">
+
+
+
+
+										<div class="asa.portlet" id="asa.portlet.Z7_2Q9AGJ42J87R50A2K2TEOK00G6"
+											style="display:none;">
+											<span class="asa.portlet.id">Z7_2Q9AGJ42J87R50A2K2TEOK00G6</span>
+
+
+
+										</div>
+
+										<!-- start header markup -->
+										<header class="wpthemeControlHeader dojoDndHandle">
+											<div class="wpthemeInner">
+												<h2>
+													<!-- lm-dynamic-title node marks location for dynamic title 
+														support -->
+													<span class="lm-dynamic-title asa.portlet.title a11yRegionLabel">Products and Services</span>
+												</h2>
+
+												<!-- Dynamic content spot to control Portlet Menu visibility 
+													in Standard Skin.(portletMenu.jsp) -->
+											</div>
+										</header>
+
+										<div class="wpthemeControlBody wpthemeOverflowAuto wpthemeClear"> <!-- lm:control dynamic spot injects markup of layout control -->
+											<!-- asa.overlay marks the node that the AsaOverlayWidget will 
+												be placed in -->
+											<div style="position:relative; z-index: 1;">
+												<div class="analytics.overlay"></div>
+											</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+											<div class="lotusui30 oobSampleContentContainer"
+												tabindex="0" role="toolbar" aria-label="Authoring Tools"
+												onfocus="if(ec = document.getElementById('EditControl_070529b7-0f32-4f3f-865d-b652a8b791dc')){ec.style.display ='block';}">
+
+												<div class="oobSampleRichText">
+													<div dir="ltr" id="lipsum">
+														<div dir="ltr" id="lipsum">
+															<h2>
+			&nbsp;
+															</h2>
+															<ul
+																style="margin: 0px 0px 2em; padding: 6px 10.5px; clear: both; width: auto; max-width: 87%; min-width: 87%; color: rgb(116, 118, 120); font-family: Arial, sans-serif; font-size: 11px; line-height: 18px; background: linear-gradient(-40deg, transparent 13px, rgb(237, 237, 237) 0pt) 100% 100% no-repeat scroll transparent;">
+																<li
+																	style="margin: 0px; padding: 5.21875px 0px 5.21875px 17px; line-height: 1.5em; list-style: none outside none; border-top-style: none; background: url(http://www.csc.com/assets/new/triangle-green.png) 0px 10px no-repeat transparent;">
+																	<a
+																		href="http://assets1.csc.com/banking/downloads/Celeriti_Customer.pdf"
+																		target="_blank"
+																		style="margin: 0px; padding: 0px; text-decoration: none; color: rgb(42, 93, 176); cursor: pointer;">Celeriti Customer</a>
+																	(499 KB PDF)
+																</li>
+																<li
+																	style="margin: 0px; padding: 5.21875px 0px 5.21875px 17px; line-height: 1.5em; list-style: none outside none; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(153, 153, 153); background: url(http://www.csc.com/assets/new/triangle-green.png) 0px 10px no-repeat transparent;">
+																	<a
+																		href="http://assets1.csc.com/banking/downloads/1193300_T.pdf"
+																		target="_blank"
+																		style="margin: 0px; padding: 0px; text-decoration: none; color: rgb(42, 93, 176); cursor: pointer;">Celeriti Loans</a>&nbsp;(594
+																	KB PDF)
+																</li>
+																<li
+																	style="margin: 0px; padding: 5.21875px 0px 5.21875px 17px; line-height: 1.5em; list-style: none outside none; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(153, 153, 153); background: url(http://www.csc.com/assets/new/triangle-green.png) 0px 10px no-repeat transparent;">
+																	<a
+																		href="http://assets1.csc.com/banking/downloads/Celeriti_Deposits.pdf"
+																		target="_blank"
+																		style="margin: 0px; padding: 0px; text-decoration: none; color: rgb(42, 93, 176); cursor: pointer;">Celeriti Deposits</a>&nbsp;(857
+																	KB PDF)
+																</li>
+																<li
+																	style="margin: 0px; padding: 5.21875px 0px 5.21875px 17px; line-height: 1.5em; list-style: none outside none; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(153, 153, 153); background: url(http://www.csc.com/assets/new/triangle-green.png) 0px 10px no-repeat transparent;">
+																	<a
+																		href="http://assets1.csc.com/banking/downloads/Celeriti_Cards.pdf"
+																		target="_blank"
+																		style="margin: 0px; padding: 0px; text-decoration: none; color: rgb(42, 93, 176); cursor: pointer;">Celeriti Cards</a>&nbsp;(275
+																	KB PDF)
+																</li>
+																<li
+																	style="margin: 0px; padding: 5.21875px 0px 5.21875px 17px; line-height: 1.5em; list-style: none outside none; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(153, 153, 153); background: url(http://www.csc.com/assets/new/triangle-green.png) 0px 10px no-repeat transparent;">
+																	<a
+																		href="http://assets1.csc.com/banking/downloads/Celeriti_Merchant.pdf"
+																		target="_blank"
+																		style="margin: 0px; padding: 0px; text-decoration: none; color: rgb(42, 93, 176); cursor: pointer;">Celeriti Merchant</a>&nbsp;(210
+																	KB PDF)
+																</li>
+															</ul>
+														</div>
+													</div>
+													<p dir="ltr">
+	&nbsp;
+													</p>
+
+												</div>
+											</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+											<div class="wpthemeClear"></div>
+										</div>
+									</section>
+								</div>
+								<div class='component-control id-Z7_2Q9AGJ42J87R50A2K2TEOK00O0'>
+									<span id="Z7_2Q9AGJ42J87R50A2K2TEOK00O0"></span>
+									<section
+										class="ibmPortalControl wpthemeControl wpthemeStandard a11yRegionTarget"
+										role="region">
+
+
+
+
+										<div class="asa.portlet" id="asa.portlet.Z7_2Q9AGJ42J87R50A2K2TEOK00O0"
+											style="display:none;">
+											<span class="asa.portlet.id">Z7_2Q9AGJ42J87R50A2K2TEOK00O0</span>
+
+
+
+										</div>
+
+										<!-- start header markup -->
+										<header class="wpthemeControlHeader dojoDndHandle">
+											<div class="wpthemeInner">
+												<h2>
+													<!-- lm-dynamic-title node marks location for dynamic title 
+														support -->
+													<span class="lm-dynamic-title asa.portlet.title a11yRegionLabel">Related Content</span>
+												</h2>
+
+												<!-- Dynamic content spot to control Portlet Menu visibility 
+													in Standard Skin.(portletMenu.jsp) -->
+											</div>
+										</header>
+
+										<div class="wpthemeControlBody wpthemeOverflowAuto wpthemeClear"> <!-- lm:control dynamic spot injects markup of layout control -->
+											<!-- asa.overlay marks the node that the AsaOverlayWidget will 
+												be placed in -->
+											<div style="position:relative; z-index: 1;">
+												<div class="analytics.overlay"></div>
+											</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+											<div class="lotusui30 oobSampleContentContainer"
+												tabindex="0" role="toolbar" aria-label="Authoring Tools"
+												onfocus="if(ec = document.getElementById('EditControl_b0e8f1da-4ef2-4819-9a2b-7ca6b4d69618')){ec.style.display ='block';}">
+
+												<div class="oobSampleRichText">
+													<div dir="ltr" id="lipsum">
+														<div dir="ltr" id="lipsum">
+															<h2>
+			&nbsp;
+															</h2>
+															<ul
+																style="margin: 0px 0px 2em; padding: 6px 10.5px; clear: both; width: auto; max-width: 87%; min-width: 87%; color: rgb(116, 118, 120); font-family: Arial, sans-serif; font-size: 11px; line-height: 18px; background: linear-gradient(-40deg, transparent 13px, rgb(237, 237, 237) 0pt) 100% 100% no-repeat scroll transparent;">
+																<li
+																	style="margin: 0px; padding: 5.21875px 0px 5.21875px 17px; line-height: 1.5em; list-style: none outside none; border-top-style: none; background: url(http://www.csc.com/assets/new/triangle-green.png) 0px 10px no-repeat transparent;">
+																	<a
+																		href="http://www.csc.com/banking/insights/56646-csc_s_paul_leadbetter_discusses_technology_and_business_trends_with_bank_administration_institute"
+																		target="_self"
+																		style="margin: 0px; padding: 0px; text-decoration: none; color: rgb(42, 93, 176); cursor: pointer;">BAI Interview: Technology Trends</a>
+																	and Digital Consumers
+																</li>
+																<li
+																	style="margin: 0px; padding: 5.21875px 0px 5.21875px 17px; line-height: 1.5em; list-style: none outside none; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(153, 153, 153); background: url(http://www.csc.com/assets/new/triangle-green.png) 0px 10px no-repeat transparent;">
+																	<a
+																		href="http://assets1.csc.com/banking/downloads/Future_Proof_Banking_Strategies.pdf"
+																		target="_blank"
+																		style="margin: 0px; padding: 0px; text-decoration: none; color: rgb(42, 93, 176); cursor: pointer;">White Paper: Future-Proof</a>&nbsp;Your
+																	Banking Strategies (504 KB PDF)
+																</li>
+																<li
+																	style="margin: 0px; padding: 5.21875px 0px 5.21875px 17px; line-height: 1.5em; list-style: none outside none; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(153, 153, 153); background: url(http://www.csc.com/assets/new/triangle-green.png) 0px 10px no-repeat transparent;">
+																	<a
+																		href="http://www.csc.com/banking/insights/66865-australian_financial_review_report_westpac_jumps_on_csc_platform"
+																		target="_self"
+																		style="margin: 0px; padding: 0px; text-decoration: none; color: rgb(42, 93, 176); cursor: pointer;">Perspective: Westpac</a>
+																	Jumps on (CSC) Platform
+																</li>
+															</ul>
+														</div>
+													</div>
+													<p dir="ltr">
+	&nbsp;
+													</p>
+
+												</div>
+											</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+											<div class="wpthemeClear"></div>
+										</div>
+									</section>
+								</div>
+								<div class='component-control id-Z7_2Q9AGJ42J87R50A2K2TEOK00O5'>
+									<span id="Z7_2Q9AGJ42J87R50A2K2TEOK00O5"></span>
+									<section
+										class="ibmPortalControl wpthemeControl wpthemeHidden a11yRegionTarget"
+										role="region">
+
+
+
+
+										<div class="asa.portlet" id="asa.portlet.Z7_2Q9AGJ42J87R50A2K2TEOK00O5"
+											style="display:none;">
+											<span class="asa.portlet.id">Z7_2Q9AGJ42J87R50A2K2TEOK00O5</span>
+
+
+
+										</div>
+
+										<!-- start header markup -->
+										<header class="wpthemeControlHeader dojoDndHandle">
+											<div class="wpthemeInner">
+												<h2>
+													<!-- lm-dynamic-title node marks location for dynamic title 
+														support -->
+													<span class="lm-dynamic-title asa.portlet.title a11yRegionLabel">Useful Links</span>
+												</h2>
+												<a aria-haspopup="true" aria-label="Display menu" href="javascript:;"
+													class="wpthemeIcon wpthemeMenuFocus" tabindex="0"
+													onclick="wptheme.contextMenu.init(this, 'skinAction', {'navID':ibmCfg.portalConfig.currentPageOID,'windowID':wptheme.getWindowIDFromSkin(this)});">
+													<span title="Display menu">
+														<img aria-label="Display menu" alt=""
+															src="/CeleritiTheme8001/themes/html/dynamicSpots/icons/blank.gif">
+													</span>
+													<span class="wpthemeAltText">Actions</span>
+													<span class="wpthemeMenuRight">
+														<div class="wpthemeMenuBorder">
+															<div class="wpthemeMenuNotchBorder"></div>
+															<!-- define the menu item template inside the "ul" element. 
+																only "css-class", "description", and "title" are handled by the theme's sample 
+																javascript. -->
+															<ul class="wpthemeMenuDropDown wpthemeTemplateMenu"
+																role="menu">
+																<li class="${css-class}" role="menuitem" tabindex="-1">
+																	<span class="wpthemeMenuText">${title}</span>
+																</li>
+															</ul>
+														</div>
+														<!-- Template for loading -->
+														<div class="wpthemeMenuLoading wpthemeTemplateLoading">Loading...</div>
+														<!-- Template for submenu -->
+														<div class="wpthemeAnchorSubmenu wpthemeTemplateSubmenu">
+															<div class="wpthemeMenuBorder wpthemeMenuSubmenu">
+																<ul id="${submenu-id}" class="wpthemeMenuDropDown"
+																	role="menu">
+																	<li role="menuitem" tabindex="-1"></li>
+																</ul>
+															</div>
+														</div>
+													</span>
+												</a>
+											</div>
+										</header>
+
+										<div class="wpthemeControlBody wpthemeOverflowAuto wpthemeClear"> <!-- lm:control dynamic spot injects markup of layout control -->
+											<!-- asa.overlay marks the node that the AsaOverlayWidget will 
+												be placed in -->
+											<div style="position:relative; z-index: 1;">
+												<div class="analytics.overlay"></div>
+											</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+											<div class="lotusui30 oobSampleContentContainer"
+												tabindex="0" role="toolbar" aria-label="Authoring Tools"
+												onfocus="if(ec = document.getElementById('EditControl_4b0a541f-1ba9-4f6f-a7ac-a16f1db44de6')){ec.style.display ='block';}">
+
+												<div class="oobSampleRichText">
+													<div dir="ltr" id="lipsum">
+														<div dir="ltr" id="lipsum">
+															<h2>
+																<span style="color:#696969;">Useful Links:</span>
+															</h2>
+															<h3>
+																<font color="#4b0082">You might find these useful</font>
+															</h3>
+															<p>
+																<img
+																	src="/wps/wcm/connect/5125c213-e1d3-413f-9605-f616467a55f0/1/contact_us.png?MOD=AJPERES&amp;CACHEID=5125c213-e1d3-413f-9605-f616467a55f0/1"
+																	border="0" title="" />&nbsp; &nbsp;&nbsp;
+																<a href="http://www.csc.com/contact_us" title="contact us"
+																	target="_blank">Contact Us</a>
+															</p>
+															<p>
+																<img
+																	src="/wps/wcm/connect/5125c213-e1d3-413f-9605-f616467a55f0/2/download_brochure.png?MOD=AJPERES&amp;CACHEID=5125c213-e1d3-413f-9605-f616467a55f0/2"
+																	border="0" title="" />&nbsp; &nbsp;&nbsp;N
+																<a
+																	href="http://assets1.csc.com/banking/downloads/Celeriti_Article_Power_Business_w_Speed_Certainty.pdf"
+																	title="celeriti Brocheure" target="_blank">ew Standard
+																	for Banking and Cards</a>
+															</p>
+														</div>
+													</div>
+													<p dir="ltr">
+	&nbsp;
+													</p>
+
+												</div>
+											</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+											<div class="wpthemeClear"></div>
+										</div>
+									</section>
+								</div>
+							</div>
+						</div>
+						<div class="wpthemeClear"></div>
+					</div>
+				</div>
+			</div><!--end main content -->
+
+			<footer class="celeritiThemeFooter" role="contentinfo">
+				<div class="wpthemeInner">
+
+
+					<div style="text-align: center;">
+						<ul class="celeritiThemeFooterNavList">
+							<li class="celeritiThemeFooterNavListItem">
+								<a
+									href="http://www.csc.com/banking/ds/70113-how_to_contact_the_banking_customer_support_center"
+									target="_blank">Contact Us</a>
+							</li>
+
+						</ul>
+						<p>
+							Powered by Intelligent SOA
+							<sup>TM</sup>
+						</p>
+						<p>© 2011-2015 Computer Sciences Corporation. All rights reserved.
+						</p>
+					</div>
+					<div class="wpthemeClear"></div>
+				</div>
+			</footer><!-- page footer -->
+
+		</div><!-- end frame -->
+
+		<!-- This is responsible for bootstrapping the configuration for the javascript 
+			framework. This is located here instead of the head section to improve client 
+			performance. -->
+		<div class="wpthemeComplementaryContent" id="wpthemeComplementaryContent"
+			role="region" aria-labelledby="wpthemeComplementaryContentText">
+			<span class="wpthemeAltText" id="wpthemeComplementaryContentText">
+				Complementary Content</span>
+			<script type="text/javascript"
+				src="/wps/contenthandler/!ut/p/digest!kTP-2N3sRPOZJ9AMHiHchQ/mashup/ra:collection?themeID=ZJ_2Q9AGJ42JGFB70A8PBRL4Q0003&amp;locale=en&amp;mime-type=text%2Fplain&amp;entry=mm_enabler__0.0%3Aconfig_config_static&amp;entry=wcm_config__0.0%3Aconfig_config_static&amp;entry=wcm_inplaceEdit__0.0%3Aconfig_config_static&amp;entry=wp_portal__0.0%3Aconfig_config_static"></script>
+			<script type="text/javascript">i$.merge({"ibmCfg":{"enablerConfig":{"com.ibm.mashups.proxy.url":"/wps/proxy","com.ibm.mashups.productname":"IBM
+				WebSphere
+				Portal","com.ibm.mashups.anonymous.mode":"true","serviceDocumentUrl":"/wps/contenthandler/!ut/p/digest!XF3jwD6LDbpgi3zsAAYHSg/model/service-document/?locale=en","anonymousUser":true,"user":null,"fontSizeEnlarged":false,"isBidi":false,"locale":"en","displayLocale":"en","com.ibm.mashups.contextroot":"/wps","defaultLayoutTemplateURI":"war:CeleritiTheme8001/themes/CeleritiTheme8001/layout-templates/2ColumnEqual/","com.ibm.mashups.contenthandler.private":"/wps/mycontenthandler/!ut/p/digest!XF3jwD6LDbpgi3zsAAYHSg/","com.ibm.mashups.contenthandler.public":"/wps/contenthandler/!ut/p/digest!XF3jwD6LDbpgi3zsAAYHSg/"}},"portalMashupsConfig":{"serviceDocURL":"/wps/contenthandler/!ut/p/digest!XF3jwD6LDbpgi3zsAAYHSg/model/service-document/?locale=en","contentHandlerContextPath":"/wps/contenthandler/!ut/p/digest!XF3jwD6LDbpgi3zsAAYHSg/"}});
+				var
+				ibmPortalCPConfig={"portletContextMenu":{"isTaggingEnabled":true,"isRatingEnabled":true},"isTagCenterAvailable":false,"tagging":{"dialog":{"displayTabs":false,"typeaheadSearchPattern":null,"defaultView":"PUBLIC","order":"DESC","privateTaggingEnabled":false,"localePickerEnabled":true,"deletingEnabled":true,"maxPersonalTags":50,"countsEnabled":false,"orderMetric":"TAG_SPACE_COUNT_REVERSE_NAME","maxCommunityTags":50,"messageFadeOutDuration":1000},"inline":{"maxResults":5,"displayTwisty":"COLLAPSED","showDialogLauncher":true,"tagClickActionMode":"TAG_CENTER","tagsClickable":true,"tagScope":"COMMUNITY_PERSONAL_PUBLIC","countsEnabled":false,"tagClickTransmitScopes":false,"order":"DESC","orderMetric":"TAG_SPACE_COUNT_REVERSE_NAME","tagsChangedEvent":"tagsChanged"},"validation":{"validationRegex":"[^\\<\\\\>\\(\\)\\[\\]:]{1,255}"}},"isTaggingEnabled":true,"isRatingEnabled":true,"operations":{"canCreatePrivateTags":false,"canCreatePublicRatings":false,"canViewRatings":false,"canBrowseTags":false,"canDeleteOtherUsersTags":false,"canCreatePublicTags":false,"canViewTags":false,"canResetRatingPerResource":false,"canCreatePrivateRatings":false},"rating":{"maxRatingValue":5,"dialog":{"displayTabs":false,"privateRatingEnabled":false,"defaultView":"PUBLIC","deletingEnabled":true,"numStars":5,"messageFadeOutDuration":1000},"inline":{"displayTwisty":"COLLAPSED","showDialogLauncher":"COLLAPSED","ratingScope":"COMMUNITY_PERSONAL_PUBLIC","onStarHoverShowRatingDistribution":true,"onStarClickOpenDialog":true,"ratingDistributionPosition":"30,30","numStars":5,"ratingsChangedEvent":"ratingsChanged"}},"contextMenu":{"isTaggingEnabled":true,"isRatingEnabled":true}};
+
+
+
+				var SemTagSvcPortalGlobalDynamic={
+				basePumaResolvedUrl: ''+
+				''+
+				'/wps/contenthandler/!ut/p/digest!XF3jwD6LDbpgi3zsAAYHSg/um/secure/users/profiles?locale=en_US',
+				availAttribUrl: ''+
+				''+
+				'/wps/contenthandler/!ut/p/digest!XF3jwD6LDbpgi3zsAAYHSg/um/secure/attributes/users?locale=en_US'
+				};
+				i$.merge({"ibmCfg":{"themeConfig":{"themeUniqueName":"portal.celerititheme8001","themeRootURI":"/wps/contenthandler/!ut/p/digest!2UwUcb4KnNyUjE_XIhhGdQ/war/CeleritiTheme8001/themes/CeleritiTheme8001","themeWebAppBaseURI":"/CeleritiTheme8001/themes/html/dynamicSpots","themeWebDAVBaseURI":"war:CeleritiTheme8001/themes/CeleritiTheme8001/","modulesWebAppBaseURI":"/wps/themeModules","commonResourcesRootURI":"/wps/contenthandler/!ut/p/digest!m8_QFy9JBE-PwRT78DWcBg/dav/fs-type1/common-resources","isRTL":false,"isPageRenderModeCSA":false,"portletOverridePageTitle":"Welcome","currentContentNodeOID":"Z6_CGAH47L008DDC0IDB96N6500E0","loadingImage":"css/images/loading.gif","dndSourceDefinitions":[{"id":"ibmDndColumn","object":"com.ibm.pb.dnd.layout.LayoutColumnSource","orientation":"vertical"},{"id":"ibmDndRow","object":"com.ibm.pb.dnd.layout.LayoutRowSource","orientation":"horizontal"}],"categorySources":[],"styleSources":[],"layoutSources":[]},"portalConfig":{"locale":"en","portalURI":"/wps/portal","contentHandlerURI":"/wps/contenthandler/!ut/p/digest!XF3jwD6LDbpgi3zsAAYHSg/","isVirtualPortal":false,"canImpersonate":false,"themeRootURI":"/CeleritiTheme8001/themes/html/dynamicSpots","parentPageID":"Z6_CGAH47L0004820IDBHD79M00I6","currentPageOID":"Z6_CGAH47L008DDC0IDB96N6500E0","bootstrapState":"&lt;?xml
+				version=&#034;1.0&#034; encoding=&#034;UTF-8&#034;?&gt;&lt;root
+				xmlns=&#034;http://www.ibm.com/xmlns/prod/websphere/portal/v6.1/portal-state&#034;&gt;&lt;state
+				type=&#034;navigational&#034;&gt;&lt;selection
+				selection-node=&#034;Z6_CGAH47L008DDC0IDB96N6500E0&#034;&gt;&lt;mapping
+				src=&#034;Z6_000000000000000000000000A0&#034;
+				dst=&#034;Z6_CGAH47L008DDC0IDB96N6500E0&#034;/&gt;&lt;/selection&gt;&lt;expansions&gt;&lt;node
+				id=&#034;Z6_CGAH47L0004820IDBHD79M00I6&#034;/&gt;&lt;node
+				id=&#034;Z6_000000000000000000000000A0&#034;/&gt;&lt;/expansions&gt;&lt;/state&gt;&lt;/root&gt;","isUserLoggedIn":false,"currentUser":"anonymous
+				portal
+				user","currentUserOID":"","aggregatedStyle":"css/blue/blue.css","wcmPageMetadata":{"contentRoot":null,"sharingScope":null}},"userName":""},"com_ibm_theme_capabilities":{"contextmenu_live_object":"1.0","widget_container":"2.1","wcm_inplaceEdit":"1.0","contextmenu":"1.0","mashups.enabler":"3.0.0.1","dojo":"1.7","portal.livetext.adr":"8.0","mashups.builder":"3.0.0.1","federated_documents.picker":"8.0","analytics_aggregator":"8.0","portal.livetext.hcard":"8.0","active_site_analytics":"8.0","portal.livetext.action":"8.0","open_ajax_hub":"2.0","content_mapping.picker":"8.0","cp_tagging_rating":"8.0","oneUI":"3.0.1","social_rendering":"8.0","portal.livetext.c2a":"8.0"}});ibmCfg.portalConfig.bootstrapState=(ibmCfg.portalConfig.bootstrapState||"").replace(/&lt;/gm,
+				'<').replace(/&gt;/gm, '>').replace(/&amp;/gm,
+				'&').replace(/&#039;/gm, "'").replace(/&#034;/gm, '"');
+				(function(){ibmToolbarConfig = {projectUUID: "",toolbarMode:
+				"closed",inManagedPages: "true"==="true",isPrivilegedUser:
+				"false"==="true",hasEditSharedPermission:
+				"false"==="true",dialogJavascriptURL:
+				"/wps/contenthandler/!ut/p/digest!2UwUcb4KnNyUjE_XIhhGdQ/dialog/dialogModal.js",dialogUtilsJavascriptURL:
+				"/wps/contenthandler/!ut/p/digest!2UwUcb4KnNyUjE_XIhhGdQ/dialog/dialogModalUtils.js",draftPageUUID:
+				""
+				}})();
+
+				ibmCfg.portalConfig.asaConfig = {canViewAsaReports: "false",canViewAsaSitePromotions:
+				"false",canCreateAsaSitePromotions:
+				"false",canDeleteAsaSitePromotions: "false",reportConfig:
+				{"scopes":[]}
+				};</script>
+			<script type="text/javascript"
+				src="/wps/contenthandler/!ut/p/digest!Uauf0XNCLKlNsdgpdqHEIA/mashup/ra:collection?themeID=ZJ_2Q9AGJ42JGFB70A8PBRL4Q0003&amp;locale=en&amp;mime-type=text%2Fplain&amp;entry=wp_portal_client_rest_utils__0.0%3Aconfig_js&amp;entry=mm_enabler__0.0%3Aconfig_js&amp;entry=mm_builder__0.0%3Aconfig_js&amp;entry=wp_tagging_rating__0.0%3Aconfig_js&amp;entry=wp_pagebuilder_base__0.0%3Aconfig_js&amp;entry=wp_pagebuilder_ui__0.0%3Aconfig_js&amp;entry=mm_new_page_dialog__0.0%3Aconfig_js&amp;entry=wp_one_ui_30__0.0%3Aconfig_js&amp;entry=mm_builder_dialogs__0.0%3Aconfig_js&amp;entry=mm_page_sharing_base__0.0%3Aconfig_js&amp;entry=mm_page_sharing_permission__0.0%3Aconfig_js&amp;entry=wp_wcm_modal_dialog__0.0%3Aconfig_js&amp;entry=wp_portal_ui_utils__0.0%3Aconfig_js&amp;entry=wp_content_mapping_picker__0.0%3Aconfig_js&amp;entry=wp_dialog_main__0.0%3Aconfig_js&amp;entry=wp_contextmenu_js__0.0%3Aconfig_js&amp;entry=wp_liveobject_framework__0.0%3Aconfig_js&amp;entry=wp_contextmenu_live_object__0.0%3Aconfig_js&amp;entry=wp_content_targeting_cam__0.0%3Aconfig_js&amp;entry=mm_delete_control__0.0%3Aconfig_js&amp;entry=mm_delete_page__0.0%3Aconfig_js&amp;entry=wp_theme_menus__0.0%3Aconfig_js&amp;entry=wp_theme_skin_region__0.0%3Aconfig_js&amp;entry=wp_managed_pages_support_edit__0.0%3Aconfig_js&amp;entry=wp_project_menu_edit__0.0%3Aconfig_js&amp;entry=wp_federated_documents_picker__0.0%3Aconfig_js&amp;entry=wp_template_select_dialog__0.0%3Aconfig_js&amp;entry=wp_project_menu__0.0%3Aconfig_js&amp;entry=wp_pagebuilder_data__0.0%3Aconfig_js&amp;entry=wp_pagebuilder_dnd__0.0%3Aconfig_js&amp;entry=mm_move_page__0.0%3Aconfig_js&amp;entry=wp_pagebuilder_controls__0.0%3Aconfig_js&amp;entry=wp_theme_high_contrast__0.0%3Aconfig_js&amp;entry=wp_pagebuilder_shelf_base__0.0%3Aconfig_js&amp;entry=wp_analytics__0.0%3Aconfig_js&amp;entry=wp_theme_edit__0.0%3Aconfig_js&amp;entry=wp_theme_widget__0.0%3Aconfig_js&amp;entry=wp_toolbar__0.0%3Aconfig_js&amp;entry=wp_status_bar__0.0%3Aconfig_js&amp;entry=mm_builder_wiring__0.0%3Aconfig_js"></script>
+			<span id="componentActionMenuTemplate" class="wpthemeMenu"
+				data-positioning-handler="verticallyCenteredRightHand">
+				<div class="wpthemeMenuBorder">
+					<!-- define the menu item template inside the "ul" element. only "css-class", 
+						"description", and "title" are handled by the theme's sample javascript. -->
+					<ul class="wpthemeMenuDropDown wpthemeTemplateMenu" role="menu">
+						<li class="${css-class}" role="menuitem" tabindex="-1">
+							<span class="wpthemeMenuText">${title}</span>
+						</li>
+					</ul>
+					<div class="verticalMenuPointer pointer"></div>
+				</div> <!-- Template for loading -->
+				<div class="wpthemeMenuLoading wpthemeTemplateLoading">${loading}</div>
+				<!-- Template for submenu -->
+				<div class="wpthemeAnchorSubmenu wpthemeTemplateSubmenu">
+					<div class="wpthemeMenuBorder wpthemeMenuSubmenu">
+						<ul id="${submenu-id}" class="wpthemeMenuDropDown" role="menu">
+							<li role="menuitem" tabindex="-1"></li>
+						</ul>
+					</div>
+				</div>
+			</span>
+			<span id="inlineEditMenuTemplate" class="wpthemeMenu lotusui30"
+				data-positioning-handler="horizontallyCenteredBelow">
+				<div>
+					<ul role="menu" class="wpthemeMenuInlineList wpthemeTemplateMenu">
+						<li tabindex="-1" role="menuitem" class="${css-class}">
+							<span class="wpthemeMenuText">${title}</span>
+						</li>
+					</ul>
+					<div class="horizontalMenuPointer pointer"></div>
+				</div>
+				<div class="wpthemeMenuLoading wpthemeTemplateLoading">${loading}</div>
+			</span>
+			<div class="iw-iWidget mumHiddenWidget iw-Standalone" id="newPage">
+				<a class="iw-Definition"
+					href="/wps/mccbuilder.v3001/widget-catalog/NewPageDialog.xml?pragma=cache&max-age=1209600&cache-scope=public&vary=none&user-context=false"></a>
+				<span class="iw-ItemSet" title="attributes">
+					<a class="iw-Item" href="#controller">ibmCfg.controllers.navigation</a>
+					<a class="iw-Item" href="#showFriendlyURL">true</a>
+					<a class="iw-Item" href="#showMakePrivate">true</a>
+					<a class="iw-Item" href="#showPageTemplate">true</a>
+				</span>
+			</div>
+
+			<div class="iw-iWidget mumHiddenWidget iw-Standalone" lazyLoad="true"
+				id="sharePage">
+				<a class="iw-Definition"
+					href="/wps/mccbuilder.v3001/widget-catalog/accessControl.xml?pragma=cache&max-age=1209600&cache-scope=public&vary=none&user-context=false"></a>
+			</div>
+			<div class="iw-iWidget mumHiddenWidget iw-Standalone" lazyLoad="true"
+				id="viewMorePage">
+				<a class="iw-Definition"
+					href="/wps/mccbuilder.v3001/widget-catalog/viewMorePage.xml?pragma=cache&max-age=1209600&cache-scope=public&vary=none&user-context=false"></a>
+			</div>
+			<div class="iw-iWidget iw-Standalone" id="sharedPagesDialogDisplayer">
+				<a class="iw-Definition"
+					href="/wps/mccbuilder.v3001/widget-catalog/displayHelper.xml?pragma=cache&max-age=1209600&cache-scope=public&vary=none&user-context=false">
+				</a>
+				<span class="iw-ItemSet" title="attributes">
+					<a class="iw-Item" href="#sharePage">sharePage</a>
+					<a class="iw-Item" href="#viewMorePage">viewMorePage</a>
+				</span>
+			</div>
+			<div class="iw-iWidget mumHiddenWidget iw-Standalone" id="templateSelect">
+				<a class="iw-Definition"
+					href="/wps/themeModules/modules/pagebuilder/xml/TemplateSelectDialog.xml?pragma=cache&amp;max-age=1209600&amp;cache-scope=public&amp;vary=none&amp;user-context=false"></a>
+				<span class="iw-ItemSet" title="attributes">
+					<a class="iw-Item" href="#controller">ibmCfg.controllers.navigation</a>
+				</span>
+			</div>
+			<div class="iw-iWidget mumHiddenWidget iw-Standalone" lazyLoad="true"
+				id="reorderPage">
+				<a class="iw-Definition"
+					href="/wps/mccbuilder.v3001/widget-catalog/reorderPageWidget.xml?pragma=cache&max-age=1209600&cache-scope=public&vary=none&user-context=false"></a>
+			</div>
+			<div class="iw-iWidget iw-Standalone" id="movePagesDialogDisplayer">
+				<a class="iw-Definition"
+					href="/wps/mccbuilder.v3001/widget-catalog/displayHelper.xml?pragma=cache&max-age=1209600&cache-scope=public&vary=none&user-context=false">
+				</a>
+				<span class="iw-ItemSet" title="attributes">
+					<a class="iw-Item" href="#reorderPage">reorderPage</a>
+				</span>
+			</div>
+			<div class="iw-iWidget iw-Standalone" id="theme-toolbar-widget">
+				<a class="iw-Definition"
+					href="/wps/themeModules/modules/pagebuilder/xml/universalToolbar.xml"></a>
+				<span class="iw-ItemSet" title="attributes">
+					<a class="iw-Item" href="#rootID">theme-toolbar</a>
+					<a class="iw-Item" href="#shelfRootID">utb-shelf</a>
+				</span>
+			</div>
+
+			<div class="iw-iWidget mumHiddenWidget iw-Standalone" lazyLoad="true"
+				id="wireInterface">
+				<a class="iw-Definition"
+					href="/wps/mccbuilder.v3001/widget-catalog/wireInterfaceWithSettings.xml?pragma=cache&max-age=1209600&cache-scope=public&vary=none&user-context=false"></a>
+				<span class="iw-ItemSet" title="attributes">
+					<a class="iw-Item" href="#displaySettings">true</a>
+					<a class="iw-Item" href="#displayPortletsAndWidgetsWarningMessage">true</a>
+				</span>
+			</div>
+			<div class="iw-iWidget mumHiddenWidget iw-Standalone" id="autoWiringManager">
+				<a class="iw-Definition"
+					href="/wps/mccbuilder.v3001/widget-catalog/autoWiringManager.xml?pragma=cache&max-age=1209600&cache-scope=public&vary=none&user-context=false"></a>
+			</div>
+			<div class="iw-iWidget iw-Standalone" id="wiringDialogDisplayer">
+				<a class="iw-Definition"
+					href="/wps/mccbuilder.v3001/widget-catalog/displayHelper.xml?pragma=cache&max-age=1209600&cache-scope=public&vary=none&user-context=false">
+				</a>
+				<span class="iw-ItemSet" title="attributes">
+					<a class="iw-Item" href="#wireInterface">wireInterface</a>
+					<a class="iw-Item" href="#autoWiringManager">autoWiringManager</a>
+				</span>
+			</div>
+		</div>
+	</body>
+</html>
